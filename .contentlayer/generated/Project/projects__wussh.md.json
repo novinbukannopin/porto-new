@@ -4,14 +4,11 @@
   "highlight": true,
   "featured": true,
   "sznmApps": true,
-  "stacks": [
-    "nextjs",
-    "chakra-ui\r"
-  ],
+  "stacks": ["nextjs", "chakra-ui\r"],
   "date": "2021-05-07",
   "projectLink": "https://wus.sh",
-  "icon": "/app_icons/link.svg",
-  "thumbnail": "/app_preview/wussh.png",
+  "icon": "/app_icons/icon-laptop.png",
+  "thumbnail": "/app_preview/streamlit.png",
   "projectType": "apps",
   "body": {
     "raw": "",
