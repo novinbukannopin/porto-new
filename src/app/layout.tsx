@@ -7,7 +7,7 @@ import { baseUrl } from '~/lib/constants/baseUrl';
 import { UMAMI_SRC, UMAMI_WEBSITE_ID } from '~/lib/constants/umami';
 import Layout from '~/lib/layout';
 
-const creator = 'Agustinus Nathaniel';
+const creator = 'Novin Ardian Yulianto';
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -16,17 +16,17 @@ export const metadata: Metadata = {
       'application/rss+xml': `${baseUrl}/rss.xml`,
     },
   },
-  applicationName: 'sznm.dev',
-  authors: { name: 'sozonome' },
+  applicationName: 'novin',
+  authors: { name: 'novin' },
   creator,
   publisher: creator,
   generator: 'Next.js',
   keywords: [
-    'sozonome',
-    'agustinusnathaniel',
-    'Agustinus Nathaniel',
-    'sznm',
-    'sznm.dev',
+    'Novin',
+    'Novin Ardian Yulianto',
+    'Future Engineer',
+    'Uinsa',
+    'novinbukannopin',
   ],
   referrer: 'origin-when-cross-origin',
   colorScheme: 'dark light',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     icon: '/cmd-terminal-icon.svg',
   },
   appleWebApp: {
-    title: 'sznm.dev',
+    title: 'novin portofolio',
     statusBarStyle: 'default',
   },
   formatDetection: {
@@ -52,14 +52,14 @@ export const metadata: Metadata = {
     description: "Novin Ardian Yulianto's Dev Site",
     images: [
       {
-        url: 'https://og.sznm.dev/api/generate?heading=sozonome&text=https://sznm.dev',
+        url: '/page-01.png',
         alt: 'sznm.dev og-image',
       },
     ],
-    siteName: 'sozonome',
+    siteName: 'novin',
   },
   twitter: {
-    creator: '@sozonome',
+    creator: '@nityasa__',
     card: 'summary_large_image',
   },
 };
