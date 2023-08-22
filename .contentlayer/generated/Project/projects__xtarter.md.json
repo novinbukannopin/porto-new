@@ -1,0 +1,27 @@
+{
+  "title": "xtarter",
+  "description": "Home of my starter templates",
+  "featured": true,
+  "stacks": [
+    "nextjs",
+    "chakra-ui\r"
+  ],
+  "date": "2022-05-19",
+  "projectLink": "https://xtarter.sznm.dev",
+  "icon": "/app_icons/nextarter-chakra.svg",
+  "projectType": "sites",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/xtarter.md",
+  "_raw": {
+    "sourceFilePath": "projects/xtarter.md",
+    "sourceFileName": "xtarter.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/xtarter"
+  },
+  "type": "Project",
+  "id": "xtarter"
+}

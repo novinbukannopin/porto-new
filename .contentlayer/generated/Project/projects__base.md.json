@@ -1,0 +1,25 @@
+{
+  "title": "Base",
+  "description": "My personal knowledge base.",
+  "stacks": [
+    "nextjs\r"
+  ],
+  "date": "2021-01-21",
+  "projectLink": "https://base.sznm.dev",
+  "icon": "/app_icons/book.svg",
+  "projectType": "docs",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/base.md",
+  "_raw": {
+    "sourceFilePath": "projects/base.md",
+    "sourceFileName": "base.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/base"
+  },
+  "type": "Project",
+  "id": "base"
+}

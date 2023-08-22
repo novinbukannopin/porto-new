@@ -1,0 +1,198 @@
+[
+  {
+    "title": "App Folder Structure",
+    "description": "How I usually structure my app folder",
+    "published": true,
+    "date": "2022-10-22",
+    "tags": [
+      "app",
+      "foldering",
+      "structure\r"
+    ],
+    "body": {
+      "raw": "\r\n## Folder Structure\r\n\r\n```bash\r\n- src\r\n  - app/pages/routes\r\n  - lib\r\n    - components\r\n      - ui/shared\r\n      - [domain/feature]\r\n    - constants\r\n    - hooks\r\n    - layouts\r\n    - services/repository\r\n    - stores\r\n    - styles\r\n    - types/models\r\n    - utils\r\n```\r\n\r\n### lib\r\n\r\n`lib` is where all the application building block lives. I like to separate building blocks from framework specific folders (app / pages).\r\n\r\n#### components\r\n\r\n`components` is where the UI building block lives. Sometimes I separate it further into shared and scope specific.\r\n\r\n#### constants\r\n\r\nall reusable or root level constants are maintained through this folder.\r\n\r\n#### hooks\r\n\r\n`hooks` is where I put reusable or page specific hooks. Sometimes I put it inside `hooks` folder, sometimes I put it under `components` if the hook is component specific.\r\n\r\n#### layouts\r\n\r\nwhere I put the app root or reusable layouts / page wrappers.\r\n\r\n#### services\r\n\r\nwhere I put services code (data fetching, API / third party integrations, etc). Sometimes I name the folder `repository`\r\n\r\n#### stores\r\n\r\nwhere I maintain global stores\r\n\r\n#### styles\r\n\r\nwhere I put root / global level styling / theme files.\r\n\r\n#### types\r\n\r\nwhere I maintain global / shared typings / schemas used across the app. Sometimes I name this folder `models`\r\n\r\n#### utils\r\n\r\nwhere I put all reusable utilities.\r\n",
+      "html": "<h2>Folder Structure</h2>\n<pre><code class=\"language-bash\">- src\r\n  - app/pages/routes\r\n  - lib\r\n    - components\r\n      - ui/shared\r\n      - [domain/feature]\r\n    - constants\r\n    - hooks\r\n    - layouts\r\n    - services/repository\r\n    - stores\r\n    - styles\r\n    - types/models\r\n    - utils\n</code></pre>\n<h3>lib</h3>\n<p><code>lib</code> is where all the application building block lives. I like to separate building blocks from framework specific folders (app / pages).</p>\n<h4>components</h4>\n<p><code>components</code> is where the UI building block lives. Sometimes I separate it further into shared and scope specific.</p>\n<h4>constants</h4>\n<p>all reusable or root level constants are maintained through this folder.</p>\n<h4>hooks</h4>\n<p><code>hooks</code> is where I put reusable or page specific hooks. Sometimes I put it inside <code>hooks</code> folder, sometimes I put it under <code>components</code> if the hook is component specific.</p>\n<h4>layouts</h4>\n<p>where I put the app root or reusable layouts / page wrappers.</p>\n<h4>services</h4>\n<p>where I put services code (data fetching, API / third party integrations, etc). Sometimes I name the folder <code>repository</code></p>\n<h4>stores</h4>\n<p>where I maintain global stores</p>\n<h4>styles</h4>\n<p>where I put root / global level styling / theme files.</p>\n<h4>types</h4>\n<p>where I maintain global / shared typings / schemas used across the app. Sometimes I name this folder <code>models</code></p>\n<h4>utils</h4>\n<p>where I put all reusable utilities.</p>"
+    },
+    "_id": "notes/app-folder-structure.md",
+    "_raw": {
+      "sourceFilePath": "notes/app-folder-structure.md",
+      "sourceFileName": "app-folder-structure.md",
+      "sourceFileDir": "notes",
+      "contentType": "markdown",
+      "flattenedPath": "notes/app-folder-structure"
+    },
+    "type": "Note",
+    "id": "app-folder-structure"
+  },
+  {
+    "title": "Custom Scrollbar",
+    "description": "define your own custom scroll bar",
+    "published": true,
+    "date": "2022-07-22",
+    "tags": [
+      "css",
+      "chakra-ui\r"
+    ],
+    "body": {
+      "raw": "\r\n## CSS\r\n\r\n```css\r\n::-webkit-scrollbar {\r\n  width: 0.75rem;\r\n  height: 0.75rem;\r\n  background-color: blue;\r\n}\r\n\r\n::-webkit-scrollbar-thumb {\r\n  border-radius: 20px;\r\n  background-color: gray;\r\n}\r\n\r\n/** firefox **/\r\nhtml {\r\n  scrollbar-width: thin;\r\n  scrollbar-color: blue;\r\n}\r\n```\r\n\r\n## References\r\n\r\n- MDN\r\n  - [https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar#browser_compatibility](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar#browser_compatibility)\r\n  - [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars#browser_compatibility](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars#browser_compatibility)\r\n- W3Schools: [https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp)\r\n- [sznm.dev](http://sznm.dev) - chakra-ui implementation\r\n  - [https://github.com/sozonome/sznm.dev/commit/f967221e40c7d680eb25ca4944ede4f5def2b628](https://github.com/sozonome/sznm.dev/commit/f967221e40c7d680eb25ca4944ede4f5def2b628)\r\n  - [https://github.com/sozonome/sznm.dev/commit/76c3ce6895b6de5b0a0d4195378cf68cde269054](https://github.com/sozonome/sznm.dev/commit/76c3ce6895b6de5b0a0d4195378cf68cde269054)\r\n",
+      "html": "<h2>CSS</h2>\n<pre><code class=\"language-css\">::-webkit-scrollbar {\r\n  width: 0.75rem;\r\n  height: 0.75rem;\r\n  background-color: blue;\r\n}\r\n\r\n::-webkit-scrollbar-thumb {\r\n  border-radius: 20px;\r\n  background-color: gray;\r\n}\r\n\r\n/** firefox **/\r\nhtml {\r\n  scrollbar-width: thin;\r\n  scrollbar-color: blue;\r\n}\n</code></pre>\n<h2>References</h2>\n<ul>\n<li>MDN\n<ul>\n<li><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar#browser_compatibility\">https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar#browser_compatibility</a></li>\n<li><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars#browser_compatibility\">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars#browser_compatibility</a></li>\n</ul>\n</li>\n<li>W3Schools: <a href=\"https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp\">https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp</a></li>\n<li><a href=\"http://sznm.dev\">sznm.dev</a> - chakra-ui implementation\n<ul>\n<li><a href=\"https://github.com/sozonome/sznm.dev/commit/f967221e40c7d680eb25ca4944ede4f5def2b628\">https://github.com/sozonome/sznm.dev/commit/f967221e40c7d680eb25ca4944ede4f5def2b628</a></li>\n<li><a href=\"https://github.com/sozonome/sznm.dev/commit/76c3ce6895b6de5b0a0d4195378cf68cde269054\">https://github.com/sozonome/sznm.dev/commit/76c3ce6895b6de5b0a0d4195378cf68cde269054</a></li>\n</ul>\n</li>\n</ul>"
+    },
+    "_id": "notes/custom-scroll-bar.md",
+    "_raw": {
+      "sourceFilePath": "notes/custom-scroll-bar.md",
+      "sourceFileName": "custom-scroll-bar.md",
+      "sourceFileDir": "notes",
+      "contentType": "markdown",
+      "flattenedPath": "notes/custom-scroll-bar"
+    },
+    "type": "Note",
+    "id": "custom-scroll-bar"
+  },
+  {
+    "title": "Data Fetching",
+    "description": "Fetch data with ease",
+    "published": true,
+    "date": "2022-10-24",
+    "tags": [
+      "http-client",
+      "data-fetching\r"
+    ],
+    "body": {
+      "raw": "\r\n## Fetcher Utility\r\n\r\n> install [axios](https://axios-http.com/)\r\n\r\n```bash\r\npnpm add axios\r\n```\r\n\r\n> add fetcher utility for GET\r\n\r\n```ts\r\nimport axios from \"axios\";\r\n\r\ntype FetcherArgs = {\r\n  url: string;\r\n  params?: any;\r\n};\r\n\r\nexport const fetcher = <ResType>({ url, params }: FetcherArgs) =>\r\n  axios.get<ResType>(url, { params }).then((res) => res.data);\r\n```\r\n\r\n## Data Hook with SWR\r\n\r\n> install [SWR](https://swr.vercel.app)\r\n\r\n```bash\r\npnpm add swr\r\n```\r\n\r\n> add swr hook utility\r\n\r\n```ts\r\nimport useSWR from \"swr\";\r\n\r\ntype UseAppSWRArgs<ResType> = {\r\n  url: string;\r\n  params?: any;\r\n  fallbackData?: ResType;\r\n  isReady?: boolean;\r\n};\r\n\r\nexport const useAppSWR = <ResType, ErrorType = any>({\r\n  url,\r\n  params,\r\n  fallbackData,\r\n  isReady = true,\r\n}: UseAppSWRArgs<ResType>) => {\r\n  const { data, error, mutate } = useSWR<ResType, ErrorType>(\r\n    isReady ? { url, params } : null,\r\n    fetcher,\r\n    {\r\n      fallbackData,\r\n    }\r\n  );\r\n\r\n  return {\r\n    data,\r\n    isLoading: !error && !data && isReady,\r\n    isError: error,\r\n    mutate,\r\n  };\r\n};\r\n```\r\n\r\n> add data hook\r\n\r\n```ts\r\n// useMovieData.ts\r\nexport const useMovieData = (params?: any) =>\r\n  useAppSWR({\r\n    url: \"https://some-api-url.com/api/movies\",\r\n    params,\r\n  });\r\n```\r\n\r\n> call the data hook in the component\r\n\r\n```tsx\r\n// SomeComponent.tsx\r\n\r\nconst SomeComponent = () => {\r\n  const { data, isLoading } = useMovieData();\r\n\r\n  if (isLoading) {\r\n    return <p>Loading...</p>;\r\n  }\r\n\r\n  return (\r\n    <div>\r\n      {data.results.map((item) => (\r\n        <p>{item.title}</p>\r\n      ))}\r\n    </div>\r\n  );\r\n};\r\n```\r\n",
+      "html": "<h2>Fetcher Utility</h2>\n<blockquote>\n<p>install <a href=\"https://axios-http.com/\">axios</a></p>\n</blockquote>\n<pre><code class=\"language-bash\">pnpm add axios\n</code></pre>\n<blockquote>\n<p>add fetcher utility for GET</p>\n</blockquote>\n<pre><code class=\"language-ts\">import axios from \"axios\";\r\n\r\ntype FetcherArgs = {\r\n  url: string;\r\n  params?: any;\r\n};\r\n\r\nexport const fetcher = &#x3C;ResType>({ url, params }: FetcherArgs) =>\r\n  axios.get&#x3C;ResType>(url, { params }).then((res) => res.data);\n</code></pre>\n<h2>Data Hook with SWR</h2>\n<blockquote>\n<p>install <a href=\"https://swr.vercel.app\">SWR</a></p>\n</blockquote>\n<pre><code class=\"language-bash\">pnpm add swr\n</code></pre>\n<blockquote>\n<p>add swr hook utility</p>\n</blockquote>\n<pre><code class=\"language-ts\">import useSWR from \"swr\";\r\n\r\ntype UseAppSWRArgs&#x3C;ResType> = {\r\n  url: string;\r\n  params?: any;\r\n  fallbackData?: ResType;\r\n  isReady?: boolean;\r\n};\r\n\r\nexport const useAppSWR = &#x3C;ResType, ErrorType = any>({\r\n  url,\r\n  params,\r\n  fallbackData,\r\n  isReady = true,\r\n}: UseAppSWRArgs&#x3C;ResType>) => {\r\n  const { data, error, mutate } = useSWR&#x3C;ResType, ErrorType>(\r\n    isReady ? { url, params } : null,\r\n    fetcher,\r\n    {\r\n      fallbackData,\r\n    }\r\n  );\r\n\r\n  return {\r\n    data,\r\n    isLoading: !error &#x26;&#x26; !data &#x26;&#x26; isReady,\r\n    isError: error,\r\n    mutate,\r\n  };\r\n};\n</code></pre>\n<blockquote>\n<p>add data hook</p>\n</blockquote>\n<pre><code class=\"language-ts\">// useMovieData.ts\r\nexport const useMovieData = (params?: any) =>\r\n  useAppSWR({\r\n    url: \"https://some-api-url.com/api/movies\",\r\n    params,\r\n  });\n</code></pre>\n<blockquote>\n<p>call the data hook in the component</p>\n</blockquote>\n<pre><code class=\"language-tsx\">// SomeComponent.tsx\r\n\r\nconst SomeComponent = () => {\r\n  const { data, isLoading } = useMovieData();\r\n\r\n  if (isLoading) {\r\n    return &#x3C;p>Loading...&#x3C;/p>;\r\n  }\r\n\r\n  return (\r\n    &#x3C;div>\r\n      {data.results.map((item) => (\r\n        &#x3C;p>{item.title}&#x3C;/p>\r\n      ))}\r\n    &#x3C;/div>\r\n  );\r\n};\n</code></pre>"
+    },
+    "_id": "notes/data-fetching.md",
+    "_raw": {
+      "sourceFilePath": "notes/data-fetching.md",
+      "sourceFileName": "data-fetching.md",
+      "sourceFileDir": "notes",
+      "contentType": "markdown",
+      "flattenedPath": "notes/data-fetching"
+    },
+    "type": "Note",
+    "id": "data-fetching"
+  },
+  {
+    "title": "Desktop Apps or Tools I Use",
+    "description": "some apps / tools I usually use",
+    "published": true,
+    "date": "2023-08-18",
+    "tags": [
+      "apps",
+      "tools",
+      "mac",
+      "windows\r"
+    ],
+    "body": {
+      "raw": "\r\n## Mac and Windows\r\n\r\n- [**VS Code**](https://code.visualstudio.com/): My favorite Code Editor\r\n- [**HandBrake**](https://handbrake.fr/): Open source video transcoder, mainly use it for converting and/or compressing video files\r\n- [**scrcpy**](https://github.com/Genymobile/scrcpy): Enables us to screencast our android devices to the computer and control the device directly. Just connect through USB / TCP over IP.\r\n- [**Termius**](https://www.termius.com/): SSH client and terminal\r\n\r\n## Mac Only\r\n\r\n- [**Warp**](https://sznm.link/warp-terminal): Rust based smart terminal\r\n- [**Rectangle**](https://rectangleapp.com/): for someone who used to Windows's window snapping behavior, this one is for similar experience in Mac.\r\n- [**KeyCastr**](https://github.com/keycastr/keycastr): open source keystroke visualizer.\r\n- [**MonitorControl**](https://monitorcontrol.app/): control external display brightness and volume easily.\r\n- [**App Cleaner**](https://freemacsoft.net/appcleaner/): mac uninstall tool, just drag the app to be uninstalled and it will find related files to the app that also could be deleted.\r\n- [**Coconut Battery**](https://www.coconut-flavour.com/coconutbattery/): monitor mac battery health.\r\n- [**Zed**](https://zed.dev/): performant code editor by Atom creators.\r\n\r\n## Windows Only\r\n\r\n- [**ShareX**](https://getsharex.com/): all in one screen capture, productivity, etc tool\r\n",
+      "html": "<h2>Mac and Windows</h2>\n<ul>\n<li><a href=\"https://code.visualstudio.com/\"><strong>VS Code</strong></a>: My favorite Code Editor</li>\n<li><a href=\"https://handbrake.fr/\"><strong>HandBrake</strong></a>: Open source video transcoder, mainly use it for converting and/or compressing video files</li>\n<li><a href=\"https://github.com/Genymobile/scrcpy\"><strong>scrcpy</strong></a>: Enables us to screencast our android devices to the computer and control the device directly. Just connect through USB / TCP over IP.</li>\n<li><a href=\"https://www.termius.com/\"><strong>Termius</strong></a>: SSH client and terminal</li>\n</ul>\n<h2>Mac Only</h2>\n<ul>\n<li><a href=\"https://sznm.link/warp-terminal\"><strong>Warp</strong></a>: Rust based smart terminal</li>\n<li><a href=\"https://rectangleapp.com/\"><strong>Rectangle</strong></a>: for someone who used to Windows's window snapping behavior, this one is for similar experience in Mac.</li>\n<li><a href=\"https://github.com/keycastr/keycastr\"><strong>KeyCastr</strong></a>: open source keystroke visualizer.</li>\n<li><a href=\"https://monitorcontrol.app/\"><strong>MonitorControl</strong></a>: control external display brightness and volume easily.</li>\n<li><a href=\"https://freemacsoft.net/appcleaner/\"><strong>App Cleaner</strong></a>: mac uninstall tool, just drag the app to be uninstalled and it will find related files to the app that also could be deleted.</li>\n<li><a href=\"https://www.coconut-flavour.com/coconutbattery/\"><strong>Coconut Battery</strong></a>: monitor mac battery health.</li>\n<li><a href=\"https://zed.dev/\"><strong>Zed</strong></a>: performant code editor by Atom creators.</li>\n</ul>\n<h2>Windows Only</h2>\n<ul>\n<li><a href=\"https://getsharex.com/\"><strong>ShareX</strong></a>: all in one screen capture, productivity, etc tool</li>\n</ul>"
+    },
+    "_id": "notes/desktop-apps-tools.md",
+    "_raw": {
+      "sourceFilePath": "notes/desktop-apps-tools.md",
+      "sourceFileName": "desktop-apps-tools.md",
+      "sourceFileDir": "notes",
+      "contentType": "markdown",
+      "flattenedPath": "notes/desktop-apps-tools"
+    },
+    "type": "Note",
+    "id": "desktop-apps-tools"
+  },
+  {
+    "title": "Force Lodash Import Scope",
+    "description": "How to enforce lodash import scope",
+    "published": true,
+    "date": "2023-06-30",
+    "tags": [
+      "lodash",
+      "eslint\r"
+    ],
+    "body": {
+      "raw": "\r\n## Importing Lodash\r\n\r\nThere are multiple ways to import lodash utilities.\r\n\r\n```ts\r\n// whole import\r\nimport _ from 'lodash';\r\n// _.debounce();\r\n\r\n// curly bracket / named import\r\nimport { debounce } from 'lodash';\r\n\r\n// one-by-one / modules / single method import\r\nimport debounce from 'lodash/debounce';\r\n```\r\n\r\nOne of the recommended way to import it is `one-by-one` or modules or `single method` import as it will produces smallest bundle size.\r\n\r\n## Enforce Lodash Import Method\r\n\r\nHow about if our project is:\r\n\r\n1. maintained by multiple people, or\r\n2. we have various parts in our code which utilize lodash\r\n\r\nand we want to enforce specific way to import lodash methods?\r\n\r\nWe can use eslint and there's an eslint plugin for it: [`eslint-plugin-lodash`](https://www.npmjs.com/package/eslint-plugin-lodash). This plugin has a rule named `import-scope`. Here's how to configure it:\r\n\r\n```bash\r\npnpm i -D eslint eslint-plugin-lodash\r\n```\r\n\r\n```js\r\n// .eslintrc.js\r\n/** @type {import('eslint').Linter.Config} */\r\nmodule.exports = {\r\n  plugins: ['lodash'],\r\n  rules: {\r\n    'lodash/import-scope': [\r\n      'error',\r\n      'method' /** 'method' | 'member' | 'full' | 'method-package' */,\r\n    ],\r\n  },\r\n};\r\n```\r\n\r\nWith this configuration, eslint will warns us when we import lodash methods using other than the preferred import scope.\r\n\r\n### References:\r\n\r\n- https://www.blazemeter.com/blog/import-lodash-libraries\r\n- https://github.com/wix-incubator/eslint-plugin-lodash/blob/master/docs/rules/import-scope.md\r\n",
+      "html": "<h2>Importing Lodash</h2>\n<p>There are multiple ways to import lodash utilities.</p>\n<pre><code class=\"language-ts\">// whole import\r\nimport _ from 'lodash';\r\n// _.debounce();\r\n\r\n// curly bracket / named import\r\nimport { debounce } from 'lodash';\r\n\r\n// one-by-one / modules / single method import\r\nimport debounce from 'lodash/debounce';\n</code></pre>\n<p>One of the recommended way to import it is <code>one-by-one</code> or modules or <code>single method</code> import as it will produces smallest bundle size.</p>\n<h2>Enforce Lodash Import Method</h2>\n<p>How about if our project is:</p>\n<ol>\n<li>maintained by multiple people, or</li>\n<li>we have various parts in our code which utilize lodash</li>\n</ol>\n<p>and we want to enforce specific way to import lodash methods?</p>\n<p>We can use eslint and there's an eslint plugin for it: <a href=\"https://www.npmjs.com/package/eslint-plugin-lodash\"><code>eslint-plugin-lodash</code></a>. This plugin has a rule named <code>import-scope</code>. Here's how to configure it:</p>\n<pre><code class=\"language-bash\">pnpm i -D eslint eslint-plugin-lodash\n</code></pre>\n<pre><code class=\"language-js\">// .eslintrc.js\r\n/** @type {import('eslint').Linter.Config} */\r\nmodule.exports = {\r\n  plugins: ['lodash'],\r\n  rules: {\r\n    'lodash/import-scope': [\r\n      'error',\r\n      'method' /** 'method' | 'member' | 'full' | 'method-package' */,\r\n    ],\r\n  },\r\n};\n</code></pre>\n<p>With this configuration, eslint will warns us when we import lodash methods using other than the preferred import scope.</p>\n<h3>References:</h3>\n<ul>\n<li><a href=\"https://www.blazemeter.com/blog/import-lodash-libraries\">https://www.blazemeter.com/blog/import-lodash-libraries</a></li>\n<li><a href=\"https://github.com/wix-incubator/eslint-plugin-lodash/blob/master/docs/rules/import-scope.md\">https://github.com/wix-incubator/eslint-plugin-lodash/blob/master/docs/rules/import-scope.md</a></li>\n</ul>"
+    },
+    "_id": "notes/force-lodash-modules-import.md",
+    "_raw": {
+      "sourceFilePath": "notes/force-lodash-modules-import.md",
+      "sourceFileName": "force-lodash-modules-import.md",
+      "sourceFileDir": "notes",
+      "contentType": "markdown",
+      "flattenedPath": "notes/force-lodash-modules-import"
+    },
+    "type": "Note",
+    "id": "force-lodash-modules-import"
+  },
+  {
+    "title": "Overflow Scroll without Scrollbar",
+    "description": "for sleek overflow scroll in mobile viewport",
+    "published": true,
+    "date": "2022-07-22",
+    "tags": [
+      "css",
+      "chakra-ui\r"
+    ],
+    "body": {
+      "raw": "\r\n## CSS\r\n\r\n```css\r\n.some-component {\r\n  overflow-x: scroll; /* or overflow-y */\r\n}\r\n\r\n.some-component::-webkit-scrollbar {\r\n  display: none;\r\n}\r\n```\r\n\r\n## Chakra-UI\r\n\r\n```jsx\r\n<Flex overflow=\"scroll\" css={{ \"&::-webkit-scrollbar\": { display: \"none\" } }}>\r\n  ...some children\r\n</Flex>\r\n```\r\n\r\n## References\r\n\r\n- [https://stackoverflow.com/questions/65042380/how-to-add-webkit-scrollbar-pseudo-element-in-chakra-ui-element-react](https://stackoverflow.com/questions/65042380/how-to-add-webkit-scrollbar-pseudo-element-in-chakra-ui-element-react)\r\n",
+      "html": "<h2>CSS</h2>\n<pre><code class=\"language-css\">.some-component {\r\n  overflow-x: scroll; /* or overflow-y */\r\n}\r\n\r\n.some-component::-webkit-scrollbar {\r\n  display: none;\r\n}\n</code></pre>\n<h2>Chakra-UI</h2>\n<pre><code class=\"language-jsx\">&#x3C;Flex overflow=\"scroll\" css={{ \"&#x26;::-webkit-scrollbar\": { display: \"none\" } }}>\r\n  ...some children\r\n&#x3C;/Flex>\n</code></pre>\n<h2>References</h2>\n<ul>\n<li><a href=\"https://stackoverflow.com/questions/65042380/how-to-add-webkit-scrollbar-pseudo-element-in-chakra-ui-element-react\">https://stackoverflow.com/questions/65042380/how-to-add-webkit-scrollbar-pseudo-element-in-chakra-ui-element-react</a></li>\n</ul>"
+    },
+    "_id": "notes/overflow-scroll-without-scrollbar.md",
+    "_raw": {
+      "sourceFilePath": "notes/overflow-scroll-without-scrollbar.md",
+      "sourceFileName": "overflow-scroll-without-scrollbar.md",
+      "sourceFileDir": "notes",
+      "contentType": "markdown",
+      "flattenedPath": "notes/overflow-scroll-without-scrollbar"
+    },
+    "type": "Note",
+    "id": "overflow-scroll-without-scrollbar"
+  },
+  {
+    "title": "Show Installed Global Node Deps",
+    "description": "How to show installed global npm / yarn / pnpm dependencies",
+    "published": true,
+    "date": "2023-02-10",
+    "tags": [
+      "node",
+      "pnpm",
+      "npm",
+      "yarn\r"
+    ],
+    "body": {
+      "raw": "\r\nTo check node dependencies which are installed globally.\r\n\r\n## pnpm\r\n\r\n```bash\r\npnpm list -g --depth 0\r\n```\r\n\r\nreferences:\r\n\r\n- https://pnpm.io/pnpm-cli\r\n- https://pnpm.io/cli/list#--global--g\r\n\r\n## npm\r\n\r\n```bash\r\nnpm list -g --depth=0\r\n```\r\n\r\nreferences: https://docs.npmjs.com/cli/v9/commands/npm-ls#global\r\n\r\n## Yarn\r\n\r\n```bash\r\nyarn global list\r\n```\r\n\r\nreferences: https://classic.yarnpkg.com/en/docs/cli/global\r\n",
+      "html": "<p>To check node dependencies which are installed globally.</p>\n<h2>pnpm</h2>\n<pre><code class=\"language-bash\">pnpm list -g --depth 0\n</code></pre>\n<p>references:</p>\n<ul>\n<li><a href=\"https://pnpm.io/pnpm-cli\">https://pnpm.io/pnpm-cli</a></li>\n<li><a href=\"https://pnpm.io/cli/list#--global--g\">https://pnpm.io/cli/list#--global--g</a></li>\n</ul>\n<h2>npm</h2>\n<pre><code class=\"language-bash\">npm list -g --depth=0\n</code></pre>\n<p>references: <a href=\"https://docs.npmjs.com/cli/v9/commands/npm-ls#global\">https://docs.npmjs.com/cli/v9/commands/npm-ls#global</a></p>\n<h2>Yarn</h2>\n<pre><code class=\"language-bash\">yarn global list\n</code></pre>\n<p>references: <a href=\"https://classic.yarnpkg.com/en/docs/cli/global\">https://classic.yarnpkg.com/en/docs/cli/global</a></p>"
+    },
+    "_id": "notes/show-installed-global-node-deps.md",
+    "_raw": {
+      "sourceFilePath": "notes/show-installed-global-node-deps.md",
+      "sourceFileName": "show-installed-global-node-deps.md",
+      "sourceFileDir": "notes",
+      "contentType": "markdown",
+      "flattenedPath": "notes/show-installed-global-node-deps"
+    },
+    "type": "Note",
+    "id": "show-installed-global-node-deps"
+  },
+  {
+    "title": "Test Notes",
+    "description": "testing",
+    "published": false,
+    "date": "2023-08-02",
+    "tags": [
+      "test\r"
+    ],
+    "body": {
+      "raw": "\r\n<iframe width=\"100%\" style=\"aspect-ratio: 16/9; border-radius: 24px\" src=\"https://www.youtube.com/embed/8pDqJVdNa44\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\r\n\r\n| Before | After |\r\n| ------ | ----- |\r\n| Hello  | Hi    |\r\n",
+      "html": "\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>Before</th><th>After</th></tr></thead><tbody><tr><td>Hello</td><td>Hi</td></tr></tbody></table>"
+    },
+    "_id": "notes/test-note.md",
+    "_raw": {
+      "sourceFilePath": "notes/test-note.md",
+      "sourceFileName": "test-note.md",
+      "sourceFileDir": "notes",
+      "contentType": "markdown",
+      "flattenedPath": "notes/test-note"
+    },
+    "type": "Note",
+    "id": "test-note"
+  }
+]

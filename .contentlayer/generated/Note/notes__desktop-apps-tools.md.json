@@ -1,0 +1,26 @@
+{
+  "title": "Desktop Apps or Tools I Use",
+  "description": "some apps / tools I usually use",
+  "published": true,
+  "date": "2023-08-18",
+  "tags": [
+    "apps",
+    "tools",
+    "mac",
+    "windows\r"
+  ],
+  "body": {
+    "raw": "\r\n## Mac and Windows\r\n\r\n- [**VS Code**](https://code.visualstudio.com/): My favorite Code Editor\r\n- [**HandBrake**](https://handbrake.fr/): Open source video transcoder, mainly use it for converting and/or compressing video files\r\n- [**scrcpy**](https://github.com/Genymobile/scrcpy): Enables us to screencast our android devices to the computer and control the device directly. Just connect through USB / TCP over IP.\r\n- [**Termius**](https://www.termius.com/): SSH client and terminal\r\n\r\n## Mac Only\r\n\r\n- [**Warp**](https://sznm.link/warp-terminal): Rust based smart terminal\r\n- [**Rectangle**](https://rectangleapp.com/): for someone who used to Windows's window snapping behavior, this one is for similar experience in Mac.\r\n- [**KeyCastr**](https://github.com/keycastr/keycastr): open source keystroke visualizer.\r\n- [**MonitorControl**](https://monitorcontrol.app/): control external display brightness and volume easily.\r\n- [**App Cleaner**](https://freemacsoft.net/appcleaner/): mac uninstall tool, just drag the app to be uninstalled and it will find related files to the app that also could be deleted.\r\n- [**Coconut Battery**](https://www.coconut-flavour.com/coconutbattery/): monitor mac battery health.\r\n- [**Zed**](https://zed.dev/): performant code editor by Atom creators.\r\n\r\n## Windows Only\r\n\r\n- [**ShareX**](https://getsharex.com/): all in one screen capture, productivity, etc tool\r\n",
+    "html": "<h2>Mac and Windows</h2>\n<ul>\n<li><a href=\"https://code.visualstudio.com/\"><strong>VS Code</strong></a>: My favorite Code Editor</li>\n<li><a href=\"https://handbrake.fr/\"><strong>HandBrake</strong></a>: Open source video transcoder, mainly use it for converting and/or compressing video files</li>\n<li><a href=\"https://github.com/Genymobile/scrcpy\"><strong>scrcpy</strong></a>: Enables us to screencast our android devices to the computer and control the device directly. Just connect through USB / TCP over IP.</li>\n<li><a href=\"https://www.termius.com/\"><strong>Termius</strong></a>: SSH client and terminal</li>\n</ul>\n<h2>Mac Only</h2>\n<ul>\n<li><a href=\"https://sznm.link/warp-terminal\"><strong>Warp</strong></a>: Rust based smart terminal</li>\n<li><a href=\"https://rectangleapp.com/\"><strong>Rectangle</strong></a>: for someone who used to Windows's window snapping behavior, this one is for similar experience in Mac.</li>\n<li><a href=\"https://github.com/keycastr/keycastr\"><strong>KeyCastr</strong></a>: open source keystroke visualizer.</li>\n<li><a href=\"https://monitorcontrol.app/\"><strong>MonitorControl</strong></a>: control external display brightness and volume easily.</li>\n<li><a href=\"https://freemacsoft.net/appcleaner/\"><strong>App Cleaner</strong></a>: mac uninstall tool, just drag the app to be uninstalled and it will find related files to the app that also could be deleted.</li>\n<li><a href=\"https://www.coconut-flavour.com/coconutbattery/\"><strong>Coconut Battery</strong></a>: monitor mac battery health.</li>\n<li><a href=\"https://zed.dev/\"><strong>Zed</strong></a>: performant code editor by Atom creators.</li>\n</ul>\n<h2>Windows Only</h2>\n<ul>\n<li><a href=\"https://getsharex.com/\"><strong>ShareX</strong></a>: all in one screen capture, productivity, etc tool</li>\n</ul>"
+  },
+  "_id": "notes/desktop-apps-tools.md",
+  "_raw": {
+    "sourceFilePath": "notes/desktop-apps-tools.md",
+    "sourceFileName": "desktop-apps-tools.md",
+    "sourceFileDir": "notes",
+    "contentType": "markdown",
+    "flattenedPath": "notes/desktop-apps-tools"
+  },
+  "type": "Note",
+  "id": "desktop-apps-tools"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "tungpajak",
+  "description": "My personal tax calculator / simulator.",
+  "stacks": [
+    "nextjs",
+    "chakra-ui\r"
+  ],
+  "date": "2022-03-12",
+  "projectLink": "https://tungpajak.sznm.dev",
+  "icon": "/app_icons/book.svg",
+  "projectType": "apps",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/tungpajak.md",
+  "_raw": {
+    "sourceFilePath": "projects/tungpajak.md",
+    "sourceFileName": "tungpajak.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/tungpajak"
+  },
+  "type": "Project",
+  "id": "tungpajak"
+}

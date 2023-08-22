@@ -1,0 +1,26 @@
+{
+  "title": "mixtarter-chakra",
+  "description": "🔋⚡ starter template to initialize Remix app with Chakra UI & Typescript setup",
+  "stacks": [
+    "chakra-ui\r"
+  ],
+  "date": "2021-12-11",
+  "projectLink": "https://mixtarter-chakra.sznm.dev",
+  "repoLink": "https://github.com/sozonome/mixtarter-chakra",
+  "icon": "/app_icons/nextarter-chakra.svg",
+  "projectType": "templates",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/mixtarter-chakra.md",
+  "_raw": {
+    "sourceFilePath": "projects/mixtarter-chakra.md",
+    "sourceFileName": "mixtarter-chakra.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/mixtarter-chakra"
+  },
+  "type": "Project",
+  "id": "mixtarter-chakra"
+}

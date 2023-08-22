@@ -1,0 +1,25 @@
+{
+  "title": "App Folder Structure",
+  "description": "How I usually structure my app folder",
+  "published": true,
+  "date": "2022-10-22",
+  "tags": [
+    "app",
+    "foldering",
+    "structure\r"
+  ],
+  "body": {
+    "raw": "\r\n## Folder Structure\r\n\r\n```bash\r\n- src\r\n  - app/pages/routes\r\n  - lib\r\n    - components\r\n      - ui/shared\r\n      - [domain/feature]\r\n    - constants\r\n    - hooks\r\n    - layouts\r\n    - services/repository\r\n    - stores\r\n    - styles\r\n    - types/models\r\n    - utils\r\n```\r\n\r\n### lib\r\n\r\n`lib` is where all the application building block lives. I like to separate building blocks from framework specific folders (app / pages).\r\n\r\n#### components\r\n\r\n`components` is where the UI building block lives. Sometimes I separate it further into shared and scope specific.\r\n\r\n#### constants\r\n\r\nall reusable or root level constants are maintained through this folder.\r\n\r\n#### hooks\r\n\r\n`hooks` is where I put reusable or page specific hooks. Sometimes I put it inside `hooks` folder, sometimes I put it under `components` if the hook is component specific.\r\n\r\n#### layouts\r\n\r\nwhere I put the app root or reusable layouts / page wrappers.\r\n\r\n#### services\r\n\r\nwhere I put services code (data fetching, API / third party integrations, etc). Sometimes I name the folder `repository`\r\n\r\n#### stores\r\n\r\nwhere I maintain global stores\r\n\r\n#### styles\r\n\r\nwhere I put root / global level styling / theme files.\r\n\r\n#### types\r\n\r\nwhere I maintain global / shared typings / schemas used across the app. Sometimes I name this folder `models`\r\n\r\n#### utils\r\n\r\nwhere I put all reusable utilities.\r\n",
+    "html": "<h2>Folder Structure</h2>\n<pre><code class=\"language-bash\">- src\r\n  - app/pages/routes\r\n  - lib\r\n    - components\r\n      - ui/shared\r\n      - [domain/feature]\r\n    - constants\r\n    - hooks\r\n    - layouts\r\n    - services/repository\r\n    - stores\r\n    - styles\r\n    - types/models\r\n    - utils\n</code></pre>\n<h3>lib</h3>\n<p><code>lib</code> is where all the application building block lives. I like to separate building blocks from framework specific folders (app / pages).</p>\n<h4>components</h4>\n<p><code>components</code> is where the UI building block lives. Sometimes I separate it further into shared and scope specific.</p>\n<h4>constants</h4>\n<p>all reusable or root level constants are maintained through this folder.</p>\n<h4>hooks</h4>\n<p><code>hooks</code> is where I put reusable or page specific hooks. Sometimes I put it inside <code>hooks</code> folder, sometimes I put it under <code>components</code> if the hook is component specific.</p>\n<h4>layouts</h4>\n<p>where I put the app root or reusable layouts / page wrappers.</p>\n<h4>services</h4>\n<p>where I put services code (data fetching, API / third party integrations, etc). Sometimes I name the folder <code>repository</code></p>\n<h4>stores</h4>\n<p>where I maintain global stores</p>\n<h4>styles</h4>\n<p>where I put root / global level styling / theme files.</p>\n<h4>types</h4>\n<p>where I maintain global / shared typings / schemas used across the app. Sometimes I name this folder <code>models</code></p>\n<h4>utils</h4>\n<p>where I put all reusable utilities.</p>"
+  },
+  "_id": "notes/app-folder-structure.md",
+  "_raw": {
+    "sourceFilePath": "notes/app-folder-structure.md",
+    "sourceFileName": "app-folder-structure.md",
+    "sourceFileDir": "notes",
+    "contentType": "markdown",
+    "flattenedPath": "notes/app-folder-structure"
+  },
+  "type": "Note",
+  "id": "app-folder-structure"
+}

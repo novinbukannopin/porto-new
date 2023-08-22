@@ -1,0 +1,26 @@
+{
+  "title": "Show Installed Global Node Deps",
+  "description": "How to show installed global npm / yarn / pnpm dependencies",
+  "published": true,
+  "date": "2023-02-10",
+  "tags": [
+    "node",
+    "pnpm",
+    "npm",
+    "yarn\r"
+  ],
+  "body": {
+    "raw": "\r\nTo check node dependencies which are installed globally.\r\n\r\n## pnpm\r\n\r\n```bash\r\npnpm list -g --depth 0\r\n```\r\n\r\nreferences:\r\n\r\n- https://pnpm.io/pnpm-cli\r\n- https://pnpm.io/cli/list#--global--g\r\n\r\n## npm\r\n\r\n```bash\r\nnpm list -g --depth=0\r\n```\r\n\r\nreferences: https://docs.npmjs.com/cli/v9/commands/npm-ls#global\r\n\r\n## Yarn\r\n\r\n```bash\r\nyarn global list\r\n```\r\n\r\nreferences: https://classic.yarnpkg.com/en/docs/cli/global\r\n",
+    "html": "<p>To check node dependencies which are installed globally.</p>\n<h2>pnpm</h2>\n<pre><code class=\"language-bash\">pnpm list -g --depth 0\n</code></pre>\n<p>references:</p>\n<ul>\n<li><a href=\"https://pnpm.io/pnpm-cli\">https://pnpm.io/pnpm-cli</a></li>\n<li><a href=\"https://pnpm.io/cli/list#--global--g\">https://pnpm.io/cli/list#--global--g</a></li>\n</ul>\n<h2>npm</h2>\n<pre><code class=\"language-bash\">npm list -g --depth=0\n</code></pre>\n<p>references: <a href=\"https://docs.npmjs.com/cli/v9/commands/npm-ls#global\">https://docs.npmjs.com/cli/v9/commands/npm-ls#global</a></p>\n<h2>Yarn</h2>\n<pre><code class=\"language-bash\">yarn global list\n</code></pre>\n<p>references: <a href=\"https://classic.yarnpkg.com/en/docs/cli/global\">https://classic.yarnpkg.com/en/docs/cli/global</a></p>"
+  },
+  "_id": "notes/show-installed-global-node-deps.md",
+  "_raw": {
+    "sourceFilePath": "notes/show-installed-global-node-deps.md",
+    "sourceFileName": "show-installed-global-node-deps.md",
+    "sourceFileDir": "notes",
+    "contentType": "markdown",
+    "flattenedPath": "notes/show-installed-global-node-deps"
+  },
+  "type": "Note",
+  "id": "show-installed-global-node-deps"
+}

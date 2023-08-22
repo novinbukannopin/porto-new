@@ -1,0 +1,28 @@
+{
+  "title": "YTGet",
+  "description": "YouTube audio and video downloader.",
+  "published": false,
+  "featured": true,
+  "stacks": [
+    "nextjs",
+    "chakra-ui\r"
+  ],
+  "date": "2020-12-07",
+  "projectLink": "https://ytget.sznm.dev/",
+  "icon": "/app_icons/ytget.svg",
+  "projectType": "apps",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/ytget.md",
+  "_raw": {
+    "sourceFilePath": "projects/ytget.md",
+    "sourceFileName": "ytget.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/ytget"
+  },
+  "type": "Project",
+  "id": "ytget"
+}

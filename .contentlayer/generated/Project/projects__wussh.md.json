@@ -1,0 +1,30 @@
+{
+  "title": "wussh",
+  "description": "(formerly olamonde) Create personalized link page.",
+  "highlight": true,
+  "featured": true,
+  "sznmApps": true,
+  "stacks": [
+    "nextjs",
+    "chakra-ui\r"
+  ],
+  "date": "2021-05-07",
+  "projectLink": "https://wus.sh",
+  "icon": "/app_icons/link.svg",
+  "thumbnail": "/app_preview/wussh.png",
+  "projectType": "apps",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/wussh.md",
+  "_raw": {
+    "sourceFilePath": "projects/wussh.md",
+    "sourceFileName": "wussh.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/wussh"
+  },
+  "type": "Project",
+  "id": "wussh"
+}

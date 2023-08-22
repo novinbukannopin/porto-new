@@ -1,0 +1,27 @@
+{
+  "title": "WhatsApp Link Helper",
+  "description": "WhatsApp link helper / generator",
+  "stacks": [
+    "nextjs",
+    "tailwindcss\r"
+  ],
+  "date": "2023-05-30",
+  "projectLink": "https://wa.sznm.dev",
+  "repoLink": "https://github.com/sozonome/wa-link-helper",
+  "icon": "/app_icons/link.svg",
+  "projectType": "apps",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/whatsapp-link-helper.md",
+  "_raw": {
+    "sourceFilePath": "projects/whatsapp-link-helper.md",
+    "sourceFileName": "whatsapp-link-helper.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/whatsapp-link-helper"
+  },
+  "type": "Project",
+  "id": "whatsapp-link-helper"
+}

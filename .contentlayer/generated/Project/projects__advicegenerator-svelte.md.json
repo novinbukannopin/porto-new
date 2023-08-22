@@ -1,0 +1,26 @@
+{
+  "title": "Advice Generator",
+  "description": "Advice generator built using Svelte, powered by Advice Slip JSON API.",
+  "stacks": [
+    "svelte\r"
+  ],
+  "date": "2020-06-05",
+  "projectLink": "https://advicegen.sznm.dev",
+  "repoLink": "https://github.com/sozonome/advice-generator-svelte",
+  "icon": "/app_icons/icon_advicegen.png",
+  "projectType": "apps",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/advicegenerator-svelte.md",
+  "_raw": {
+    "sourceFilePath": "projects/advicegenerator-svelte.md",
+    "sourceFileName": "advicegenerator-svelte.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/advicegenerator-svelte"
+  },
+  "type": "Project",
+  "id": "advicegenerator-svelte"
+}

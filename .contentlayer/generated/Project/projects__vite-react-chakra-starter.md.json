@@ -1,0 +1,28 @@
+{
+  "title": "vite-react-chakra-starter",
+  "description": "template to initialize vite react-ts app with Chakra UI setup",
+  "stacks": [
+    "vite",
+    "react",
+    "chakra-ui\r"
+  ],
+  "date": "2021-03-28",
+  "projectLink": "https://vite-react-chakra-starter.sznm.dev",
+  "repoLink": "https://github.com/sozonome/vite-react-chakra-starter",
+  "icon": "/app_icons/nextarter-chakra.svg",
+  "projectType": "templates",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/vite-react-chakra-starter.md",
+  "_raw": {
+    "sourceFilePath": "projects/vite-react-chakra-starter.md",
+    "sourceFileName": "vite-react-chakra-starter.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/vite-react-chakra-starter"
+  },
+  "type": "Project",
+  "id": "vite-react-chakra-starter"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "sznm.dev",
+  "description": "The site you're currently watching. Built with NextJS. Composed with Chakra UI and Framer Motion.",
+  "stacks": [
+    "nextjs",
+    "chakra-ui",
+    "framer",
+    "vercel\r"
+  ],
+  "date": "2020-05-25",
+  "icon": "/avataaars.svg",
+  "projectType": "sites",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/sznm-dev.md",
+  "_raw": {
+    "sourceFilePath": "projects/sznm-dev.md",
+    "sourceFileName": "sznm-dev.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/sznm-dev"
+  },
+  "type": "Project",
+  "id": "sznm-dev"
+}

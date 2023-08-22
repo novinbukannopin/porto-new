@@ -1,0 +1,27 @@
+{
+  "title": "nextarter-tailwind",
+  "description": "🔋⚡ battery packed template to initialize Next.js app with TailwindCSS & Typescript setup",
+  "stacks": [
+    "nextjs",
+    "tailwindcss\r"
+  ],
+  "date": "2021-10-01",
+  "projectLink": "https://nextarter-tailwind.sznm.dev",
+  "repoLink": "https://github.com/sozonome/nextarter-tailwind",
+  "icon": "/app_icons/nextarter-chakra.svg",
+  "projectType": "templates",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/nextarter-tailwind.md",
+  "_raw": {
+    "sourceFilePath": "projects/nextarter-tailwind.md",
+    "sourceFileName": "nextarter-tailwind.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/nextarter-tailwind"
+  },
+  "type": "Project",
+  "id": "nextarter-tailwind"
+}

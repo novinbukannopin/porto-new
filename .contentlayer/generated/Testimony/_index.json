@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Carissa Alanda",
+    "title": "Product Manager",
+    "year": "2022-2023",
+    "linkedin": "https://www.linkedin.com/in/carissa-alanda-463512a7/\r",
+    "body": {
+      "raw": "\r\nCollaborating with Nathan has been nothing but a blessing. Not only he delivers his tasks in timely manner, but he would ask many questions prior development to ensure that he could build something that can help us reach the goal. As PM, these traits help me tremendously as I could rely on Nathan for any technicalities so that we can come up with other that meets the business goals while maintaining the user needs.\r\n",
+      "html": "<p>Collaborating with Nathan has been nothing but a blessing. Not only he delivers his tasks in timely manner, but he would ask many questions prior development to ensure that he could build something that can help us reach the goal. As PM, these traits help me tremendously as I could rely on Nathan for any technicalities so that we can come up with other that meets the business goals while maintaining the user needs.</p>"
+    },
+    "_id": "testimonies/carissa-alanda.md",
+    "_raw": {
+      "sourceFilePath": "testimonies/carissa-alanda.md",
+      "sourceFileName": "carissa-alanda.md",
+      "sourceFileDir": "testimonies",
+      "contentType": "markdown",
+      "flattenedPath": "testimonies/carissa-alanda"
+    },
+    "type": "Testimony",
+    "id": "carissa-alanda"
+  },
+  {
+    "name": "Denaya",
+    "title": "Software Engineer",
+    "year": "2022-2023",
+    "linkedin": "https://www.linkedin.com/in/denaya-rahadika/\r",
+    "body": {
+      "raw": "\r\nNathan is such an excellent teamplayer with great positive and humble personality. His passion is his secret weapon. It's what sets him apart from the rest and makes him shine. I've never seen anyone so in love with what they do, and it's inspiring as hell. Keep rocking it, Than!\r\n",
+      "html": "<p>Nathan is such an excellent teamplayer with great positive and humble personality. His passion is his secret weapon. It's what sets him apart from the rest and makes him shine. I've never seen anyone so in love with what they do, and it's inspiring as hell. Keep rocking it, Than!</p>"
+    },
+    "_id": "testimonies/denaya.md",
+    "_raw": {
+      "sourceFilePath": "testimonies/denaya.md",
+      "sourceFileName": "denaya.md",
+      "sourceFileDir": "testimonies",
+      "contentType": "markdown",
+      "flattenedPath": "testimonies/denaya"
+    },
+    "type": "Testimony",
+    "id": "denaya"
+  },
+  {
+    "name": "Dennis Tan",
+    "title": "Software Engineer",
+    "year": "2022-2023\r",
+    "body": {
+      "raw": "\r\nNathan is a very organized and intelligent engineer, always think more about optimization, and try to look from multiple point of views regarding a product. Over the course of his career in pinhome, he has standardized our workflow in Ares squad, made a lot of documentation to help other fellow engineers. He also discussed alot with the products to confirm and ensure there is no mistake when delivering a product. A good role model for any other engineers.\r\n",
+      "html": "<p>Nathan is a very organized and intelligent engineer, always think more about optimization, and try to look from multiple point of views regarding a product. Over the course of his career in pinhome, he has standardized our workflow in Ares squad, made a lot of documentation to help other fellow engineers. He also discussed alot with the products to confirm and ensure there is no mistake when delivering a product. A good role model for any other engineers.</p>"
+    },
+    "_id": "testimonies/dennis-tan.md",
+    "_raw": {
+      "sourceFilePath": "testimonies/dennis-tan.md",
+      "sourceFileName": "dennis-tan.md",
+      "sourceFileDir": "testimonies",
+      "contentType": "markdown",
+      "flattenedPath": "testimonies/dennis-tan"
+    },
+    "type": "Testimony",
+    "id": "dennis-tan"
+  },
+  {
+    "name": "Hanif Agung Prayoga",
+    "title": "Software Engineer",
+    "year": "2021-2023",
+    "linkedin": "https://www.linkedin.com/in/hanifagungp/\r",
+    "body": {
+      "raw": "\r\nNathan is a really outstanding engineer. Knowing him for about 2 years, I can say that he really is passionate about software engineering and building products in general. He's done his job well, actively giving out suggestions about development and can pinpoint a lot of issues. He was a huge help during our working years together and I'm really thankful for his presence and impact.\r\n",
+      "html": "<p>Nathan is a really outstanding engineer. Knowing him for about 2 years, I can say that he really is passionate about software engineering and building products in general. He's done his job well, actively giving out suggestions about development and can pinpoint a lot of issues. He was a huge help during our working years together and I'm really thankful for his presence and impact.</p>"
+    },
+    "_id": "testimonies/hanif-agung.md",
+    "_raw": {
+      "sourceFilePath": "testimonies/hanif-agung.md",
+      "sourceFileName": "hanif-agung.md",
+      "sourceFileDir": "testimonies",
+      "contentType": "markdown",
+      "flattenedPath": "testimonies/hanif-agung"
+    },
+    "type": "Testimony",
+    "id": "hanif-agung"
+  },
+  {
+    "name": "Tsasqa Galih",
+    "title": "Senior Product Manager",
+    "year": "2021-2023",
+    "linkedin": "https://www.linkedin.com/in/tsasqa/\r",
+    "body": {
+      "raw": "\r\nNathan will be an excellent addition to any companies, teams, or even as a partner. He's dependable as a Team Member, Inspiring as a co-worker, and a great friend outside of professional work. Excellent in Engineering knowledge and have that drive and thirst to keep on pursuing knowledge, both from his expertise and outside.\r\n",
+      "html": "<p>Nathan will be an excellent addition to any companies, teams, or even as a partner. He's dependable as a Team Member, Inspiring as a co-worker, and a great friend outside of professional work. Excellent in Engineering knowledge and have that drive and thirst to keep on pursuing knowledge, both from his expertise and outside.</p>"
+    },
+    "_id": "testimonies/tsasqa-galih.md",
+    "_raw": {
+      "sourceFilePath": "testimonies/tsasqa-galih.md",
+      "sourceFileName": "tsasqa-galih.md",
+      "sourceFileDir": "testimonies",
+      "contentType": "markdown",
+      "flattenedPath": "testimonies/tsasqa-galih"
+    },
+    "type": "Testimony",
+    "id": "tsasqa-galih"
+  }
+]

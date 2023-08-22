@@ -1,0 +1,20 @@
+{
+  "name": "A. Kemal Al-Izzi",
+  "title": "UI-UX Designer",
+  "year": "2022-2023",
+  "linkedin": "https://www.linkedin.com/in/ahmadkemalalizzi/\r",
+  "body": {
+    "raw": "\r\nNovin is a dynamic and driven Information Systems student with a flair for diving into complex data challenges. Their expertise in backend technologies and their enthusiasm for machine learning make them a valuable asset to any project they undertake.\r\n",
+    "html": "<p>Novin is a dynamic and driven Information Systems student with a flair for diving into complex data challenges. Their expertise in backend technologies and their enthusiasm for machine learning make them a valuable asset to any project they undertake.</p>"
+  },
+  "_id": "testimonies/kemal-izzi.md",
+  "_raw": {
+    "sourceFilePath": "testimonies/kemal-izzi.md",
+    "sourceFileName": "kemal-izzi.md",
+    "sourceFileDir": "testimonies",
+    "contentType": "markdown",
+    "flattenedPath": "testimonies/kemal-izzi"
+  },
+  "type": "Testimony",
+  "id": "kemal-izzi"
+}

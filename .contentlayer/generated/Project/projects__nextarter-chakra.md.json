@@ -1,0 +1,27 @@
+{
+  "title": "nextarter-chakra",
+  "description": "🔋⚡ battery packed template to initialize Next.js app with Chakra UI & Typescript setup",
+  "stacks": [
+    "nextjs",
+    "chakra-ui\r"
+  ],
+  "date": "2020-08-13",
+  "projectLink": "https://nextarter-chakra.sznm.dev",
+  "repoLink": "https://github.com/sozonome/nextarter-chakra",
+  "icon": "/app_icons/nextarter-chakra.svg",
+  "projectType": "templates",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/nextarter-chakra.md",
+  "_raw": {
+    "sourceFilePath": "projects/nextarter-chakra.md",
+    "sourceFileName": "nextarter-chakra.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/nextarter-chakra"
+  },
+  "type": "Project",
+  "id": "nextarter-chakra"
+}

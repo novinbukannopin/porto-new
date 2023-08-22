@@ -1,0 +1,28 @@
+{
+  "title": "InstaDLD",
+  "description": "[Archived - no longer functional] Instagram Post media downloader. Support multipost download.",
+  "stacks": [
+    "nextjs",
+    "chakra-ui\r"
+  ],
+  "date": "2020-11-22",
+  "repoLink": "https://github.com/sozonome/instadl",
+  "icon": "/app_icons/instadld.svg",
+  "thumbnail": "/app_preview/instadld.png",
+  "thumbnailDark": "/app_preview/instadld-dark.png",
+  "projectType": "apps",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/instadld.md",
+  "_raw": {
+    "sourceFilePath": "projects/instadld.md",
+    "sourceFileName": "instadld.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/instadld"
+  },
+  "type": "Project",
+  "id": "instadld"
+}

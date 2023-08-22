@@ -1,0 +1,641 @@
+[
+  {
+    "title": "Add to Calendar Generator",
+    "description": "Add to Calendar link / button generator.",
+    "sznmApps": true,
+    "stacks": [
+      "nextjs",
+      "chakra-ui\r"
+    ],
+    "date": "2020-10-24",
+    "projectLink": "https://addtocal.sznm.dev",
+    "repoLink": "https://github.com/sozonome/add-to-calendar-generator",
+    "icon": "/app_icons/add-to-calendar.svg",
+    "thumbnail": "/app_preview/add-to-calendar.png",
+    "thumbnailDark": "/app_preview/add-to-calendar-dark.png",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/add-to-calendar-generator-nextjs.md",
+    "_raw": {
+      "sourceFilePath": "projects/add-to-calendar-generator-nextjs.md",
+      "sourceFileName": "add-to-calendar-generator-nextjs.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/add-to-calendar-generator-nextjs"
+    },
+    "type": "Project",
+    "id": "add-to-calendar-generator-nextjs"
+  },
+  {
+    "title": "Advice Generator",
+    "description": "Advice generator built using Svelte, powered by Advice Slip JSON API.",
+    "stacks": [
+      "svelte\r"
+    ],
+    "date": "2020-06-05",
+    "projectLink": "https://advicegen.sznm.dev",
+    "repoLink": "https://github.com/sozonome/advice-generator-svelte",
+    "icon": "/app_icons/icon_advicegen.png",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/advicegenerator-svelte.md",
+    "_raw": {
+      "sourceFilePath": "projects/advicegenerator-svelte.md",
+      "sourceFileName": "advicegenerator-svelte.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/advicegenerator-svelte"
+    },
+    "type": "Project",
+    "id": "advicegenerator-svelte"
+  },
+  {
+    "title": "Base",
+    "description": "My personal knowledge base.",
+    "stacks": [
+      "nextjs\r"
+    ],
+    "date": "2021-01-21",
+    "projectLink": "https://base.sznm.dev",
+    "icon": "/app_icons/book.svg",
+    "projectType": "docs",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/base.md",
+    "_raw": {
+      "sourceFilePath": "projects/base.md",
+      "sourceFileName": "base.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/base"
+    },
+    "type": "Project",
+    "id": "base"
+  },
+  {
+    "title": "Big Talk",
+    "description": "Big Talk questions / deck.",
+    "stacks": [
+      "nextjs",
+      "chakra-ui\r"
+    ],
+    "date": "2021-09-19",
+    "projectLink": "https://bigtalk.sznm.dev",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/big-talk.md",
+    "_raw": {
+      "sourceFilePath": "projects/big-talk.md",
+      "sourceFileName": "big-talk.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/big-talk"
+    },
+    "type": "Project",
+    "id": "big-talk"
+  },
+  {
+    "title": "COVID-19 Data",
+    "description": "Monitor covid-19 stats.",
+    "stacks": [
+      "nextjs",
+      "chakra-ui\r"
+    ],
+    "date": "2020-05-02",
+    "projectLink": "https://covid19.sznm.dev",
+    "repoLink": "https://github.com/sozonome/covid-19-data",
+    "icon": "/app_icons/covid-19-data.svg",
+    "thumbnail": "/app_preview/covid19.png",
+    "thumbnailDark": "/app_preview/covid19-dark.png",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/covid19data.md",
+    "_raw": {
+      "sourceFilePath": "projects/covid19data.md",
+      "sourceFileName": "covid19data.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/covid19data"
+    },
+    "type": "Project",
+    "id": "covid19data"
+  },
+  {
+    "title": "Greetings as a Service (GaaS)",
+    "description": "Make personalized greetings message for your folks.",
+    "featured": true,
+    "sznmApps": true,
+    "stacks": [
+      "nextjs",
+      "chakra-ui\r"
+    ],
+    "date": "2021-01-01",
+    "projectLink": "https://gaas.sznm.dev/",
+    "icon": "/app_icons/greet-gaas.svg",
+    "thumbnail": "/app_preview/gaas.png",
+    "thumbnailDark": "/app_preview/gaas-dark.png",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/greet-gaas.md",
+    "_raw": {
+      "sourceFilePath": "projects/greet-gaas.md",
+      "sourceFileName": "greet-gaas.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/greet-gaas"
+    },
+    "type": "Project",
+    "id": "greet-gaas"
+  },
+  {
+    "title": "InstaDLD",
+    "description": "[Archived - no longer functional] Instagram Post media downloader. Support multipost download.",
+    "stacks": [
+      "nextjs",
+      "chakra-ui\r"
+    ],
+    "date": "2020-11-22",
+    "repoLink": "https://github.com/sozonome/instadl",
+    "icon": "/app_icons/instadld.svg",
+    "thumbnail": "/app_preview/instadld.png",
+    "thumbnailDark": "/app_preview/instadld-dark.png",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/instadld.md",
+    "_raw": {
+      "sourceFilePath": "projects/instadld.md",
+      "sourceFileName": "instadld.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/instadld"
+    },
+    "type": "Project",
+    "id": "instadld"
+  },
+  {
+    "title": "KapturaLumina",
+    "description": "My Bachelor / Undergraduate Thesis Project. Basic Photography Learning Mobile App with Gamification. Built using Ionic, React, and Firebase.",
+    "stacks": [
+      "ionic",
+      "react",
+      "firebase\r"
+    ],
+    "date": "2020-06-02",
+    "projectLink": "https://kapturalumina.sznm.dev/",
+    "repoLink": "https://github.com/sozonome/kapturalumina",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=dev.sznm.kapturalumina",
+    "icon": "/app_icons/icon_kapturalumina.png",
+    "thumbnail": "/app_preview/kapturalumina.png",
+    "thumbnailDark": "/app_preview/kapturalumina-dark.png",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/kapturalumina.md",
+    "_raw": {
+      "sourceFilePath": "projects/kapturalumina.md",
+      "sourceFileName": "kapturalumina.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/kapturalumina"
+    },
+    "type": "Project",
+    "id": "kapturalumina"
+  },
+  {
+    "title": "Link Tester",
+    "description": "Deep Link / App Link tester",
+    "stacks": [
+      "vite",
+      "react",
+      "chakra-ui\r"
+    ],
+    "date": "2023-01-06",
+    "projectLink": "https://linktester.sznm.dev",
+    "repoLink": "https://github.com/sozonome/linktester",
+    "icon": "/app_icons/link.svg",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/linktester.md",
+    "_raw": {
+      "sourceFilePath": "projects/linktester.md",
+      "sourceFileName": "linktester.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/linktester"
+    },
+    "type": "Project",
+    "id": "linktester"
+  },
+  {
+    "title": "mixtarter-chakra",
+    "description": "🔋⚡ starter template to initialize Remix app with Chakra UI & Typescript setup",
+    "stacks": [
+      "chakra-ui\r"
+    ],
+    "date": "2021-12-11",
+    "projectLink": "https://mixtarter-chakra.sznm.dev",
+    "repoLink": "https://github.com/sozonome/mixtarter-chakra",
+    "icon": "/app_icons/nextarter-chakra.svg",
+    "projectType": "templates",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/mixtarter-chakra.md",
+    "_raw": {
+      "sourceFilePath": "projects/mixtarter-chakra.md",
+      "sourceFileName": "mixtarter-chakra.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/mixtarter-chakra"
+    },
+    "type": "Project",
+    "id": "mixtarter-chakra"
+  },
+  {
+    "title": "muvees",
+    "description": "Just another movie DB app",
+    "featured": true,
+    "sznmApps": true,
+    "stacks": [
+      "nextjs",
+      "chakra-ui\r"
+    ],
+    "date": "2020-12-29",
+    "projectLink": "https://muvees.sznm.dev",
+    "icon": "/app_icons/popcorn.png",
+    "projectType": "sites",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/muvees.md",
+    "_raw": {
+      "sourceFilePath": "projects/muvees.md",
+      "sourceFileName": "muvees.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/muvees"
+    },
+    "type": "Project",
+    "id": "muvees"
+  },
+  {
+    "title": "nextarter-chakra",
+    "description": "🔋⚡ battery packed template to initialize Next.js app with Chakra UI & Typescript setup",
+    "stacks": [
+      "nextjs",
+      "chakra-ui\r"
+    ],
+    "date": "2020-08-13",
+    "projectLink": "https://nextarter-chakra.sznm.dev",
+    "repoLink": "https://github.com/sozonome/nextarter-chakra",
+    "icon": "/app_icons/nextarter-chakra.svg",
+    "projectType": "templates",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/nextarter-chakra.md",
+    "_raw": {
+      "sourceFilePath": "projects/nextarter-chakra.md",
+      "sourceFileName": "nextarter-chakra.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/nextarter-chakra"
+    },
+    "type": "Project",
+    "id": "nextarter-chakra"
+  },
+  {
+    "title": "nextarter-tailwind",
+    "description": "🔋⚡ battery packed template to initialize Next.js app with TailwindCSS & Typescript setup",
+    "stacks": [
+      "nextjs",
+      "tailwindcss\r"
+    ],
+    "date": "2021-10-01",
+    "projectLink": "https://nextarter-tailwind.sznm.dev",
+    "repoLink": "https://github.com/sozonome/nextarter-tailwind",
+    "icon": "/app_icons/nextarter-chakra.svg",
+    "projectType": "templates",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/nextarter-tailwind.md",
+    "_raw": {
+      "sourceFilePath": "projects/nextarter-tailwind.md",
+      "sourceFileName": "nextarter-tailwind.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/nextarter-tailwind"
+    },
+    "type": "Project",
+    "id": "nextarter-tailwind"
+  },
+  {
+    "title": "Personal Site",
+    "description": "My personal page. Built with SvelteKit.",
+    "stacks": [
+      "svelte\r"
+    ],
+    "date": "2021-10-08",
+    "projectLink": "https://agustinusnathaniel.com",
+    "icon": "/app_icons/coconate.png",
+    "projectType": "sites",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/personal-site.md",
+    "_raw": {
+      "sourceFilePath": "projects/personal-site.md",
+      "sourceFileName": "personal-site.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/personal-site"
+    },
+    "type": "Project",
+    "id": "personal-site"
+  },
+  {
+    "title": "Public APIs",
+    "description": "Find public APIs for your next projects.",
+    "featured": true,
+    "sznmApps": true,
+    "stacks": [
+      "nextjs",
+      "chakra-ui\r"
+    ],
+    "date": "2020-12-25",
+    "projectLink": "https://publicapis.sznm.dev",
+    "repoLink": "https://github.com/sozonome/pub-apis",
+    "icon": "/app_icons/pub-apis.svg",
+    "thumbnail": "/app_preview/public-apis.png",
+    "thumbnailDark": "/app_preview/public-apis-dark.png",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/pub-apis.md",
+    "_raw": {
+      "sourceFilePath": "projects/pub-apis.md",
+      "sourceFileName": "pub-apis.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/pub-apis"
+    },
+    "type": "Project",
+    "id": "pub-apis"
+  },
+  {
+    "title": "spoker",
+    "description": "My take on scrum poker.",
+    "highlight": true,
+    "featured": true,
+    "sznmApps": true,
+    "stacks": [
+      "nextjs",
+      "chakra-ui\r"
+    ],
+    "date": "2021-02-28",
+    "projectLink": "https://spoker.dev/intro",
+    "icon": "/app_icons/chip.svg",
+    "thumbnail": "/app_preview/spoker.png",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/spoker.md",
+    "_raw": {
+      "sourceFilePath": "projects/spoker.md",
+      "sourceFileName": "spoker.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/spoker"
+    },
+    "type": "Project",
+    "id": "spoker"
+  },
+  {
+    "title": "sznm.dev",
+    "description": "The site you're currently watching. Built with NextJS. Composed with Chakra UI and Framer Motion.",
+    "stacks": [
+      "nextjs",
+      "chakra-ui",
+      "framer",
+      "vercel\r"
+    ],
+    "date": "2020-05-25",
+    "icon": "/avataaars.svg",
+    "projectType": "sites",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/sznm-dev.md",
+    "_raw": {
+      "sourceFilePath": "projects/sznm-dev.md",
+      "sourceFileName": "sznm-dev.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/sznm-dev"
+    },
+    "type": "Project",
+    "id": "sznm-dev"
+  },
+  {
+    "title": "tungpajak",
+    "description": "My personal tax calculator / simulator.",
+    "stacks": [
+      "nextjs",
+      "chakra-ui\r"
+    ],
+    "date": "2022-03-12",
+    "projectLink": "https://tungpajak.sznm.dev",
+    "icon": "/app_icons/book.svg",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/tungpajak.md",
+    "_raw": {
+      "sourceFilePath": "projects/tungpajak.md",
+      "sourceFileName": "tungpajak.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/tungpajak"
+    },
+    "type": "Project",
+    "id": "tungpajak"
+  },
+  {
+    "title": "vite-react-chakra-starter",
+    "description": "template to initialize vite react-ts app with Chakra UI setup",
+    "stacks": [
+      "vite",
+      "react",
+      "chakra-ui\r"
+    ],
+    "date": "2021-03-28",
+    "projectLink": "https://vite-react-chakra-starter.sznm.dev",
+    "repoLink": "https://github.com/sozonome/vite-react-chakra-starter",
+    "icon": "/app_icons/nextarter-chakra.svg",
+    "projectType": "templates",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/vite-react-chakra-starter.md",
+    "_raw": {
+      "sourceFilePath": "projects/vite-react-chakra-starter.md",
+      "sourceFileName": "vite-react-chakra-starter.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/vite-react-chakra-starter"
+    },
+    "type": "Project",
+    "id": "vite-react-chakra-starter"
+  },
+  {
+    "title": "WhatsApp Link Helper",
+    "description": "WhatsApp link helper / generator",
+    "stacks": [
+      "nextjs",
+      "tailwindcss\r"
+    ],
+    "date": "2023-05-30",
+    "projectLink": "https://wa.sznm.dev",
+    "repoLink": "https://github.com/sozonome/wa-link-helper",
+    "icon": "/app_icons/link.svg",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/whatsapp-link-helper.md",
+    "_raw": {
+      "sourceFilePath": "projects/whatsapp-link-helper.md",
+      "sourceFileName": "whatsapp-link-helper.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/whatsapp-link-helper"
+    },
+    "type": "Project",
+    "id": "whatsapp-link-helper"
+  },
+  {
+    "title": "wussh",
+    "description": "(formerly olamonde) Create personalized link page.",
+    "highlight": true,
+    "featured": true,
+    "sznmApps": true,
+    "stacks": [
+      "nextjs",
+      "chakra-ui\r"
+    ],
+    "date": "2021-05-07",
+    "projectLink": "https://wus.sh",
+    "icon": "/app_icons/link.svg",
+    "thumbnail": "/app_preview/wussh.png",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/wussh.md",
+    "_raw": {
+      "sourceFilePath": "projects/wussh.md",
+      "sourceFileName": "wussh.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/wussh"
+    },
+    "type": "Project",
+    "id": "wussh"
+  },
+  {
+    "title": "xtarter",
+    "description": "Home of my starter templates",
+    "featured": true,
+    "stacks": [
+      "nextjs",
+      "chakra-ui\r"
+    ],
+    "date": "2022-05-19",
+    "projectLink": "https://xtarter.sznm.dev",
+    "icon": "/app_icons/nextarter-chakra.svg",
+    "projectType": "sites",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/xtarter.md",
+    "_raw": {
+      "sourceFilePath": "projects/xtarter.md",
+      "sourceFileName": "xtarter.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/xtarter"
+    },
+    "type": "Project",
+    "id": "xtarter"
+  },
+  {
+    "title": "YTGet",
+    "description": "YouTube audio and video downloader.",
+    "published": false,
+    "featured": true,
+    "stacks": [
+      "nextjs",
+      "chakra-ui\r"
+    ],
+    "date": "2020-12-07",
+    "projectLink": "https://ytget.sznm.dev/",
+    "icon": "/app_icons/ytget.svg",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/ytget.md",
+    "_raw": {
+      "sourceFilePath": "projects/ytget.md",
+      "sourceFileName": "ytget.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/ytget"
+    },
+    "type": "Project",
+    "id": "ytget"
+  }
+]

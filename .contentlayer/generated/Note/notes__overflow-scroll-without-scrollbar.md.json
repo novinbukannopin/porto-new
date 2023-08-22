@@ -1,0 +1,24 @@
+{
+  "title": "Overflow Scroll without Scrollbar",
+  "description": "for sleek overflow scroll in mobile viewport",
+  "published": true,
+  "date": "2022-07-22",
+  "tags": [
+    "css",
+    "chakra-ui\r"
+  ],
+  "body": {
+    "raw": "\r\n## CSS\r\n\r\n```css\r\n.some-component {\r\n  overflow-x: scroll; /* or overflow-y */\r\n}\r\n\r\n.some-component::-webkit-scrollbar {\r\n  display: none;\r\n}\r\n```\r\n\r\n## Chakra-UI\r\n\r\n```jsx\r\n<Flex overflow=\"scroll\" css={{ \"&::-webkit-scrollbar\": { display: \"none\" } }}>\r\n  ...some children\r\n</Flex>\r\n```\r\n\r\n## References\r\n\r\n- [https://stackoverflow.com/questions/65042380/how-to-add-webkit-scrollbar-pseudo-element-in-chakra-ui-element-react](https://stackoverflow.com/questions/65042380/how-to-add-webkit-scrollbar-pseudo-element-in-chakra-ui-element-react)\r\n",
+    "html": "<h2>CSS</h2>\n<pre><code class=\"language-css\">.some-component {\r\n  overflow-x: scroll; /* or overflow-y */\r\n}\r\n\r\n.some-component::-webkit-scrollbar {\r\n  display: none;\r\n}\n</code></pre>\n<h2>Chakra-UI</h2>\n<pre><code class=\"language-jsx\">&#x3C;Flex overflow=\"scroll\" css={{ \"&#x26;::-webkit-scrollbar\": { display: \"none\" } }}>\r\n  ...some children\r\n&#x3C;/Flex>\n</code></pre>\n<h2>References</h2>\n<ul>\n<li><a href=\"https://stackoverflow.com/questions/65042380/how-to-add-webkit-scrollbar-pseudo-element-in-chakra-ui-element-react\">https://stackoverflow.com/questions/65042380/how-to-add-webkit-scrollbar-pseudo-element-in-chakra-ui-element-react</a></li>\n</ul>"
+  },
+  "_id": "notes/overflow-scroll-without-scrollbar.md",
+  "_raw": {
+    "sourceFilePath": "notes/overflow-scroll-without-scrollbar.md",
+    "sourceFileName": "overflow-scroll-without-scrollbar.md",
+    "sourceFileDir": "notes",
+    "contentType": "markdown",
+    "flattenedPath": "notes/overflow-scroll-without-scrollbar"
+  },
+  "type": "Note",
+  "id": "overflow-scroll-without-scrollbar"
+}

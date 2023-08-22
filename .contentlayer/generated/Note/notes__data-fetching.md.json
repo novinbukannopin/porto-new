@@ -1,0 +1,24 @@
+{
+  "title": "Data Fetching",
+  "description": "Fetch data with ease",
+  "published": true,
+  "date": "2022-10-24",
+  "tags": [
+    "http-client",
+    "data-fetching\r"
+  ],
+  "body": {
+    "raw": "\r\n## Fetcher Utility\r\n\r\n> install [axios](https://axios-http.com/)\r\n\r\n```bash\r\npnpm add axios\r\n```\r\n\r\n> add fetcher utility for GET\r\n\r\n```ts\r\nimport axios from \"axios\";\r\n\r\ntype FetcherArgs = {\r\n  url: string;\r\n  params?: any;\r\n};\r\n\r\nexport const fetcher = <ResType>({ url, params }: FetcherArgs) =>\r\n  axios.get<ResType>(url, { params }).then((res) => res.data);\r\n```\r\n\r\n## Data Hook with SWR\r\n\r\n> install [SWR](https://swr.vercel.app)\r\n\r\n```bash\r\npnpm add swr\r\n```\r\n\r\n> add swr hook utility\r\n\r\n```ts\r\nimport useSWR from \"swr\";\r\n\r\ntype UseAppSWRArgs<ResType> = {\r\n  url: string;\r\n  params?: any;\r\n  fallbackData?: ResType;\r\n  isReady?: boolean;\r\n};\r\n\r\nexport const useAppSWR = <ResType, ErrorType = any>({\r\n  url,\r\n  params,\r\n  fallbackData,\r\n  isReady = true,\r\n}: UseAppSWRArgs<ResType>) => {\r\n  const { data, error, mutate } = useSWR<ResType, ErrorType>(\r\n    isReady ? { url, params } : null,\r\n    fetcher,\r\n    {\r\n      fallbackData,\r\n    }\r\n  );\r\n\r\n  return {\r\n    data,\r\n    isLoading: !error && !data && isReady,\r\n    isError: error,\r\n    mutate,\r\n  };\r\n};\r\n```\r\n\r\n> add data hook\r\n\r\n```ts\r\n// useMovieData.ts\r\nexport const useMovieData = (params?: any) =>\r\n  useAppSWR({\r\n    url: \"https://some-api-url.com/api/movies\",\r\n    params,\r\n  });\r\n```\r\n\r\n> call the data hook in the component\r\n\r\n```tsx\r\n// SomeComponent.tsx\r\n\r\nconst SomeComponent = () => {\r\n  const { data, isLoading } = useMovieData();\r\n\r\n  if (isLoading) {\r\n    return <p>Loading...</p>;\r\n  }\r\n\r\n  return (\r\n    <div>\r\n      {data.results.map((item) => (\r\n        <p>{item.title}</p>\r\n      ))}\r\n    </div>\r\n  );\r\n};\r\n```\r\n",
+    "html": "<h2>Fetcher Utility</h2>\n<blockquote>\n<p>install <a href=\"https://axios-http.com/\">axios</a></p>\n</blockquote>\n<pre><code class=\"language-bash\">pnpm add axios\n</code></pre>\n<blockquote>\n<p>add fetcher utility for GET</p>\n</blockquote>\n<pre><code class=\"language-ts\">import axios from \"axios\";\r\n\r\ntype FetcherArgs = {\r\n  url: string;\r\n  params?: any;\r\n};\r\n\r\nexport const fetcher = &#x3C;ResType>({ url, params }: FetcherArgs) =>\r\n  axios.get&#x3C;ResType>(url, { params }).then((res) => res.data);\n</code></pre>\n<h2>Data Hook with SWR</h2>\n<blockquote>\n<p>install <a href=\"https://swr.vercel.app\">SWR</a></p>\n</blockquote>\n<pre><code class=\"language-bash\">pnpm add swr\n</code></pre>\n<blockquote>\n<p>add swr hook utility</p>\n</blockquote>\n<pre><code class=\"language-ts\">import useSWR from \"swr\";\r\n\r\ntype UseAppSWRArgs&#x3C;ResType> = {\r\n  url: string;\r\n  params?: any;\r\n  fallbackData?: ResType;\r\n  isReady?: boolean;\r\n};\r\n\r\nexport const useAppSWR = &#x3C;ResType, ErrorType = any>({\r\n  url,\r\n  params,\r\n  fallbackData,\r\n  isReady = true,\r\n}: UseAppSWRArgs&#x3C;ResType>) => {\r\n  const { data, error, mutate } = useSWR&#x3C;ResType, ErrorType>(\r\n    isReady ? { url, params } : null,\r\n    fetcher,\r\n    {\r\n      fallbackData,\r\n    }\r\n  );\r\n\r\n  return {\r\n    data,\r\n    isLoading: !error &#x26;&#x26; !data &#x26;&#x26; isReady,\r\n    isError: error,\r\n    mutate,\r\n  };\r\n};\n</code></pre>\n<blockquote>\n<p>add data hook</p>\n</blockquote>\n<pre><code class=\"language-ts\">// useMovieData.ts\r\nexport const useMovieData = (params?: any) =>\r\n  useAppSWR({\r\n    url: \"https://some-api-url.com/api/movies\",\r\n    params,\r\n  });\n</code></pre>\n<blockquote>\n<p>call the data hook in the component</p>\n</blockquote>\n<pre><code class=\"language-tsx\">// SomeComponent.tsx\r\n\r\nconst SomeComponent = () => {\r\n  const { data, isLoading } = useMovieData();\r\n\r\n  if (isLoading) {\r\n    return &#x3C;p>Loading...&#x3C;/p>;\r\n  }\r\n\r\n  return (\r\n    &#x3C;div>\r\n      {data.results.map((item) => (\r\n        &#x3C;p>{item.title}&#x3C;/p>\r\n      ))}\r\n    &#x3C;/div>\r\n  );\r\n};\n</code></pre>"
+  },
+  "_id": "notes/data-fetching.md",
+  "_raw": {
+    "sourceFilePath": "notes/data-fetching.md",
+    "sourceFileName": "data-fetching.md",
+    "sourceFileDir": "notes",
+    "contentType": "markdown",
+    "flattenedPath": "notes/data-fetching"
+  },
+  "type": "Note",
+  "id": "data-fetching"
+}

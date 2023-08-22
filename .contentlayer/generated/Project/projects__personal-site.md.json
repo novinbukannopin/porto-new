@@ -1,0 +1,25 @@
+{
+  "title": "Personal Site",
+  "description": "My personal page. Built with SvelteKit.",
+  "stacks": [
+    "svelte\r"
+  ],
+  "date": "2021-10-08",
+  "projectLink": "https://agustinusnathaniel.com",
+  "icon": "/app_icons/coconate.png",
+  "projectType": "sites",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/personal-site.md",
+  "_raw": {
+    "sourceFilePath": "projects/personal-site.md",
+    "sourceFileName": "personal-site.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/personal-site"
+  },
+  "type": "Project",
+  "id": "personal-site"
+}

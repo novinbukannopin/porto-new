@@ -1,0 +1,31 @@
+{
+  "title": "KapturaLumina",
+  "description": "My Bachelor / Undergraduate Thesis Project. Basic Photography Learning Mobile App with Gamification. Built using Ionic, React, and Firebase.",
+  "stacks": [
+    "ionic",
+    "react",
+    "firebase\r"
+  ],
+  "date": "2020-06-02",
+  "projectLink": "https://kapturalumina.sznm.dev/",
+  "repoLink": "https://github.com/sozonome/kapturalumina",
+  "playStoreLink": "https://play.google.com/store/apps/details?id=dev.sznm.kapturalumina",
+  "icon": "/app_icons/icon_kapturalumina.png",
+  "thumbnail": "/app_preview/kapturalumina.png",
+  "thumbnailDark": "/app_preview/kapturalumina-dark.png",
+  "projectType": "apps",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/kapturalumina.md",
+  "_raw": {
+    "sourceFilePath": "projects/kapturalumina.md",
+    "sourceFileName": "kapturalumina.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/kapturalumina"
+  },
+  "type": "Project",
+  "id": "kapturalumina"
+}

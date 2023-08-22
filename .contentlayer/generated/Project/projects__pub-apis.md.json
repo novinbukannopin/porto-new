@@ -1,0 +1,31 @@
+{
+  "title": "Public APIs",
+  "description": "Find public APIs for your next projects.",
+  "featured": true,
+  "sznmApps": true,
+  "stacks": [
+    "nextjs",
+    "chakra-ui\r"
+  ],
+  "date": "2020-12-25",
+  "projectLink": "https://publicapis.sznm.dev",
+  "repoLink": "https://github.com/sozonome/pub-apis",
+  "icon": "/app_icons/pub-apis.svg",
+  "thumbnail": "/app_preview/public-apis.png",
+  "thumbnailDark": "/app_preview/public-apis-dark.png",
+  "projectType": "apps",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/pub-apis.md",
+  "_raw": {
+    "sourceFilePath": "projects/pub-apis.md",
+    "sourceFileName": "pub-apis.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/pub-apis"
+  },
+  "type": "Project",
+  "id": "pub-apis"
+}

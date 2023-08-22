@@ -1,0 +1,23 @@
+{
+  "title": "Test Notes",
+  "description": "testing",
+  "published": false,
+  "date": "2023-08-02",
+  "tags": [
+    "test\r"
+  ],
+  "body": {
+    "raw": "\r\n<iframe width=\"100%\" style=\"aspect-ratio: 16/9; border-radius: 24px\" src=\"https://www.youtube.com/embed/8pDqJVdNa44\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\r\n\r\n| Before | After |\r\n| ------ | ----- |\r\n| Hello  | Hi    |\r\n",
+    "html": "\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>Before</th><th>After</th></tr></thead><tbody><tr><td>Hello</td><td>Hi</td></tr></tbody></table>"
+  },
+  "_id": "notes/test-note.md",
+  "_raw": {
+    "sourceFilePath": "notes/test-note.md",
+    "sourceFileName": "test-note.md",
+    "sourceFileDir": "notes",
+    "contentType": "markdown",
+    "flattenedPath": "notes/test-note"
+  },
+  "type": "Note",
+  "id": "test-note"
+}

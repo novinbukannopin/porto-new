@@ -1,0 +1,1344 @@
+{
+  "cacheItemsMap": {
+    "notes/app-folder-structure.md": {
+      "document": {
+        "title": "App Folder Structure",
+        "description": "How I usually structure my app folder",
+        "published": true,
+        "date": "2022-10-22",
+        "tags": [
+          "app",
+          "foldering",
+          "structure\r"
+        ],
+        "body": {
+          "raw": "\r\n## Folder Structure\r\n\r\n```bash\r\n- src\r\n  - app/pages/routes\r\n  - lib\r\n    - components\r\n      - ui/shared\r\n      - [domain/feature]\r\n    - constants\r\n    - hooks\r\n    - layouts\r\n    - services/repository\r\n    - stores\r\n    - styles\r\n    - types/models\r\n    - utils\r\n```\r\n\r\n### lib\r\n\r\n`lib` is where all the application building block lives. I like to separate building blocks from framework specific folders (app / pages).\r\n\r\n#### components\r\n\r\n`components` is where the UI building block lives. Sometimes I separate it further into shared and scope specific.\r\n\r\n#### constants\r\n\r\nall reusable or root level constants are maintained through this folder.\r\n\r\n#### hooks\r\n\r\n`hooks` is where I put reusable or page specific hooks. Sometimes I put it inside `hooks` folder, sometimes I put it under `components` if the hook is component specific.\r\n\r\n#### layouts\r\n\r\nwhere I put the app root or reusable layouts / page wrappers.\r\n\r\n#### services\r\n\r\nwhere I put services code (data fetching, API / third party integrations, etc). Sometimes I name the folder `repository`\r\n\r\n#### stores\r\n\r\nwhere I maintain global stores\r\n\r\n#### styles\r\n\r\nwhere I put root / global level styling / theme files.\r\n\r\n#### types\r\n\r\nwhere I maintain global / shared typings / schemas used across the app. Sometimes I name this folder `models`\r\n\r\n#### utils\r\n\r\nwhere I put all reusable utilities.\r\n",
+          "html": "<h2>Folder Structure</h2>\n<pre><code class=\"language-bash\">- src\r\n  - app/pages/routes\r\n  - lib\r\n    - components\r\n      - ui/shared\r\n      - [domain/feature]\r\n    - constants\r\n    - hooks\r\n    - layouts\r\n    - services/repository\r\n    - stores\r\n    - styles\r\n    - types/models\r\n    - utils\n</code></pre>\n<h3>lib</h3>\n<p><code>lib</code> is where all the application building block lives. I like to separate building blocks from framework specific folders (app / pages).</p>\n<h4>components</h4>\n<p><code>components</code> is where the UI building block lives. Sometimes I separate it further into shared and scope specific.</p>\n<h4>constants</h4>\n<p>all reusable or root level constants are maintained through this folder.</p>\n<h4>hooks</h4>\n<p><code>hooks</code> is where I put reusable or page specific hooks. Sometimes I put it inside <code>hooks</code> folder, sometimes I put it under <code>components</code> if the hook is component specific.</p>\n<h4>layouts</h4>\n<p>where I put the app root or reusable layouts / page wrappers.</p>\n<h4>services</h4>\n<p>where I put services code (data fetching, API / third party integrations, etc). Sometimes I name the folder <code>repository</code></p>\n<h4>stores</h4>\n<p>where I maintain global stores</p>\n<h4>styles</h4>\n<p>where I put root / global level styling / theme files.</p>\n<h4>types</h4>\n<p>where I maintain global / shared typings / schemas used across the app. Sometimes I name this folder <code>models</code></p>\n<h4>utils</h4>\n<p>where I put all reusable utilities.</p>"
+        },
+        "_id": "notes/app-folder-structure.md",
+        "_raw": {
+          "sourceFilePath": "notes/app-folder-structure.md",
+          "sourceFileName": "app-folder-structure.md",
+          "sourceFileDir": "notes",
+          "contentType": "markdown",
+          "flattenedPath": "notes/app-folder-structure"
+        },
+        "type": "Note",
+        "id": "app-folder-structure"
+      },
+      "documentHash": "1692683624352",
+      "hasWarnings": false,
+      "documentTypeName": "Note"
+    },
+    "notes/custom-scroll-bar.md": {
+      "document": {
+        "title": "Custom Scrollbar",
+        "description": "define your own custom scroll bar",
+        "published": true,
+        "date": "2022-07-22",
+        "tags": [
+          "css",
+          "chakra-ui\r"
+        ],
+        "body": {
+          "raw": "\r\n## CSS\r\n\r\n```css\r\n::-webkit-scrollbar {\r\n  width: 0.75rem;\r\n  height: 0.75rem;\r\n  background-color: blue;\r\n}\r\n\r\n::-webkit-scrollbar-thumb {\r\n  border-radius: 20px;\r\n  background-color: gray;\r\n}\r\n\r\n/** firefox **/\r\nhtml {\r\n  scrollbar-width: thin;\r\n  scrollbar-color: blue;\r\n}\r\n```\r\n\r\n## References\r\n\r\n- MDN\r\n  - [https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar#browser_compatibility](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar#browser_compatibility)\r\n  - [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars#browser_compatibility](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars#browser_compatibility)\r\n- W3Schools: [https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp)\r\n- [sznm.dev](http://sznm.dev) - chakra-ui implementation\r\n  - [https://github.com/sozonome/sznm.dev/commit/f967221e40c7d680eb25ca4944ede4f5def2b628](https://github.com/sozonome/sznm.dev/commit/f967221e40c7d680eb25ca4944ede4f5def2b628)\r\n  - [https://github.com/sozonome/sznm.dev/commit/76c3ce6895b6de5b0a0d4195378cf68cde269054](https://github.com/sozonome/sznm.dev/commit/76c3ce6895b6de5b0a0d4195378cf68cde269054)\r\n",
+          "html": "<h2>CSS</h2>\n<pre><code class=\"language-css\">::-webkit-scrollbar {\r\n  width: 0.75rem;\r\n  height: 0.75rem;\r\n  background-color: blue;\r\n}\r\n\r\n::-webkit-scrollbar-thumb {\r\n  border-radius: 20px;\r\n  background-color: gray;\r\n}\r\n\r\n/** firefox **/\r\nhtml {\r\n  scrollbar-width: thin;\r\n  scrollbar-color: blue;\r\n}\n</code></pre>\n<h2>References</h2>\n<ul>\n<li>MDN\n<ul>\n<li><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar#browser_compatibility\">https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar#browser_compatibility</a></li>\n<li><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars#browser_compatibility\">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars#browser_compatibility</a></li>\n</ul>\n</li>\n<li>W3Schools: <a href=\"https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp\">https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp</a></li>\n<li><a href=\"http://sznm.dev\">sznm.dev</a> - chakra-ui implementation\n<ul>\n<li><a href=\"https://github.com/sozonome/sznm.dev/commit/f967221e40c7d680eb25ca4944ede4f5def2b628\">https://github.com/sozonome/sznm.dev/commit/f967221e40c7d680eb25ca4944ede4f5def2b628</a></li>\n<li><a href=\"https://github.com/sozonome/sznm.dev/commit/76c3ce6895b6de5b0a0d4195378cf68cde269054\">https://github.com/sozonome/sznm.dev/commit/76c3ce6895b6de5b0a0d4195378cf68cde269054</a></li>\n</ul>\n</li>\n</ul>"
+        },
+        "_id": "notes/custom-scroll-bar.md",
+        "_raw": {
+          "sourceFilePath": "notes/custom-scroll-bar.md",
+          "sourceFileName": "custom-scroll-bar.md",
+          "sourceFileDir": "notes",
+          "contentType": "markdown",
+          "flattenedPath": "notes/custom-scroll-bar"
+        },
+        "type": "Note",
+        "id": "custom-scroll-bar"
+      },
+      "documentHash": "1692683624353",
+      "hasWarnings": false,
+      "documentTypeName": "Note"
+    },
+    "notes/data-fetching.md": {
+      "document": {
+        "title": "Data Fetching",
+        "description": "Fetch data with ease",
+        "published": true,
+        "date": "2022-10-24",
+        "tags": [
+          "http-client",
+          "data-fetching\r"
+        ],
+        "body": {
+          "raw": "\r\n## Fetcher Utility\r\n\r\n> install [axios](https://axios-http.com/)\r\n\r\n```bash\r\npnpm add axios\r\n```\r\n\r\n> add fetcher utility for GET\r\n\r\n```ts\r\nimport axios from \"axios\";\r\n\r\ntype FetcherArgs = {\r\n  url: string;\r\n  params?: any;\r\n};\r\n\r\nexport const fetcher = <ResType>({ url, params }: FetcherArgs) =>\r\n  axios.get<ResType>(url, { params }).then((res) => res.data);\r\n```\r\n\r\n## Data Hook with SWR\r\n\r\n> install [SWR](https://swr.vercel.app)\r\n\r\n```bash\r\npnpm add swr\r\n```\r\n\r\n> add swr hook utility\r\n\r\n```ts\r\nimport useSWR from \"swr\";\r\n\r\ntype UseAppSWRArgs<ResType> = {\r\n  url: string;\r\n  params?: any;\r\n  fallbackData?: ResType;\r\n  isReady?: boolean;\r\n};\r\n\r\nexport const useAppSWR = <ResType, ErrorType = any>({\r\n  url,\r\n  params,\r\n  fallbackData,\r\n  isReady = true,\r\n}: UseAppSWRArgs<ResType>) => {\r\n  const { data, error, mutate } = useSWR<ResType, ErrorType>(\r\n    isReady ? { url, params } : null,\r\n    fetcher,\r\n    {\r\n      fallbackData,\r\n    }\r\n  );\r\n\r\n  return {\r\n    data,\r\n    isLoading: !error && !data && isReady,\r\n    isError: error,\r\n    mutate,\r\n  };\r\n};\r\n```\r\n\r\n> add data hook\r\n\r\n```ts\r\n// useMovieData.ts\r\nexport const useMovieData = (params?: any) =>\r\n  useAppSWR({\r\n    url: \"https://some-api-url.com/api/movies\",\r\n    params,\r\n  });\r\n```\r\n\r\n> call the data hook in the component\r\n\r\n```tsx\r\n// SomeComponent.tsx\r\n\r\nconst SomeComponent = () => {\r\n  const { data, isLoading } = useMovieData();\r\n\r\n  if (isLoading) {\r\n    return <p>Loading...</p>;\r\n  }\r\n\r\n  return (\r\n    <div>\r\n      {data.results.map((item) => (\r\n        <p>{item.title}</p>\r\n      ))}\r\n    </div>\r\n  );\r\n};\r\n```\r\n",
+          "html": "<h2>Fetcher Utility</h2>\n<blockquote>\n<p>install <a href=\"https://axios-http.com/\">axios</a></p>\n</blockquote>\n<pre><code class=\"language-bash\">pnpm add axios\n</code></pre>\n<blockquote>\n<p>add fetcher utility for GET</p>\n</blockquote>\n<pre><code class=\"language-ts\">import axios from \"axios\";\r\n\r\ntype FetcherArgs = {\r\n  url: string;\r\n  params?: any;\r\n};\r\n\r\nexport const fetcher = &#x3C;ResType>({ url, params }: FetcherArgs) =>\r\n  axios.get&#x3C;ResType>(url, { params }).then((res) => res.data);\n</code></pre>\n<h2>Data Hook with SWR</h2>\n<blockquote>\n<p>install <a href=\"https://swr.vercel.app\">SWR</a></p>\n</blockquote>\n<pre><code class=\"language-bash\">pnpm add swr\n</code></pre>\n<blockquote>\n<p>add swr hook utility</p>\n</blockquote>\n<pre><code class=\"language-ts\">import useSWR from \"swr\";\r\n\r\ntype UseAppSWRArgs&#x3C;ResType> = {\r\n  url: string;\r\n  params?: any;\r\n  fallbackData?: ResType;\r\n  isReady?: boolean;\r\n};\r\n\r\nexport const useAppSWR = &#x3C;ResType, ErrorType = any>({\r\n  url,\r\n  params,\r\n  fallbackData,\r\n  isReady = true,\r\n}: UseAppSWRArgs&#x3C;ResType>) => {\r\n  const { data, error, mutate } = useSWR&#x3C;ResType, ErrorType>(\r\n    isReady ? { url, params } : null,\r\n    fetcher,\r\n    {\r\n      fallbackData,\r\n    }\r\n  );\r\n\r\n  return {\r\n    data,\r\n    isLoading: !error &#x26;&#x26; !data &#x26;&#x26; isReady,\r\n    isError: error,\r\n    mutate,\r\n  };\r\n};\n</code></pre>\n<blockquote>\n<p>add data hook</p>\n</blockquote>\n<pre><code class=\"language-ts\">// useMovieData.ts\r\nexport const useMovieData = (params?: any) =>\r\n  useAppSWR({\r\n    url: \"https://some-api-url.com/api/movies\",\r\n    params,\r\n  });\n</code></pre>\n<blockquote>\n<p>call the data hook in the component</p>\n</blockquote>\n<pre><code class=\"language-tsx\">// SomeComponent.tsx\r\n\r\nconst SomeComponent = () => {\r\n  const { data, isLoading } = useMovieData();\r\n\r\n  if (isLoading) {\r\n    return &#x3C;p>Loading...&#x3C;/p>;\r\n  }\r\n\r\n  return (\r\n    &#x3C;div>\r\n      {data.results.map((item) => (\r\n        &#x3C;p>{item.title}&#x3C;/p>\r\n      ))}\r\n    &#x3C;/div>\r\n  );\r\n};\n</code></pre>"
+        },
+        "_id": "notes/data-fetching.md",
+        "_raw": {
+          "sourceFilePath": "notes/data-fetching.md",
+          "sourceFileName": "data-fetching.md",
+          "sourceFileDir": "notes",
+          "contentType": "markdown",
+          "flattenedPath": "notes/data-fetching"
+        },
+        "type": "Note",
+        "id": "data-fetching"
+      },
+      "documentHash": "1692683624355",
+      "hasWarnings": false,
+      "documentTypeName": "Note"
+    },
+    "notes/desktop-apps-tools.md": {
+      "document": {
+        "title": "Desktop Apps or Tools I Use",
+        "description": "some apps / tools I usually use",
+        "published": true,
+        "date": "2023-08-18",
+        "tags": [
+          "apps",
+          "tools",
+          "mac",
+          "windows\r"
+        ],
+        "body": {
+          "raw": "\r\n## Mac and Windows\r\n\r\n- [**VS Code**](https://code.visualstudio.com/): My favorite Code Editor\r\n- [**HandBrake**](https://handbrake.fr/): Open source video transcoder, mainly use it for converting and/or compressing video files\r\n- [**scrcpy**](https://github.com/Genymobile/scrcpy): Enables us to screencast our android devices to the computer and control the device directly. Just connect through USB / TCP over IP.\r\n- [**Termius**](https://www.termius.com/): SSH client and terminal\r\n\r\n## Mac Only\r\n\r\n- [**Warp**](https://sznm.link/warp-terminal): Rust based smart terminal\r\n- [**Rectangle**](https://rectangleapp.com/): for someone who used to Windows's window snapping behavior, this one is for similar experience in Mac.\r\n- [**KeyCastr**](https://github.com/keycastr/keycastr): open source keystroke visualizer.\r\n- [**MonitorControl**](https://monitorcontrol.app/): control external display brightness and volume easily.\r\n- [**App Cleaner**](https://freemacsoft.net/appcleaner/): mac uninstall tool, just drag the app to be uninstalled and it will find related files to the app that also could be deleted.\r\n- [**Coconut Battery**](https://www.coconut-flavour.com/coconutbattery/): monitor mac battery health.\r\n- [**Zed**](https://zed.dev/): performant code editor by Atom creators.\r\n\r\n## Windows Only\r\n\r\n- [**ShareX**](https://getsharex.com/): all in one screen capture, productivity, etc tool\r\n",
+          "html": "<h2>Mac and Windows</h2>\n<ul>\n<li><a href=\"https://code.visualstudio.com/\"><strong>VS Code</strong></a>: My favorite Code Editor</li>\n<li><a href=\"https://handbrake.fr/\"><strong>HandBrake</strong></a>: Open source video transcoder, mainly use it for converting and/or compressing video files</li>\n<li><a href=\"https://github.com/Genymobile/scrcpy\"><strong>scrcpy</strong></a>: Enables us to screencast our android devices to the computer and control the device directly. Just connect through USB / TCP over IP.</li>\n<li><a href=\"https://www.termius.com/\"><strong>Termius</strong></a>: SSH client and terminal</li>\n</ul>\n<h2>Mac Only</h2>\n<ul>\n<li><a href=\"https://sznm.link/warp-terminal\"><strong>Warp</strong></a>: Rust based smart terminal</li>\n<li><a href=\"https://rectangleapp.com/\"><strong>Rectangle</strong></a>: for someone who used to Windows's window snapping behavior, this one is for similar experience in Mac.</li>\n<li><a href=\"https://github.com/keycastr/keycastr\"><strong>KeyCastr</strong></a>: open source keystroke visualizer.</li>\n<li><a href=\"https://monitorcontrol.app/\"><strong>MonitorControl</strong></a>: control external display brightness and volume easily.</li>\n<li><a href=\"https://freemacsoft.net/appcleaner/\"><strong>App Cleaner</strong></a>: mac uninstall tool, just drag the app to be uninstalled and it will find related files to the app that also could be deleted.</li>\n<li><a href=\"https://www.coconut-flavour.com/coconutbattery/\"><strong>Coconut Battery</strong></a>: monitor mac battery health.</li>\n<li><a href=\"https://zed.dev/\"><strong>Zed</strong></a>: performant code editor by Atom creators.</li>\n</ul>\n<h2>Windows Only</h2>\n<ul>\n<li><a href=\"https://getsharex.com/\"><strong>ShareX</strong></a>: all in one screen capture, productivity, etc tool</li>\n</ul>"
+        },
+        "_id": "notes/desktop-apps-tools.md",
+        "_raw": {
+          "sourceFilePath": "notes/desktop-apps-tools.md",
+          "sourceFileName": "desktop-apps-tools.md",
+          "sourceFileDir": "notes",
+          "contentType": "markdown",
+          "flattenedPath": "notes/desktop-apps-tools"
+        },
+        "type": "Note",
+        "id": "desktop-apps-tools"
+      },
+      "documentHash": "1692683624356",
+      "hasWarnings": false,
+      "documentTypeName": "Note"
+    },
+    "notes/force-lodash-modules-import.md": {
+      "document": {
+        "title": "Force Lodash Import Scope",
+        "description": "How to enforce lodash import scope",
+        "published": true,
+        "date": "2023-06-30",
+        "tags": [
+          "lodash",
+          "eslint\r"
+        ],
+        "body": {
+          "raw": "\r\n## Importing Lodash\r\n\r\nThere are multiple ways to import lodash utilities.\r\n\r\n```ts\r\n// whole import\r\nimport _ from 'lodash';\r\n// _.debounce();\r\n\r\n// curly bracket / named import\r\nimport { debounce } from 'lodash';\r\n\r\n// one-by-one / modules / single method import\r\nimport debounce from 'lodash/debounce';\r\n```\r\n\r\nOne of the recommended way to import it is `one-by-one` or modules or `single method` import as it will produces smallest bundle size.\r\n\r\n## Enforce Lodash Import Method\r\n\r\nHow about if our project is:\r\n\r\n1. maintained by multiple people, or\r\n2. we have various parts in our code which utilize lodash\r\n\r\nand we want to enforce specific way to import lodash methods?\r\n\r\nWe can use eslint and there's an eslint plugin for it: [`eslint-plugin-lodash`](https://www.npmjs.com/package/eslint-plugin-lodash). This plugin has a rule named `import-scope`. Here's how to configure it:\r\n\r\n```bash\r\npnpm i -D eslint eslint-plugin-lodash\r\n```\r\n\r\n```js\r\n// .eslintrc.js\r\n/** @type {import('eslint').Linter.Config} */\r\nmodule.exports = {\r\n  plugins: ['lodash'],\r\n  rules: {\r\n    'lodash/import-scope': [\r\n      'error',\r\n      'method' /** 'method' | 'member' | 'full' | 'method-package' */,\r\n    ],\r\n  },\r\n};\r\n```\r\n\r\nWith this configuration, eslint will warns us when we import lodash methods using other than the preferred import scope.\r\n\r\n### References:\r\n\r\n- https://www.blazemeter.com/blog/import-lodash-libraries\r\n- https://github.com/wix-incubator/eslint-plugin-lodash/blob/master/docs/rules/import-scope.md\r\n",
+          "html": "<h2>Importing Lodash</h2>\n<p>There are multiple ways to import lodash utilities.</p>\n<pre><code class=\"language-ts\">// whole import\r\nimport _ from 'lodash';\r\n// _.debounce();\r\n\r\n// curly bracket / named import\r\nimport { debounce } from 'lodash';\r\n\r\n// one-by-one / modules / single method import\r\nimport debounce from 'lodash/debounce';\n</code></pre>\n<p>One of the recommended way to import it is <code>one-by-one</code> or modules or <code>single method</code> import as it will produces smallest bundle size.</p>\n<h2>Enforce Lodash Import Method</h2>\n<p>How about if our project is:</p>\n<ol>\n<li>maintained by multiple people, or</li>\n<li>we have various parts in our code which utilize lodash</li>\n</ol>\n<p>and we want to enforce specific way to import lodash methods?</p>\n<p>We can use eslint and there's an eslint plugin for it: <a href=\"https://www.npmjs.com/package/eslint-plugin-lodash\"><code>eslint-plugin-lodash</code></a>. This plugin has a rule named <code>import-scope</code>. Here's how to configure it:</p>\n<pre><code class=\"language-bash\">pnpm i -D eslint eslint-plugin-lodash\n</code></pre>\n<pre><code class=\"language-js\">// .eslintrc.js\r\n/** @type {import('eslint').Linter.Config} */\r\nmodule.exports = {\r\n  plugins: ['lodash'],\r\n  rules: {\r\n    'lodash/import-scope': [\r\n      'error',\r\n      'method' /** 'method' | 'member' | 'full' | 'method-package' */,\r\n    ],\r\n  },\r\n};\n</code></pre>\n<p>With this configuration, eslint will warns us when we import lodash methods using other than the preferred import scope.</p>\n<h3>References:</h3>\n<ul>\n<li><a href=\"https://www.blazemeter.com/blog/import-lodash-libraries\">https://www.blazemeter.com/blog/import-lodash-libraries</a></li>\n<li><a href=\"https://github.com/wix-incubator/eslint-plugin-lodash/blob/master/docs/rules/import-scope.md\">https://github.com/wix-incubator/eslint-plugin-lodash/blob/master/docs/rules/import-scope.md</a></li>\n</ul>"
+        },
+        "_id": "notes/force-lodash-modules-import.md",
+        "_raw": {
+          "sourceFilePath": "notes/force-lodash-modules-import.md",
+          "sourceFileName": "force-lodash-modules-import.md",
+          "sourceFileDir": "notes",
+          "contentType": "markdown",
+          "flattenedPath": "notes/force-lodash-modules-import"
+        },
+        "type": "Note",
+        "id": "force-lodash-modules-import"
+      },
+      "documentHash": "1692683624357",
+      "hasWarnings": false,
+      "documentTypeName": "Note"
+    },
+    "notes/overflow-scroll-without-scrollbar.md": {
+      "document": {
+        "title": "Overflow Scroll without Scrollbar",
+        "description": "for sleek overflow scroll in mobile viewport",
+        "published": true,
+        "date": "2022-07-22",
+        "tags": [
+          "css",
+          "chakra-ui\r"
+        ],
+        "body": {
+          "raw": "\r\n## CSS\r\n\r\n```css\r\n.some-component {\r\n  overflow-x: scroll; /* or overflow-y */\r\n}\r\n\r\n.some-component::-webkit-scrollbar {\r\n  display: none;\r\n}\r\n```\r\n\r\n## Chakra-UI\r\n\r\n```jsx\r\n<Flex overflow=\"scroll\" css={{ \"&::-webkit-scrollbar\": { display: \"none\" } }}>\r\n  ...some children\r\n</Flex>\r\n```\r\n\r\n## References\r\n\r\n- [https://stackoverflow.com/questions/65042380/how-to-add-webkit-scrollbar-pseudo-element-in-chakra-ui-element-react](https://stackoverflow.com/questions/65042380/how-to-add-webkit-scrollbar-pseudo-element-in-chakra-ui-element-react)\r\n",
+          "html": "<h2>CSS</h2>\n<pre><code class=\"language-css\">.some-component {\r\n  overflow-x: scroll; /* or overflow-y */\r\n}\r\n\r\n.some-component::-webkit-scrollbar {\r\n  display: none;\r\n}\n</code></pre>\n<h2>Chakra-UI</h2>\n<pre><code class=\"language-jsx\">&#x3C;Flex overflow=\"scroll\" css={{ \"&#x26;::-webkit-scrollbar\": { display: \"none\" } }}>\r\n  ...some children\r\n&#x3C;/Flex>\n</code></pre>\n<h2>References</h2>\n<ul>\n<li><a href=\"https://stackoverflow.com/questions/65042380/how-to-add-webkit-scrollbar-pseudo-element-in-chakra-ui-element-react\">https://stackoverflow.com/questions/65042380/how-to-add-webkit-scrollbar-pseudo-element-in-chakra-ui-element-react</a></li>\n</ul>"
+        },
+        "_id": "notes/overflow-scroll-without-scrollbar.md",
+        "_raw": {
+          "sourceFilePath": "notes/overflow-scroll-without-scrollbar.md",
+          "sourceFileName": "overflow-scroll-without-scrollbar.md",
+          "sourceFileDir": "notes",
+          "contentType": "markdown",
+          "flattenedPath": "notes/overflow-scroll-without-scrollbar"
+        },
+        "type": "Note",
+        "id": "overflow-scroll-without-scrollbar"
+      },
+      "documentHash": "1692683624359",
+      "hasWarnings": false,
+      "documentTypeName": "Note"
+    },
+    "notes/show-installed-global-node-deps.md": {
+      "document": {
+        "title": "Show Installed Global Node Deps",
+        "description": "How to show installed global npm / yarn / pnpm dependencies",
+        "published": true,
+        "date": "2023-02-10",
+        "tags": [
+          "node",
+          "pnpm",
+          "npm",
+          "yarn\r"
+        ],
+        "body": {
+          "raw": "\r\nTo check node dependencies which are installed globally.\r\n\r\n## pnpm\r\n\r\n```bash\r\npnpm list -g --depth 0\r\n```\r\n\r\nreferences:\r\n\r\n- https://pnpm.io/pnpm-cli\r\n- https://pnpm.io/cli/list#--global--g\r\n\r\n## npm\r\n\r\n```bash\r\nnpm list -g --depth=0\r\n```\r\n\r\nreferences: https://docs.npmjs.com/cli/v9/commands/npm-ls#global\r\n\r\n## Yarn\r\n\r\n```bash\r\nyarn global list\r\n```\r\n\r\nreferences: https://classic.yarnpkg.com/en/docs/cli/global\r\n",
+          "html": "<p>To check node dependencies which are installed globally.</p>\n<h2>pnpm</h2>\n<pre><code class=\"language-bash\">pnpm list -g --depth 0\n</code></pre>\n<p>references:</p>\n<ul>\n<li><a href=\"https://pnpm.io/pnpm-cli\">https://pnpm.io/pnpm-cli</a></li>\n<li><a href=\"https://pnpm.io/cli/list#--global--g\">https://pnpm.io/cli/list#--global--g</a></li>\n</ul>\n<h2>npm</h2>\n<pre><code class=\"language-bash\">npm list -g --depth=0\n</code></pre>\n<p>references: <a href=\"https://docs.npmjs.com/cli/v9/commands/npm-ls#global\">https://docs.npmjs.com/cli/v9/commands/npm-ls#global</a></p>\n<h2>Yarn</h2>\n<pre><code class=\"language-bash\">yarn global list\n</code></pre>\n<p>references: <a href=\"https://classic.yarnpkg.com/en/docs/cli/global\">https://classic.yarnpkg.com/en/docs/cli/global</a></p>"
+        },
+        "_id": "notes/show-installed-global-node-deps.md",
+        "_raw": {
+          "sourceFilePath": "notes/show-installed-global-node-deps.md",
+          "sourceFileName": "show-installed-global-node-deps.md",
+          "sourceFileDir": "notes",
+          "contentType": "markdown",
+          "flattenedPath": "notes/show-installed-global-node-deps"
+        },
+        "type": "Note",
+        "id": "show-installed-global-node-deps"
+      },
+      "documentHash": "1692683624361",
+      "hasWarnings": false,
+      "documentTypeName": "Note"
+    },
+    "notes/test-note.md": {
+      "document": {
+        "title": "Test Notes",
+        "description": "testing",
+        "published": false,
+        "date": "2023-08-02",
+        "tags": [
+          "test\r"
+        ],
+        "body": {
+          "raw": "\r\n<iframe width=\"100%\" style=\"aspect-ratio: 16/9; border-radius: 24px\" src=\"https://www.youtube.com/embed/8pDqJVdNa44\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\r\n\r\n| Before | After |\r\n| ------ | ----- |\r\n| Hello  | Hi    |\r\n",
+          "html": "\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>Before</th><th>After</th></tr></thead><tbody><tr><td>Hello</td><td>Hi</td></tr></tbody></table>"
+        },
+        "_id": "notes/test-note.md",
+        "_raw": {
+          "sourceFilePath": "notes/test-note.md",
+          "sourceFileName": "test-note.md",
+          "sourceFileDir": "notes",
+          "contentType": "markdown",
+          "flattenedPath": "notes/test-note"
+        },
+        "type": "Note",
+        "id": "test-note"
+      },
+      "documentHash": "1692683624363",
+      "hasWarnings": false,
+      "documentTypeName": "Note"
+    },
+    "posts/2019-recap.md": {
+      "document": {
+        "title": "2019 Recap",
+        "date": "2019-12-31",
+        "cover": "https://images.unsplash.com/photo-1549978907-5493b27b19c7?auto=format&q=80",
+        "thumbnail": "📘",
+        "legacyID": "2019-12-31-2019-recap",
+        "published": true,
+        "tags": [
+          "recap\r"
+        ],
+        "readTime": {
+          "text": "2 min read",
+          "minutes": 1.485,
+          "time": 89100,
+          "words": 297
+        },
+        "body": {
+          "raw": "\r\nI spent most of my time in 2019 at college, trying to finish all my university courses by the end of 7th semester so I can focus on Thesis / Final Project at the final semester (8th semester). Planning to graduate in 2020. So...not really much happened in this year, but I learned so much in terms of mobile application and web development. How to build an Android App and got my hands on React framework for the first-time in this year.\r\n\r\n## What I learned in 2019\r\n\r\n- Java and XML - How to build Native Android apps using Android Studio.\r\n- REST API - How to fetch data and display it with recycler view in Android app\r\n- PHP - how to program a website with PHP, MVC.\r\n- How to setup a website using database with PHP, laragon, and MySQL\r\n- CodeIgniter - how to use CodeIgniter to build website.\r\n- How to deploy PHP sites with its database to cPanel hosting.\r\n- How to setup arcanist in Linux Ubuntu.\r\n- How to use Git for managing personal and team projects.\r\n- TypeScript - how to use it, what is the importance of strong typing, and how to compile it into JS\r\n- React - how to build an app using React with CRA.\r\n- GraphQL - what is it and how is it used\r\n- Apollo - how to implement apollo as a client for GraphQL\r\n- GatsbyJS - how to build a site with Gatsby\r\n- Ionic - how to build hybrid apps and how does it different from native apps.\r\n- Angular2+ - forced to learn this framework because learning Ionic Angular and luckily I've learned TypeScript.\r\n- Zeit - found a Netlify alternative and how to deploy site with it.\r\n",
+          "html": "<p>I spent most of my time in 2019 at college, trying to finish all my university courses by the end of 7th semester so I can focus on Thesis / Final Project at the final semester (8th semester). Planning to graduate in 2020. So...not really much happened in this year, but I learned so much in terms of mobile application and web development. How to build an Android App and got my hands on React framework for the first-time in this year.</p>\n<h2>What I learned in 2019</h2>\n<ul>\n<li>Java and XML - How to build Native Android apps using Android Studio.</li>\n<li>REST API - How to fetch data and display it with recycler view in Android app</li>\n<li>PHP - how to program a website with PHP, MVC.</li>\n<li>How to setup a website using database with PHP, laragon, and MySQL</li>\n<li>CodeIgniter - how to use CodeIgniter to build website.</li>\n<li>How to deploy PHP sites with its database to cPanel hosting.</li>\n<li>How to setup arcanist in Linux Ubuntu.</li>\n<li>How to use Git for managing personal and team projects.</li>\n<li>TypeScript - how to use it, what is the importance of strong typing, and how to compile it into JS</li>\n<li>React - how to build an app using React with CRA.</li>\n<li>GraphQL - what is it and how is it used</li>\n<li>Apollo - how to implement apollo as a client for GraphQL</li>\n<li>GatsbyJS - how to build a site with Gatsby</li>\n<li>Ionic - how to build hybrid apps and how does it different from native apps.</li>\n<li>Angular2+ - forced to learn this framework because learning Ionic Angular and luckily I've learned TypeScript.</li>\n<li>Zeit - found a Netlify alternative and how to deploy site with it.</li>\n</ul>"
+        },
+        "_id": "posts/2019-recap.md",
+        "_raw": {
+          "sourceFilePath": "posts/2019-recap.md",
+          "sourceFileName": "2019-recap.md",
+          "sourceFileDir": "posts",
+          "contentType": "markdown",
+          "flattenedPath": "posts/2019-recap"
+        },
+        "type": "Blog",
+        "id": "2019-recap"
+      },
+      "documentHash": "1692683624366",
+      "hasWarnings": false,
+      "documentTypeName": "Blog"
+    },
+    "posts/2020-recap.md": {
+      "document": {
+        "title": "2020 Recap",
+        "date": "2020-12-31",
+        "cover": "https://images.unsplash.com/photo-1600066975936-ecc81000c8b6?auto=format&q=80",
+        "thumbnail": "📘",
+        "legacyID": "2020-12-31-2020-recap",
+        "published": true,
+        "tags": [
+          "recap\r"
+        ],
+        "readTime": {
+          "text": "6 min read",
+          "minutes": 5.075,
+          "time": 304500,
+          "words": 1015
+        },
+        "body": {
+          "raw": "\r\nI think most would say 2020 is a roller coaster year. Even though, 2020 is one of a hella ride and worth for me to be remembered. I've made a quick recap in **[2019](https://sznm.dev/blog/2019-recap)** before. So let's review what I've been up to in 2020.\r\n\r\n## What I Learned and Discovered Throughout the Year\r\n\r\n### Instagram Filter Creation\r\n\r\nI love to edit photos and playing around with colors. Then I learn how to make my own Instagram filter. Turned out facebook provides a tool dedicated for that called Spark AR Studio. You can make literally almost anything starting from a color filter, games, quizzes, anything you can think of when playing around with AR. I just want to edit colors so I just go with color filter. Making a color filter is quite simple, you only have to create a LUT, import it to your Spark AR projects as a layer, export it, and upload it to Spark AR and connect it with your instagram account. Check out some filter I made [here](https://www.instagram.com/agustinusnathaniel/).\r\n\r\n### React Hooks and Context\r\n\r\nReact hooks been around but I've never learn or use it until I finally get my hands on it when building  an app as part of my undergraduate thesis. I used to stick with Classful Components and use redux (just in desperate moments), but learning hooks and context helps me to switch fully to Functional Components.\r\n\r\n### TailwindCSS\r\n\r\n2019 was a year where I finally get my hands on React and started to re-learn GatsbyJS (I tried to learn Gatsby before touching React at 2018 and it was a disaster idea). It was a really fun journey. But there's something I've been wanting to try but never accomplished at 2019....TailwindCSS. So, at 2020 I finally get my hands on it and it was really different than other styling frameworks I've ever used before (Bootstrap, Bulma, SemanticUI). I use it to rebuild my first personal site (agustinusnathaniel.com). But around the end of 2020 I re-write it again using Chakra-UI.\r\n\r\n### Svelte\r\n\r\nI heard svelte often but never tried it until I stumble upon Rich Harris's video when he explain about reactivity. His explanation is really great and quite eye-opening for me who mainly develop using React. So I tried it, made some little projects with it and I like how straightforward it is. I'd recommend using svelte if you are looking for a powerful javascript libraries like react or vue (framework) but with an easier learning curve. I'd love to see Svelte's development over the next years. But not long after that I also got my hands on Next.js.\r\n\r\n### Next.js\r\n\r\nI learn Next.js and implement it in some of my projects. I used to avoid learning and using Next.js because I haven't understand SSR properly yet. I thought Next.js is only used for SSR projects. Then I found out Next.js support both static site generation and server side rendering since version 9.3 and I got my hands on it for the first time not so long after version 9.4 released. Since then, Next.js has been my go-to react framework for most of my projects.\r\n\r\n### Chakra UI\r\n\r\nI tried several design system or component libraries this year: Fluent UI, Carbon, Material UI, and Chakra UI. After trying out and play around with those design systems, I found out Chakra UI suits my needs the best. It's easy to be configured, easy to use, and it has color mode styling and management built in. After some time, I made a template with Next.js, Chakra UI, and TypeScript pre-configured and has been my go-to template to initiate most of my recent projects.\r\n\r\n## Projects I Worked on in 2020\r\n\r\nmost of the projects are just a little side projects for me to try implement some simple ideas or learning something.\r\n\r\n### 1. Personal Site Revamp\r\n\r\nI re-write my personal site [agustinusnathaniel.com](https://agustinusnathaniel.com) using TailwindCSS and add blog section. At the end of the year I replace the TailwindCSS usage with Chakra UI.\r\n\r\n### 2. Le-Cook\r\n\r\nAn [app](https://le-cook.sznm.dev) to find food recipe, powered by RecipePuppy API\r\n\r\n### 3. Covid-19 Data\r\n\r\n[Monitor Covid-19 statistics](https://covid19.sznm.dev), powered by @mathdroid's Covid-19 API, @ariya's Dekontaminasi API, and @Reynaldi531's api-covid19-indonesia v2. First developed using Gatsby, then re-wrote it with Next.js and Chakra UI.\r\n\r\n### 4. Advice Generator\r\n\r\nA random [advice generator](https://advicegen.sznm.dev) powered by Advice Slip JSON API, written using Svelte.\r\n\r\n### 5. Insta Profile\r\n\r\nA simple Svelte [app](https://instaprofile.sznm.dev) fetching data from Instagram.\r\n\r\n### 6. sznm.dev\r\n\r\nI make [another personal site](https://sznm.dev) of myself dedicated for dev content, built using Next.js, composed using Chakra UI.\r\n\r\n### 7. KapturaLumina\r\n\r\nBasic Photography Learning Mobile App with Gamification. Built using Ionic, React, and Firebase. Available as [PWA](https://kapturalumina.sznm.dev) and [android](https://play.google.com/store/apps/details?id=dev.sznm.kapturalumina) app. I built it as part of my undergraduate thesis.\r\n\r\n### 8. nextarter-chakra\r\n\r\nA [template](https://nextarter-chakra.sznm.dev/) I made to initialize Next.js projects with TypeScript and Chakra UI setup. Most of my following projects are initalized / generated using this template.\r\n\r\n### 9. Add to Calendar Generator\r\n\r\nA web [app](https://addtocal.sznm.dev) to generate Add to Calendar link (Google Calendar).\r\n\r\n### 10. InstaDLD\r\n\r\nInstagram post media [downloader](https://instadld.sznm.dev) with multipost download supported.\r\n\r\n### 11. Public APIs\r\n\r\nAn [app](https://publicapis.sznm.dev) to find public API for you next projects. Didn't thought it could be the [product of the day](https://www.producthunt.com/posts/public-apis-3) in Product Hunt at 26 Dec 2020. Powered by api.publicapis.org.\r\n\r\n## Some other stuffs worth to mention\r\n\r\n- I graduated from college (finally) 😊😊. Really grateful for everyone who supported me until now, especially my family and friends.\r\n- I started my career as Software Engineer right after I finished my thesis.\r\n\r\nAll in all, I'm glad I can get through 2020 pretty well enough. I never imagined I'd graduate in time, especially when the pandemic situation started to happen and my thesis proposals got rejected several times. Hoping to grow more in 2021 and crafting greater stuffs. Thank you for reading and I hope you are doing well 😄.\r\n\r\nIf you're interested in another version of my review of my journey in 2020, I also published it at [twitter](https://twitter.com/sozonome/status/1345261139358142467) (focused around the projects I made throughout the year).\r\n\r\nMy previous recap: **[2019](https://sznm.dev/blog/2019-recap)**.\r\n",
+          "html": "<p>I think most would say 2020 is a roller coaster year. Even though, 2020 is one of a hella ride and worth for me to be remembered. I've made a quick recap in <strong><a href=\"https://sznm.dev/blog/2019-recap\">2019</a></strong> before. So let's review what I've been up to in 2020.</p>\n<h2>What I Learned and Discovered Throughout the Year</h2>\n<h3>Instagram Filter Creation</h3>\n<p>I love to edit photos and playing around with colors. Then I learn how to make my own Instagram filter. Turned out facebook provides a tool dedicated for that called Spark AR Studio. You can make literally almost anything starting from a color filter, games, quizzes, anything you can think of when playing around with AR. I just want to edit colors so I just go with color filter. Making a color filter is quite simple, you only have to create a LUT, import it to your Spark AR projects as a layer, export it, and upload it to Spark AR and connect it with your instagram account. Check out some filter I made <a href=\"https://www.instagram.com/agustinusnathaniel/\">here</a>.</p>\n<h3>React Hooks and Context</h3>\n<p>React hooks been around but I've never learn or use it until I finally get my hands on it when building  an app as part of my undergraduate thesis. I used to stick with Classful Components and use redux (just in desperate moments), but learning hooks and context helps me to switch fully to Functional Components.</p>\n<h3>TailwindCSS</h3>\n<p>2019 was a year where I finally get my hands on React and started to re-learn GatsbyJS (I tried to learn Gatsby before touching React at 2018 and it was a disaster idea). It was a really fun journey. But there's something I've been wanting to try but never accomplished at 2019....TailwindCSS. So, at 2020 I finally get my hands on it and it was really different than other styling frameworks I've ever used before (Bootstrap, Bulma, SemanticUI). I use it to rebuild my first personal site (agustinusnathaniel.com). But around the end of 2020 I re-write it again using Chakra-UI.</p>\n<h3>Svelte</h3>\n<p>I heard svelte often but never tried it until I stumble upon Rich Harris's video when he explain about reactivity. His explanation is really great and quite eye-opening for me who mainly develop using React. So I tried it, made some little projects with it and I like how straightforward it is. I'd recommend using svelte if you are looking for a powerful javascript libraries like react or vue (framework) but with an easier learning curve. I'd love to see Svelte's development over the next years. But not long after that I also got my hands on Next.js.</p>\n<h3>Next.js</h3>\n<p>I learn Next.js and implement it in some of my projects. I used to avoid learning and using Next.js because I haven't understand SSR properly yet. I thought Next.js is only used for SSR projects. Then I found out Next.js support both static site generation and server side rendering since version 9.3 and I got my hands on it for the first time not so long after version 9.4 released. Since then, Next.js has been my go-to react framework for most of my projects.</p>\n<h3>Chakra UI</h3>\n<p>I tried several design system or component libraries this year: Fluent UI, Carbon, Material UI, and Chakra UI. After trying out and play around with those design systems, I found out Chakra UI suits my needs the best. It's easy to be configured, easy to use, and it has color mode styling and management built in. After some time, I made a template with Next.js, Chakra UI, and TypeScript pre-configured and has been my go-to template to initiate most of my recent projects.</p>\n<h2>Projects I Worked on in 2020</h2>\n<p>most of the projects are just a little side projects for me to try implement some simple ideas or learning something.</p>\n<h3>1. Personal Site Revamp</h3>\n<p>I re-write my personal site <a href=\"https://agustinusnathaniel.com\">agustinusnathaniel.com</a> using TailwindCSS and add blog section. At the end of the year I replace the TailwindCSS usage with Chakra UI.</p>\n<h3>2. Le-Cook</h3>\n<p>An <a href=\"https://le-cook.sznm.dev\">app</a> to find food recipe, powered by RecipePuppy API</p>\n<h3>3. Covid-19 Data</h3>\n<p><a href=\"https://covid19.sznm.dev\">Monitor Covid-19 statistics</a>, powered by @mathdroid's Covid-19 API, @ariya's Dekontaminasi API, and @Reynaldi531's api-covid19-indonesia v2. First developed using Gatsby, then re-wrote it with Next.js and Chakra UI.</p>\n<h3>4. Advice Generator</h3>\n<p>A random <a href=\"https://advicegen.sznm.dev\">advice generator</a> powered by Advice Slip JSON API, written using Svelte.</p>\n<h3>5. Insta Profile</h3>\n<p>A simple Svelte <a href=\"https://instaprofile.sznm.dev\">app</a> fetching data from Instagram.</p>\n<h3>6. sznm.dev</h3>\n<p>I make <a href=\"https://sznm.dev\">another personal site</a> of myself dedicated for dev content, built using Next.js, composed using Chakra UI.</p>\n<h3>7. KapturaLumina</h3>\n<p>Basic Photography Learning Mobile App with Gamification. Built using Ionic, React, and Firebase. Available as <a href=\"https://kapturalumina.sznm.dev\">PWA</a> and <a href=\"https://play.google.com/store/apps/details?id=dev.sznm.kapturalumina\">android</a> app. I built it as part of my undergraduate thesis.</p>\n<h3>8. nextarter-chakra</h3>\n<p>A <a href=\"https://nextarter-chakra.sznm.dev/\">template</a> I made to initialize Next.js projects with TypeScript and Chakra UI setup. Most of my following projects are initalized / generated using this template.</p>\n<h3>9. Add to Calendar Generator</h3>\n<p>A web <a href=\"https://addtocal.sznm.dev\">app</a> to generate Add to Calendar link (Google Calendar).</p>\n<h3>10. InstaDLD</h3>\n<p>Instagram post media <a href=\"https://instadld.sznm.dev\">downloader</a> with multipost download supported.</p>\n<h3>11. Public APIs</h3>\n<p>An <a href=\"https://publicapis.sznm.dev\">app</a> to find public API for you next projects. Didn't thought it could be the <a href=\"https://www.producthunt.com/posts/public-apis-3\">product of the day</a> in Product Hunt at 26 Dec 2020. Powered by api.publicapis.org.</p>\n<h2>Some other stuffs worth to mention</h2>\n<ul>\n<li>I graduated from college (finally) 😊😊. Really grateful for everyone who supported me until now, especially my family and friends.</li>\n<li>I started my career as Software Engineer right after I finished my thesis.</li>\n</ul>\n<p>All in all, I'm glad I can get through 2020 pretty well enough. I never imagined I'd graduate in time, especially when the pandemic situation started to happen and my thesis proposals got rejected several times. Hoping to grow more in 2021 and crafting greater stuffs. Thank you for reading and I hope you are doing well 😄.</p>\n<p>If you're interested in another version of my review of my journey in 2020, I also published it at <a href=\"https://twitter.com/sozonome/status/1345261139358142467\">twitter</a> (focused around the projects I made throughout the year).</p>\n<p>My previous recap: <strong><a href=\"https://sznm.dev/blog/2019-recap\">2019</a></strong>.</p>"
+        },
+        "_id": "posts/2020-recap.md",
+        "_raw": {
+          "sourceFilePath": "posts/2020-recap.md",
+          "sourceFileName": "2020-recap.md",
+          "sourceFileDir": "posts",
+          "contentType": "markdown",
+          "flattenedPath": "posts/2020-recap"
+        },
+        "type": "Blog",
+        "id": "2020-recap"
+      },
+      "documentHash": "1692683624368",
+      "hasWarnings": false,
+      "documentTypeName": "Blog"
+    },
+    "posts/how-to-secure-firebase-project.md": {
+      "document": {
+        "title": "How to Secure Your Firebase Project",
+        "date": "2021-05-13",
+        "cover": "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&q=80",
+        "thumbnail": "🔒",
+        "legacyID": "2021-05-13-how-to-secure-firebase-project",
+        "published": true,
+        "tags": [
+          "security",
+          "firebase\r"
+        ],
+        "readTime": {
+          "text": "3 min read",
+          "minutes": 2.46,
+          "time": 147600,
+          "words": 492
+        },
+        "body": {
+          "raw": "\r\n> disclaimer: This is not by any means to be the best practice guide of using firebase in every project. Every project has its own needs and specifications. This guide may not be suitable with your needs.\r\n\r\nDo you develop apps using Firebase? If so, we should know that our firebase configs will be exposed to the client (especially for web clients). Then what's the deal? Many possibilities can be happened and prevented. So many articles already covers on how to secure our firebase project by using security rules, authentication check, etc. I usually define my security rules using a package named [`@jahed/firebase-rules`](https://www.npmjs.com/package/@jahed/firebase-rules). But how about preventing someone from making their own client and use our exposed firebase configs to do some shady stuffs towards our realtime database?\r\n\r\n## Apply Restrictions to the API Key\r\n\r\nEvery firebase project is a GCP (Google Cloud Platform) project, so we can go to Google Cloud console to configure further our firebase project. We can restrict the API key even though it is exposed. Just follow these steps:\r\n\r\n1. Go to [https://console.cloud.google.com/apis](https://console.cloud.google.com/apis),\r\n   ![Credentials Tab](https://sznm.dev/images/2021-05-13-how-to-secure-firebase-project/GCP-01.png)\r\n2. Select the desired firebase project,\r\n3. Go to `Credentials` menu,\r\n4. Look for `API Keys` section, select the API key which has `...(auto created by Firebase)`,\r\n   ![API Key Restrictions Tab](https://sznm.dev/images/2021-05-13-how-to-secure-firebase-project/GCP-02.png)\r\n5. You will be directed to a page called `Restrict and rename API key`, go to `Application restrictions` section, select `HTTP referrers (web sites)`, add your production web client domain in `Website restrictions` section. Don't add `localhost` if you intend to use the firebase project for production.\r\n6. Hit the `save` button to apply changes.\r\n\r\nVoila! Your API key already restricted!\r\n\r\n## Use Different Firebase Project for Local Development\r\n\r\nNow that we already apply restrictions to our API key, how about our local development (`localhost`)? Well, we can just create a new firebase project which will be used for our local development.\r\n\r\n### Special Case: Develop Hybrid Mobile App Using Ionic\r\n\r\nWhen developing hybrid app using ionic, chances are we gonna use the same firebase configs for Web and Android / iOS build (firebase web configs). Even though we made several firebase web configs, the API key will remain the same. If we apply restrictions to the API key to be only accessible for certain domain, then the API key won't be usable for the mobile build. Fortunately, there is a workaround for this. We can just create a new API key which don't have any domain restrictions just for our mobile build (the API key can't be easily accessed by the user anyway for Android / iOS build). So, we can use the same firebase configs for our web and mobile builds, but having different API key. Just go to https://console.cloud.google.com/apis/credentials (make sure you already select the corresponding project first), then just create a new API key which will be used for your mobile apps.\r\n\r\n### References\r\n\r\n- Defining Firebase security rules\r\n  - [https://www.npmjs.com/package/@jahed/firebase-rules](https://www.npmjs.com/package/@jahed/firebase-rules)\r\n- Restrict API key\r\n  - [https://medium.com/@devesu/how-to-secure-your-firebase-project-even-when-your-api-key-is-publicly-available-a462a2a58843](https://medium.com/@devesu/how-to-secure-your-firebase-project-even-when-your-api-key-is-publicly-available-a462a2a58843)\r\n",
+          "html": "<blockquote>\n<p>disclaimer: This is not by any means to be the best practice guide of using firebase in every project. Every project has its own needs and specifications. This guide may not be suitable with your needs.</p>\n</blockquote>\n<p>Do you develop apps using Firebase? If so, we should know that our firebase configs will be exposed to the client (especially for web clients). Then what's the deal? Many possibilities can be happened and prevented. So many articles already covers on how to secure our firebase project by using security rules, authentication check, etc. I usually define my security rules using a package named <a href=\"https://www.npmjs.com/package/@jahed/firebase-rules\"><code>@jahed/firebase-rules</code></a>. But how about preventing someone from making their own client and use our exposed firebase configs to do some shady stuffs towards our realtime database?</p>\n<h2>Apply Restrictions to the API Key</h2>\n<p>Every firebase project is a GCP (Google Cloud Platform) project, so we can go to Google Cloud console to configure further our firebase project. We can restrict the API key even though it is exposed. Just follow these steps:</p>\n<ol>\n<li>Go to <a href=\"https://console.cloud.google.com/apis\">https://console.cloud.google.com/apis</a>,\r\n<img src=\"https://sznm.dev/images/2021-05-13-how-to-secure-firebase-project/GCP-01.png\" alt=\"Credentials Tab\"></li>\n<li>Select the desired firebase project,</li>\n<li>Go to <code>Credentials</code> menu,</li>\n<li>Look for <code>API Keys</code> section, select the API key which has <code>...(auto created by Firebase)</code>,\r\n<img src=\"https://sznm.dev/images/2021-05-13-how-to-secure-firebase-project/GCP-02.png\" alt=\"API Key Restrictions Tab\"></li>\n<li>You will be directed to a page called <code>Restrict and rename API key</code>, go to <code>Application restrictions</code> section, select <code>HTTP referrers (web sites)</code>, add your production web client domain in <code>Website restrictions</code> section. Don't add <code>localhost</code> if you intend to use the firebase project for production.</li>\n<li>Hit the <code>save</code> button to apply changes.</li>\n</ol>\n<p>Voila! Your API key already restricted!</p>\n<h2>Use Different Firebase Project for Local Development</h2>\n<p>Now that we already apply restrictions to our API key, how about our local development (<code>localhost</code>)? Well, we can just create a new firebase project which will be used for our local development.</p>\n<h3>Special Case: Develop Hybrid Mobile App Using Ionic</h3>\n<p>When developing hybrid app using ionic, chances are we gonna use the same firebase configs for Web and Android / iOS build (firebase web configs). Even though we made several firebase web configs, the API key will remain the same. If we apply restrictions to the API key to be only accessible for certain domain, then the API key won't be usable for the mobile build. Fortunately, there is a workaround for this. We can just create a new API key which don't have any domain restrictions just for our mobile build (the API key can't be easily accessed by the user anyway for Android / iOS build). So, we can use the same firebase configs for our web and mobile builds, but having different API key. Just go to <a href=\"https://console.cloud.google.com/apis/credentials\">https://console.cloud.google.com/apis/credentials</a> (make sure you already select the corresponding project first), then just create a new API key which will be used for your mobile apps.</p>\n<h3>References</h3>\n<ul>\n<li>Defining Firebase security rules\n<ul>\n<li><a href=\"https://www.npmjs.com/package/@jahed/firebase-rules\">https://www.npmjs.com/package/@jahed/firebase-rules</a></li>\n</ul>\n</li>\n<li>Restrict API key\n<ul>\n<li><a href=\"https://medium.com/@devesu/how-to-secure-your-firebase-project-even-when-your-api-key-is-publicly-available-a462a2a58843\">https://medium.com/@devesu/how-to-secure-your-firebase-project-even-when-your-api-key-is-publicly-available-a462a2a58843</a></li>\n</ul>\n</li>\n</ul>"
+        },
+        "_id": "posts/how-to-secure-firebase-project.md",
+        "_raw": {
+          "sourceFilePath": "posts/how-to-secure-firebase-project.md",
+          "sourceFileName": "how-to-secure-firebase-project.md",
+          "sourceFileDir": "posts",
+          "contentType": "markdown",
+          "flattenedPath": "posts/how-to-secure-firebase-project"
+        },
+        "type": "Blog",
+        "id": "how-to-secure-firebase-project"
+      },
+      "documentHash": "1692683624369",
+      "hasWarnings": false,
+      "documentTypeName": "Blog"
+    },
+    "posts/monitor-and-measure-site-performance-with-speedlify.md": {
+      "document": {
+        "title": "Monitor and Measure Site Performance from Time to Time and Automatically using Speedlify",
+        "date": "2020-11-07",
+        "cover": "https://images.unsplash.com/photo-1567916190725-372c28edc554?auto=format&q=80",
+        "thumbnail": "🏎️",
+        "legacyID": "2020-11-07-monitor-and-measure-site-performance-with-speedlify",
+        "published": true,
+        "tags": [
+          "performance",
+          "monitoring\r"
+        ],
+        "readTime": {
+          "text": "7 min read",
+          "minutes": 6.485,
+          "time": 389100,
+          "words": 1297
+        },
+        "body": {
+          "raw": "\r\n## TL;DR\r\n\r\nWant to measure and monitor your site performance from time to time and automatically? Deploy [Speedlify](https://speedlify.dev) through [Netlify](https://www.netlify.com/) and use [Github Actions](https://github.com/features/actions) (cron schedule) or Zapier to automatically trigger build every desired time.\r\n\r\nYou can directly visit [this page](https://github.com/zachleat/speedlify/#deploy-to-netlify) if you know what to do next. But if you need some guidance, this article will help you step by step.\r\n\r\n### What will be covered in this article?\r\n\r\n- How to configure Speedlify\r\n- How to deploy Speedlify\r\n- Using Netlify build hooks and Github Actions to automatically trigger build Speedlify page every desired time.\r\n\r\n### This article won't cover...\r\n\r\nSEO or visitor related metrics like Google Analytics. The site performance mentioned in this article is [Lighthouse](https://developers.google.com/web/tools/lighthouse) based performance measurement.\r\n\r\n---\r\n\r\n## Measuring Site Performance\r\n\r\nNowadays there are so many ways to measure site performance beside running lighthouse in your local machine (Chrome Dev Tools). Even recently [Vercel](https://vercel.com), PaaS for frontend deployment released a feature called [Analytics](https://vercel.com/docs/analytics/overview.amp). This feature can show your [Next.js](https://nextjs.org/analytics) or [Gatsby](https://vercel.com/blog/gatsby-analytics) site performance automatically from time-to-time without having to configure anything (_almost zero-config_). But this feature is limited to be applicable for one project if your vercel account is a free version.\r\n\r\nWhat if we have more than one project / site to be measured from time-to-time without spending extra cost? Well, this is where [Speedlify](https://speedlify.dev) comes in, a template for site performance monitor created by [Zach Leatherman](https://github.com/zachleat). Speedlify built using a static site generator framework called [11ty(eleventy)](https://www.11ty.dev/).\r\n\r\nI've tried to deploy my own speedlify [here](https://audit.sznm.dev).\r\n\r\n_fun fact: I found Speedlify when I was just randomly exploring 11ty docs page (not really important, just intermezzo 😄)_\r\n\r\nWell, let's get our hands dirty!\r\n\r\n## How?\r\n\r\n### What is needed?\r\n\r\n- a Github account\r\n- a Netlify account\r\n\r\n### This Guide was Written with Assumtions that You:\r\n\r\n- know how to use basic Git commands\r\n- familiar with Netlify\r\n- familiar with Node.js environment (installed node and npm)\r\n\r\nI suggest you to visit [Speedlify](https://speedlify.dev) to get some glimpse on what we will be using. There's a link to the source code repository on that page which shows you how to deploy your own Speedlify page. However, if you are having some difficulties, you can folow these steps:\r\n\r\n### #1: Clone Speedlify Repo\r\n\r\nImport speedlify repository to your github account ([https://github.com/new/import](https://github.com/new/import)),\r\ninput this URL: `https://github.com/zachleat/speedlify/`.\r\n\r\nAfter the import process is done, clone your speedlify repo into your local machine or just run these command below in your local folder:\r\n\r\n```git\r\ngit clone https://github.com/[YOUR_GITHUB_USERNAME]/speedlify/\r\n```\r\n\r\n```\r\ncd speedlify\r\n```\r\n\r\nThen, run `npm install` or `npm i`.\r\n\r\n### #2: Configure URLs\r\n\r\nOpen `_data/sites` folder. Every file you create here will represent a category. You can defined more than one URL for every category.\r\nJust delete all default files in `_data/sites`. Create a file `[CATEGORY_NAME].js`. (change [CATEGORY_NAME] with your desired category name). You can create more than one category, but you must know some limitations here: [https://github.com/zachleat/speedlify/#known-limitations](https://github.com/zachleat/speedlify/#known-limitations)\r\n\r\n```js\r\n// _data/sites/[CATEGORY_NAME].js\r\nmodule.exports = {\r\n  name: \"Category Name\", // optional, falls back to object key\r\n  description: \"Category Description\",\r\n  options: {\r\n    frequency: 60 * 23, // 23 hours\r\n\r\n    // Use \"run\" if the sites don’t share assets on the same origin\r\n    //           and we can reset chrome with each run instead of\r\n    //           each site in every run (it’s faster)\r\n    // Use \"site\" if sites are all on the same origin and share assets.\r\n    freshChrome: \"run\",\r\n  },\r\n  urls: [\r\n    \"https://[YOUR_SITE_URL]/\",\r\n    \"https://[YOUR_SITE_URL]/\",\r\n    // etc\r\n  ],\r\n};\r\n```\r\n\r\n#### explanations\r\n\r\n- `options`\r\n  - `frequency`: to set minimum time needed before next measurement. If we set `60*23` (1380 minutes or 23 hours) it means we will be measuring our site performance once every 23 hours. This value will be used to avoid measurement more than once before the minimum time was passed which will affect the build time. If we set the frequency to 23 hours and trigger build every 6 hours, the measurement for this category will be skipped if the last measurement haven't passed 23 hours.\r\n\r\n### #3: Test run in local\r\n\r\nRun `npm run start`. If the categories you input are shown, you can continue to the next step. You won't see any measurements. Measurements will be done at the build time when we deploy your Speedlify to Netlify.\r\nCommit your changes and run `git push` to apply changes to your github repository.\r\n\r\n### #4: Deploy configured Speedlify through Netlify\r\n\r\nOpen your Netlify dashboard ([https://app.netlify.com/](https://app.netlify.com/)), click \"New site from Git\". Point it to your Speedlify repository.\r\n\r\n![Click New site from Git](https://sznm.dev/images/2020-11-07-monitor-and-measure-site-performance-with-speedlify/add-site-netlify.png)\r\n\r\nConfirm the build configurations until \"Deploy Site\" button is shown and click that button. Netlify build will do the build and deployment process. If the build and deployment process are successful, you can preview your deployment.\r\n\r\nThe measurement page will look like this:\r\n\r\n![Measurement page](https://sznm.dev/images/2020-11-07-monitor-and-measure-site-performance-with-speedlify/preview.png)\r\n\r\n### #5: Configure Github Actions to Automatically Trigger Build Every Desired Time\r\n\r\nTo do measurement from time-to-time, we will utilize Netlify build hooks and Github Actions. Why? Because measurement are only done on build time. It will be a hassle to trigger the build process manually. You don't have to use Github Actions if you prefer to use Zapier or similar services which support cron schedule. The same process can be achieved using Zapier with Schedule by Zapier and Webhooks by Zapier. However for the time being Webhooks by Zapier can only be enabled if you are a Zapier premium user. Therefore, in this guide I will use Github Actions as an alternative which are more friendly to our pocket.\r\n\r\nWe will need build hook link (webhooks) to trigger build in Netlify. To get that link, open your speedlify project in your Netlify dashboard, then open \"Site settings\". Open \"Build & Deploy\".\r\n\r\n![Open Build and Deploy settings](https://sznm.dev/images/2020-11-07-monitor-and-measure-site-performance-with-speedlify/build-and-deploy-setting.png)\r\n\r\nThen point to \"Build hooks\", click \"Add build hook\".\r\n![Add Build Hook](https://sznm.dev/images/2020-11-07-monitor-and-measure-site-performance-with-speedlify/add-build-hook.png)\r\n\r\nWe will get the build hooks URL, copy that link.\r\n\r\n![Alt Text](https://sznm.dev/images/2020-11-07-monitor-and-measure-site-performance-with-speedlify/build-hook-link.png)\r\n\r\nNow we can configure Github Actions to automatically trigger build to Netlify. Go back to your speedlify local folder, add a file named `.github/workflows/main.yml` and paste the copied build hooks URL into this file:\r\n\r\n```yml\r\n# .github/workflows/main.yml\r\n\r\n# edit according to your needs\r\nname: Trigger Netlify Build daily on Weekday\r\non:\r\n  schedule:\r\n    # if you want to define your own build trigger schedule, just change the cron schedule value below\r\n    # use https://crontab.guru/ if you are having some difficulties on how to define the cron values\r\n    - cron: \"0 22 * * MON-FRI\"\r\n    # every day on weekdays 22:00.\r\njobs:\r\n  build:\r\n    name: Netlify build\r\n    runs-on: ubuntu-latest\r\n    steps:\r\n      - name: Curl request\r\n        run: curl -X POST -d {} YOUR_BUILD_HOOK_URL\r\n```\r\n\r\nCommit your changes and run `git push`. If it's configured correctly, it will be shown in \"Actions\" tab at your github repository.\r\n\r\nNow you have a dedicated page to monitor your site performance from time-to-time and automatically updated.\r\n\r\n## Limitations\r\n\r\nIt's important to note that the more URL you add to your speedlify configurations, the build time needed will be increased. The free version of Netlify have a maximum 15 minutes build time for every build process and 300 minutes build time quota for every month.\r\n\r\nI work around it by limiting my measurement to be done maximum once every 23 hours and limiting the total URLs from all category to be around 5 until 10, and automatically trigger the build every day on weekdays only at 10PM. With those configurations, every build would spend around 4 until 7 minutes (<15 minutes), so I won't hit the monthly build time quota limit (4.5 x 5 x 7 ~= 160 minutes -> <300 minutes).\r\n\r\n## Thank You!\r\n\r\nFor reading this article. I hope you found this useful.\r\n\r\n## References\r\n\r\n- [https://www.speedlify.dev/](https://www.speedlify.dev/)\r\n- [https://github.com/zachleat/speedlify/#deploy-to-netlify](https://github.com/zachleat/speedlify/#deploy-to-netlify)\r\n- [https://github.com/zachleat/speedlify/#known-limitations](https://github.com/zachleat/speedlify/#known-limitations)\r\n- [https://www.zachleat.com/web/speedlify/](https://www.zachleat.com/web/speedlify/)\r\n\r\n## Some Alternatives\r\n\r\n(some exhaustive list of other tools to measure your website performance)\r\n\r\n- [https://web.dev/measure/](https://web.dev/measure/)\r\n- [https://www.lightest.app/](https://web.dev/measure/)\r\n",
+          "html": "<h2>TL;DR</h2>\n<p>Want to measure and monitor your site performance from time to time and automatically? Deploy <a href=\"https://speedlify.dev\">Speedlify</a> through <a href=\"https://www.netlify.com/\">Netlify</a> and use <a href=\"https://github.com/features/actions\">Github Actions</a> (cron schedule) or Zapier to automatically trigger build every desired time.</p>\n<p>You can directly visit <a href=\"https://github.com/zachleat/speedlify/#deploy-to-netlify\">this page</a> if you know what to do next. But if you need some guidance, this article will help you step by step.</p>\n<h3>What will be covered in this article?</h3>\n<ul>\n<li>How to configure Speedlify</li>\n<li>How to deploy Speedlify</li>\n<li>Using Netlify build hooks and Github Actions to automatically trigger build Speedlify page every desired time.</li>\n</ul>\n<h3>This article won't cover...</h3>\n<p>SEO or visitor related metrics like Google Analytics. The site performance mentioned in this article is <a href=\"https://developers.google.com/web/tools/lighthouse\">Lighthouse</a> based performance measurement.</p>\n<hr>\n<h2>Measuring Site Performance</h2>\n<p>Nowadays there are so many ways to measure site performance beside running lighthouse in your local machine (Chrome Dev Tools). Even recently <a href=\"https://vercel.com\">Vercel</a>, PaaS for frontend deployment released a feature called <a href=\"https://vercel.com/docs/analytics/overview.amp\">Analytics</a>. This feature can show your <a href=\"https://nextjs.org/analytics\">Next.js</a> or <a href=\"https://vercel.com/blog/gatsby-analytics\">Gatsby</a> site performance automatically from time-to-time without having to configure anything (<em>almost zero-config</em>). But this feature is limited to be applicable for one project if your vercel account is a free version.</p>\n<p>What if we have more than one project / site to be measured from time-to-time without spending extra cost? Well, this is where <a href=\"https://speedlify.dev\">Speedlify</a> comes in, a template for site performance monitor created by <a href=\"https://github.com/zachleat\">Zach Leatherman</a>. Speedlify built using a static site generator framework called <a href=\"https://www.11ty.dev/\">11ty(eleventy)</a>.</p>\n<p>I've tried to deploy my own speedlify <a href=\"https://audit.sznm.dev\">here</a>.</p>\n<p><em>fun fact: I found Speedlify when I was just randomly exploring 11ty docs page (not really important, just intermezzo 😄)</em></p>\n<p>Well, let's get our hands dirty!</p>\n<h2>How?</h2>\n<h3>What is needed?</h3>\n<ul>\n<li>a Github account</li>\n<li>a Netlify account</li>\n</ul>\n<h3>This Guide was Written with Assumtions that You:</h3>\n<ul>\n<li>know how to use basic Git commands</li>\n<li>familiar with Netlify</li>\n<li>familiar with Node.js environment (installed node and npm)</li>\n</ul>\n<p>I suggest you to visit <a href=\"https://speedlify.dev\">Speedlify</a> to get some glimpse on what we will be using. There's a link to the source code repository on that page which shows you how to deploy your own Speedlify page. However, if you are having some difficulties, you can folow these steps:</p>\n<h3>#1: Clone Speedlify Repo</h3>\n<p>Import speedlify repository to your github account (<a href=\"https://github.com/new/import\">https://github.com/new/import</a>),\r\ninput this URL: <code>https://github.com/zachleat/speedlify/</code>.</p>\n<p>After the import process is done, clone your speedlify repo into your local machine or just run these command below in your local folder:</p>\n<pre><code class=\"language-git\">git clone https://github.com/[YOUR_GITHUB_USERNAME]/speedlify/\n</code></pre>\n<pre><code>cd speedlify\n</code></pre>\n<p>Then, run <code>npm install</code> or <code>npm i</code>.</p>\n<h3>#2: Configure URLs</h3>\n<p>Open <code>_data/sites</code> folder. Every file you create here will represent a category. You can defined more than one URL for every category.\r\nJust delete all default files in <code>_data/sites</code>. Create a file <code>[CATEGORY_NAME].js</code>. (change [CATEGORY_NAME] with your desired category name). You can create more than one category, but you must know some limitations here: <a href=\"https://github.com/zachleat/speedlify/#known-limitations\">https://github.com/zachleat/speedlify/#known-limitations</a></p>\n<pre><code class=\"language-js\">// _data/sites/[CATEGORY_NAME].js\r\nmodule.exports = {\r\n  name: \"Category Name\", // optional, falls back to object key\r\n  description: \"Category Description\",\r\n  options: {\r\n    frequency: 60 * 23, // 23 hours\r\n\r\n    // Use \"run\" if the sites don’t share assets on the same origin\r\n    //           and we can reset chrome with each run instead of\r\n    //           each site in every run (it’s faster)\r\n    // Use \"site\" if sites are all on the same origin and share assets.\r\n    freshChrome: \"run\",\r\n  },\r\n  urls: [\r\n    \"https://[YOUR_SITE_URL]/\",\r\n    \"https://[YOUR_SITE_URL]/\",\r\n    // etc\r\n  ],\r\n};\n</code></pre>\n<h4>explanations</h4>\n<ul>\n<li><code>options</code>\n<ul>\n<li><code>frequency</code>: to set minimum time needed before next measurement. If we set <code>60*23</code> (1380 minutes or 23 hours) it means we will be measuring our site performance once every 23 hours. This value will be used to avoid measurement more than once before the minimum time was passed which will affect the build time. If we set the frequency to 23 hours and trigger build every 6 hours, the measurement for this category will be skipped if the last measurement haven't passed 23 hours.</li>\n</ul>\n</li>\n</ul>\n<h3>#3: Test run in local</h3>\n<p>Run <code>npm run start</code>. If the categories you input are shown, you can continue to the next step. You won't see any measurements. Measurements will be done at the build time when we deploy your Speedlify to Netlify.\r\nCommit your changes and run <code>git push</code> to apply changes to your github repository.</p>\n<h3>#4: Deploy configured Speedlify through Netlify</h3>\n<p>Open your Netlify dashboard (<a href=\"https://app.netlify.com/\">https://app.netlify.com/</a>), click \"New site from Git\". Point it to your Speedlify repository.</p>\n<p><img src=\"https://sznm.dev/images/2020-11-07-monitor-and-measure-site-performance-with-speedlify/add-site-netlify.png\" alt=\"Click New site from Git\"></p>\n<p>Confirm the build configurations until \"Deploy Site\" button is shown and click that button. Netlify build will do the build and deployment process. If the build and deployment process are successful, you can preview your deployment.</p>\n<p>The measurement page will look like this:</p>\n<p><img src=\"https://sznm.dev/images/2020-11-07-monitor-and-measure-site-performance-with-speedlify/preview.png\" alt=\"Measurement page\"></p>\n<h3>#5: Configure Github Actions to Automatically Trigger Build Every Desired Time</h3>\n<p>To do measurement from time-to-time, we will utilize Netlify build hooks and Github Actions. Why? Because measurement are only done on build time. It will be a hassle to trigger the build process manually. You don't have to use Github Actions if you prefer to use Zapier or similar services which support cron schedule. The same process can be achieved using Zapier with Schedule by Zapier and Webhooks by Zapier. However for the time being Webhooks by Zapier can only be enabled if you are a Zapier premium user. Therefore, in this guide I will use Github Actions as an alternative which are more friendly to our pocket.</p>\n<p>We will need build hook link (webhooks) to trigger build in Netlify. To get that link, open your speedlify project in your Netlify dashboard, then open \"Site settings\". Open \"Build &#x26; Deploy\".</p>\n<p><img src=\"https://sznm.dev/images/2020-11-07-monitor-and-measure-site-performance-with-speedlify/build-and-deploy-setting.png\" alt=\"Open Build and Deploy settings\"></p>\n<p>Then point to \"Build hooks\", click \"Add build hook\".\r\n<img src=\"https://sznm.dev/images/2020-11-07-monitor-and-measure-site-performance-with-speedlify/add-build-hook.png\" alt=\"Add Build Hook\"></p>\n<p>We will get the build hooks URL, copy that link.</p>\n<p><img src=\"https://sznm.dev/images/2020-11-07-monitor-and-measure-site-performance-with-speedlify/build-hook-link.png\" alt=\"Alt Text\"></p>\n<p>Now we can configure Github Actions to automatically trigger build to Netlify. Go back to your speedlify local folder, add a file named <code>.github/workflows/main.yml</code> and paste the copied build hooks URL into this file:</p>\n<pre><code class=\"language-yml\"># .github/workflows/main.yml\r\n\r\n# edit according to your needs\r\nname: Trigger Netlify Build daily on Weekday\r\non:\r\n  schedule:\r\n    # if you want to define your own build trigger schedule, just change the cron schedule value below\r\n    # use https://crontab.guru/ if you are having some difficulties on how to define the cron values\r\n    - cron: \"0 22 * * MON-FRI\"\r\n    # every day on weekdays 22:00.\r\njobs:\r\n  build:\r\n    name: Netlify build\r\n    runs-on: ubuntu-latest\r\n    steps:\r\n      - name: Curl request\r\n        run: curl -X POST -d {} YOUR_BUILD_HOOK_URL\n</code></pre>\n<p>Commit your changes and run <code>git push</code>. If it's configured correctly, it will be shown in \"Actions\" tab at your github repository.</p>\n<p>Now you have a dedicated page to monitor your site performance from time-to-time and automatically updated.</p>\n<h2>Limitations</h2>\n<p>It's important to note that the more URL you add to your speedlify configurations, the build time needed will be increased. The free version of Netlify have a maximum 15 minutes build time for every build process and 300 minutes build time quota for every month.</p>\n<p>I work around it by limiting my measurement to be done maximum once every 23 hours and limiting the total URLs from all category to be around 5 until 10, and automatically trigger the build every day on weekdays only at 10PM. With those configurations, every build would spend around 4 until 7 minutes (&#x3C;15 minutes), so I won't hit the monthly build time quota limit (4.5 x 5 x 7 ~= 160 minutes -> &#x3C;300 minutes).</p>\n<h2>Thank You!</h2>\n<p>For reading this article. I hope you found this useful.</p>\n<h2>References</h2>\n<ul>\n<li><a href=\"https://www.speedlify.dev/\">https://www.speedlify.dev/</a></li>\n<li><a href=\"https://github.com/zachleat/speedlify/#deploy-to-netlify\">https://github.com/zachleat/speedlify/#deploy-to-netlify</a></li>\n<li><a href=\"https://github.com/zachleat/speedlify/#known-limitations\">https://github.com/zachleat/speedlify/#known-limitations</a></li>\n<li><a href=\"https://www.zachleat.com/web/speedlify/\">https://www.zachleat.com/web/speedlify/</a></li>\n</ul>\n<h2>Some Alternatives</h2>\n<p>(some exhaustive list of other tools to measure your website performance)</p>\n<ul>\n<li><a href=\"https://web.dev/measure/\">https://web.dev/measure/</a></li>\n<li><a href=\"https://web.dev/measure/\">https://www.lightest.app/</a></li>\n</ul>"
+        },
+        "_id": "posts/monitor-and-measure-site-performance-with-speedlify.md",
+        "_raw": {
+          "sourceFilePath": "posts/monitor-and-measure-site-performance-with-speedlify.md",
+          "sourceFileName": "monitor-and-measure-site-performance-with-speedlify.md",
+          "sourceFileDir": "posts",
+          "contentType": "markdown",
+          "flattenedPath": "posts/monitor-and-measure-site-performance-with-speedlify"
+        },
+        "type": "Blog",
+        "id": "monitor-and-measure-site-performance-with-speedlify"
+      },
+      "documentHash": "1692683624371",
+      "hasWarnings": false,
+      "documentTypeName": "Blog"
+    },
+    "posts/quarantine-self-challenge.md": {
+      "document": {
+        "title": "May 2020 Quarantine Self Challenge",
+        "date": "2020-05-02",
+        "cover": "https://images.unsplash.com/photo-1497074367201-25b8d28279e2?auto=format&q=80",
+        "thumbnail": "🏆",
+        "legacyID": "2020-05-02-self-challenge",
+        "published": true,
+        "tags": [
+          "Gatsby",
+          "Vercel",
+          "Evergreen",
+          "TailwindCSS\r"
+        ],
+        "readTime": {
+          "text": "2 min read",
+          "minutes": 1.21,
+          "time": 72600,
+          "words": 242
+        },
+        "body": {
+          "raw": "\r\nRecently I challenged myself to make a web app as soon as possible in two days. Managed to make two. One is a simple Food Recipe App and the other is COVID-19 Data App.\r\nTurned out it was so fun.\r\n\r\n## 1. Le Cook\r\n\r\nFun food recipe catalog app powered by [RecipePuppy](https://recipepuppy.com) API....\r\n\r\n[https://le-cook.now.sh/](https://le-cook.now.sh/)\r\n\r\n![Le Cook (1)](https://sznm.dev/images/2020-05-02-self-challenge/le-cook_1.jpg)\r\n![Le Cook (2)](https://sznm.dev/images/2020-05-02-self-challenge/le-cook_2.jpg)\r\n![Le Cook (3)](https://sznm.dev/images/2020-05-02-self-challenge/le-cook_3.jpg)\r\n\r\n## 2. COVID-19 Data\r\n\r\npresenting COVID-19 statistics powered by [@mathdroid](https://github.com/mathdroid/covid-19-api/)'s covid-19-api.\r\nI made a vanilla JS version of this app several days ago and I decided to re-develop it using Gatsby (React).\r\n\r\n[https://covid19data.now.sh/](https://covid19data.now.sh/)\r\n\r\n![COVID-19 Data App (1)](https://sznm.dev/images/2020-05-02-self-challenge/covid19data_1.jpg)\r\n![COVID-19 Data App (2)](https://sznm.dev/images/2020-05-02-self-challenge/covid19data_2.jpg)\r\n![COVID-19 Data App (3)](https://sznm.dev/images/2020-05-02-self-challenge/covid19data_3.jpg)\r\n\r\nBoth [Le Cook](https://le-cook.now.sh/) and [COVID-19 Data](https://covid19data.now.sh/) app were developed using Segment's Evergreen UI. Just discovered this React UI Framework and turns out it's so convenient to implement it on these projects.\r\n\r\nWhen developing COVID-19 Data app, I realized Evergreen UI have no opinionated way to construct responsive layouts. So, I decided to combine it with TailwindCSS which I already tried to use at this personal site. It worked.\r\n\r\n![Evergreen UI (1)](https://sznm.dev/images/2020-05-02-self-challenge/evergreen-ui_1.jpg)\r\n![Evergreen UI (2)](https://sznm.dev/images/2020-05-02-self-challenge/evergreen-ui_2.jpg)\r\n![Evergreen UI (3)](https://sznm.dev/images/2020-05-02-self-challenge/evergreen-ui_3.jpg)\r\n![Evergreen UI (4)](https://sznm.dev/images/2020-05-02-self-challenge/evergreen-ui_4.jpg)\r\n\r\nI decided to deploy it using [Vercel](https://vercel.com) and I'm so shocked by how fast it is compared to [Netlify](https://netlify.com). I'm considering to migrate to Vercel from Netlify for my previous projects, including this site.\r\n\r\nI posted my recent projects [here](https://sznm.dev/projects).\r\nYou can access the project and the project's GitHub repository link from this [page](https://sznm.dev/projects).\r\n",
+          "html": "<p>Recently I challenged myself to make a web app as soon as possible in two days. Managed to make two. One is a simple Food Recipe App and the other is COVID-19 Data App.\r\nTurned out it was so fun.</p>\n<h2>1. Le Cook</h2>\n<p>Fun food recipe catalog app powered by <a href=\"https://recipepuppy.com\">RecipePuppy</a> API....</p>\n<p><a href=\"https://le-cook.now.sh/\">https://le-cook.now.sh/</a></p>\n<p><img src=\"https://sznm.dev/images/2020-05-02-self-challenge/le-cook_1.jpg\" alt=\"Le Cook (1)\">\r\n<img src=\"https://sznm.dev/images/2020-05-02-self-challenge/le-cook_2.jpg\" alt=\"Le Cook (2)\">\r\n<img src=\"https://sznm.dev/images/2020-05-02-self-challenge/le-cook_3.jpg\" alt=\"Le Cook (3)\"></p>\n<h2>2. COVID-19 Data</h2>\n<p>presenting COVID-19 statistics powered by <a href=\"https://github.com/mathdroid/covid-19-api/\">@mathdroid</a>'s covid-19-api.\r\nI made a vanilla JS version of this app several days ago and I decided to re-develop it using Gatsby (React).</p>\n<p><a href=\"https://covid19data.now.sh/\">https://covid19data.now.sh/</a></p>\n<p><img src=\"https://sznm.dev/images/2020-05-02-self-challenge/covid19data_1.jpg\" alt=\"COVID-19 Data App (1)\">\r\n<img src=\"https://sznm.dev/images/2020-05-02-self-challenge/covid19data_2.jpg\" alt=\"COVID-19 Data App (2)\">\r\n<img src=\"https://sznm.dev/images/2020-05-02-self-challenge/covid19data_3.jpg\" alt=\"COVID-19 Data App (3)\"></p>\n<p>Both <a href=\"https://le-cook.now.sh/\">Le Cook</a> and <a href=\"https://covid19data.now.sh/\">COVID-19 Data</a> app were developed using Segment's Evergreen UI. Just discovered this React UI Framework and turns out it's so convenient to implement it on these projects.</p>\n<p>When developing COVID-19 Data app, I realized Evergreen UI have no opinionated way to construct responsive layouts. So, I decided to combine it with TailwindCSS which I already tried to use at this personal site. It worked.</p>\n<p><img src=\"https://sznm.dev/images/2020-05-02-self-challenge/evergreen-ui_1.jpg\" alt=\"Evergreen UI (1)\">\r\n<img src=\"https://sznm.dev/images/2020-05-02-self-challenge/evergreen-ui_2.jpg\" alt=\"Evergreen UI (2)\">\r\n<img src=\"https://sznm.dev/images/2020-05-02-self-challenge/evergreen-ui_3.jpg\" alt=\"Evergreen UI (3)\">\r\n<img src=\"https://sznm.dev/images/2020-05-02-self-challenge/evergreen-ui_4.jpg\" alt=\"Evergreen UI (4)\"></p>\n<p>I decided to deploy it using <a href=\"https://vercel.com\">Vercel</a> and I'm so shocked by how fast it is compared to <a href=\"https://netlify.com\">Netlify</a>. I'm considering to migrate to Vercel from Netlify for my previous projects, including this site.</p>\n<p>I posted my recent projects <a href=\"https://sznm.dev/projects\">here</a>.\r\nYou can access the project and the project's GitHub repository link from this <a href=\"https://sznm.dev/projects\">page</a>.</p>"
+        },
+        "_id": "posts/quarantine-self-challenge.md",
+        "_raw": {
+          "sourceFilePath": "posts/quarantine-self-challenge.md",
+          "sourceFileName": "quarantine-self-challenge.md",
+          "sourceFileDir": "posts",
+          "contentType": "markdown",
+          "flattenedPath": "posts/quarantine-self-challenge"
+        },
+        "type": "Blog",
+        "id": "quarantine-self-challenge"
+      },
+      "documentHash": "1692683624372",
+      "hasWarnings": false,
+      "documentTypeName": "Blog"
+    },
+    "posts/stackbit-the-game-changer.md": {
+      "document": {
+        "title": "Stackbit, the Game Changer",
+        "date": "2020-03-22",
+        "cover": "https://images.unsplash.com/photo-1580541832626-2a7131ee809f?auto=format&q=80",
+        "thumbnail": "🌐",
+        "description": "You can launch a powerful and beautiful static site in just under 10 minutes and at super low-cost.",
+        "legacyID": "2020-03-22-stackbit-the-game-changer",
+        "published": true,
+        "tags": [
+          "Stackbit",
+          "Netlify",
+          "Github",
+          "Sanity"
+        ],
+        "readTime": {
+          "text": "2 min read",
+          "minutes": 1.89,
+          "time": 113400,
+          "words": 378
+        },
+        "cover_image": "https://dev-to-uploads.s3.amazonaws.com/i/h0by35x00oeg8t9v7k90.png\r",
+        "body": {
+          "raw": "\r\n_by the time I wrote this post, Stackbit is still at Beta._\r\n\r\nHave you ever thought of launching a landing page or a blog with the technology of your choice in just under 10 minutes? Since <a href=\"https://jamstack.wtf/#meaning\" target=\"_blank\" rel=\"noopener\">JAMStack</a> is getting more popular these days, more sites are being developed this way. Building it from scratch is also not too hard. But the problem is sometimes the initialization of the project or the deployment process can spend more time than you think. Not to mention if you are someone who just want to get a little grasp of what all this about without getting your hands dirty and spending some hours just to know what are you actually trying to do. Or if you are a first-timer who needs a step-by-step guide.\r\n\r\nYes, this is for you if you want to get a taste of what is JAMStack site about, how does it work in general, but you don't want to build it from scratch just to know it. This is for you if you are someone who are very familiar with building JAMStack sites, having multiple and upcoming clients who requests high performance yet low-cost site. Well, this is where <a href=\"https://www.stackbit.com/\" target=\"_blank\" rel=\"noopener\">Stackbit</a> plays the role for you.\r\n\r\nYou can call Stackbit as your smart-assistant who helps you to start your JAMStack site. It's very easy to use, you just need to prepare your <a href=\"https://github.com/\" target=\"_blank\" rel=\"noopener\">GitHub</a> account (<a href=\"https://gitlab.com/\" target=\"_blank\" rel=\"noopener\">GitLab</a> and <a href=\"https://bitbucket.com/\" target=\"_blank\" rel=\"noopener\">BitBucket</a> support coming soon) and a <a href=\"https://netlify.com/\" target=\"_blank\" rel=\"noopener\">Netlify</a> account. The next thing is just register yourself into Stackbit (you can even register using your GitHub account so it's more convenient) and you can start to Build a Project. You gonna choose the site theme, the site generator framework, CMS, then you can deploy it.\r\n\r\n![Stackbit Beta](https://sznm.dev/images/stackbit-beta.png)\r\n\r\nAll of it are done just by picking, doing some clicks, and voila. Yeah, all of the process involve no code. But if you want to develop and customize the project further, that's where your hands start getting dirty.\r\n\r\nSo, what are you waiting for? Don't just read this post, it won't bring you anywhere. _<a href=\"https://www.stackbit.com/\" target=\"_blank\" rel=\"noopener\">Try it now</a>_ and you will know what I'm talking about 😂.\r\n",
+          "html": "<p><em>by the time I wrote this post, Stackbit is still at Beta.</em></p>\n<p>Have you ever thought of launching a landing page or a blog with the technology of your choice in just under 10 minutes? Since JAMStack is getting more popular these days, more sites are being developed this way. Building it from scratch is also not too hard. But the problem is sometimes the initialization of the project or the deployment process can spend more time than you think. Not to mention if you are someone who just want to get a little grasp of what all this about without getting your hands dirty and spending some hours just to know what are you actually trying to do. Or if you are a first-timer who needs a step-by-step guide.</p>\n<p>Yes, this is for you if you want to get a taste of what is JAMStack site about, how does it work in general, but you don't want to build it from scratch just to know it. This is for you if you are someone who are very familiar with building JAMStack sites, having multiple and upcoming clients who requests high performance yet low-cost site. Well, this is where Stackbit plays the role for you.</p>\n<p>You can call Stackbit as your smart-assistant who helps you to start your JAMStack site. It's very easy to use, you just need to prepare your GitHub account (GitLab and BitBucket support coming soon) and a Netlify account. The next thing is just register yourself into Stackbit (you can even register using your GitHub account so it's more convenient) and you can start to Build a Project. You gonna choose the site theme, the site generator framework, CMS, then you can deploy it.</p>\n<p><img src=\"https://sznm.dev/images/stackbit-beta.png\" alt=\"Stackbit Beta\"></p>\n<p>All of it are done just by picking, doing some clicks, and voila. Yeah, all of the process involve no code. But if you want to develop and customize the project further, that's where your hands start getting dirty.</p>\n<p>So, what are you waiting for? Don't just read this post, it won't bring you anywhere. <em>Try it now</em> and you will know what I'm talking about 😂.</p>"
+        },
+        "_id": "posts/stackbit-the-game-changer.md",
+        "_raw": {
+          "sourceFilePath": "posts/stackbit-the-game-changer.md",
+          "sourceFileName": "stackbit-the-game-changer.md",
+          "sourceFileDir": "posts",
+          "contentType": "markdown",
+          "flattenedPath": "posts/stackbit-the-game-changer"
+        },
+        "type": "Blog",
+        "id": "stackbit-the-game-changer"
+      },
+      "documentHash": "1692683624373",
+      "hasWarnings": false,
+      "documentTypeName": "Blog"
+    },
+    "projects/add-to-calendar-generator-nextjs.md": {
+      "document": {
+        "title": "Add to Calendar Generator",
+        "description": "Add to Calendar link / button generator.",
+        "sznmApps": true,
+        "stacks": [
+          "nextjs",
+          "chakra-ui\r"
+        ],
+        "date": "2020-10-24",
+        "projectLink": "https://addtocal.sznm.dev",
+        "repoLink": "https://github.com/sozonome/add-to-calendar-generator",
+        "icon": "/app_icons/add-to-calendar.svg",
+        "thumbnail": "/app_preview/add-to-calendar.png",
+        "thumbnailDark": "/app_preview/add-to-calendar-dark.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/add-to-calendar-generator-nextjs.md",
+        "_raw": {
+          "sourceFilePath": "projects/add-to-calendar-generator-nextjs.md",
+          "sourceFileName": "add-to-calendar-generator-nextjs.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/add-to-calendar-generator-nextjs"
+        },
+        "type": "Project",
+        "id": "add-to-calendar-generator-nextjs"
+      },
+      "documentHash": "1692683624374",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/advicegenerator-svelte.md": {
+      "document": {
+        "title": "Advice Generator",
+        "description": "Advice generator built using Svelte, powered by Advice Slip JSON API.",
+        "stacks": [
+          "svelte\r"
+        ],
+        "date": "2020-06-05",
+        "projectLink": "https://advicegen.sznm.dev",
+        "repoLink": "https://github.com/sozonome/advice-generator-svelte",
+        "icon": "/app_icons/icon_advicegen.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/advicegenerator-svelte.md",
+        "_raw": {
+          "sourceFilePath": "projects/advicegenerator-svelte.md",
+          "sourceFileName": "advicegenerator-svelte.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/advicegenerator-svelte"
+        },
+        "type": "Project",
+        "id": "advicegenerator-svelte"
+      },
+      "documentHash": "1692683624375",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/base.md": {
+      "document": {
+        "title": "Base",
+        "description": "My personal knowledge base.",
+        "stacks": [
+          "nextjs\r"
+        ],
+        "date": "2021-01-21",
+        "projectLink": "https://base.sznm.dev",
+        "icon": "/app_icons/book.svg",
+        "projectType": "docs",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/base.md",
+        "_raw": {
+          "sourceFilePath": "projects/base.md",
+          "sourceFileName": "base.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/base"
+        },
+        "type": "Project",
+        "id": "base"
+      },
+      "documentHash": "1692683624376",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/big-talk.md": {
+      "document": {
+        "title": "Big Talk",
+        "description": "Big Talk questions / deck.",
+        "stacks": [
+          "nextjs",
+          "chakra-ui\r"
+        ],
+        "date": "2021-09-19",
+        "projectLink": "https://bigtalk.sznm.dev",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/big-talk.md",
+        "_raw": {
+          "sourceFilePath": "projects/big-talk.md",
+          "sourceFileName": "big-talk.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/big-talk"
+        },
+        "type": "Project",
+        "id": "big-talk"
+      },
+      "documentHash": "1692683624377",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/covid19data.md": {
+      "document": {
+        "title": "COVID-19 Data",
+        "description": "Monitor covid-19 stats.",
+        "stacks": [
+          "nextjs",
+          "chakra-ui\r"
+        ],
+        "date": "2020-05-02",
+        "projectLink": "https://covid19.sznm.dev",
+        "repoLink": "https://github.com/sozonome/covid-19-data",
+        "icon": "/app_icons/covid-19-data.svg",
+        "thumbnail": "/app_preview/covid19.png",
+        "thumbnailDark": "/app_preview/covid19-dark.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/covid19data.md",
+        "_raw": {
+          "sourceFilePath": "projects/covid19data.md",
+          "sourceFileName": "covid19data.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/covid19data"
+        },
+        "type": "Project",
+        "id": "covid19data"
+      },
+      "documentHash": "1692683624379",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/greet-gaas.md": {
+      "document": {
+        "title": "Greetings as a Service (GaaS)",
+        "description": "Make personalized greetings message for your folks.",
+        "featured": true,
+        "sznmApps": true,
+        "stacks": [
+          "nextjs",
+          "chakra-ui\r"
+        ],
+        "date": "2021-01-01",
+        "projectLink": "https://gaas.sznm.dev/",
+        "icon": "/app_icons/greet-gaas.svg",
+        "thumbnail": "/app_preview/gaas.png",
+        "thumbnailDark": "/app_preview/gaas-dark.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/greet-gaas.md",
+        "_raw": {
+          "sourceFilePath": "projects/greet-gaas.md",
+          "sourceFileName": "greet-gaas.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/greet-gaas"
+        },
+        "type": "Project",
+        "id": "greet-gaas"
+      },
+      "documentHash": "1692683624384",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/instadld.md": {
+      "document": {
+        "title": "InstaDLD",
+        "description": "[Archived - no longer functional] Instagram Post media downloader. Support multipost download.",
+        "stacks": [
+          "nextjs",
+          "chakra-ui\r"
+        ],
+        "date": "2020-11-22",
+        "repoLink": "https://github.com/sozonome/instadl",
+        "icon": "/app_icons/instadld.svg",
+        "thumbnail": "/app_preview/instadld.png",
+        "thumbnailDark": "/app_preview/instadld-dark.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/instadld.md",
+        "_raw": {
+          "sourceFilePath": "projects/instadld.md",
+          "sourceFileName": "instadld.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/instadld"
+        },
+        "type": "Project",
+        "id": "instadld"
+      },
+      "documentHash": "1692683624385",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/kapturalumina.md": {
+      "document": {
+        "title": "KapturaLumina",
+        "description": "My Bachelor / Undergraduate Thesis Project. Basic Photography Learning Mobile App with Gamification. Built using Ionic, React, and Firebase.",
+        "stacks": [
+          "ionic",
+          "react",
+          "firebase\r"
+        ],
+        "date": "2020-06-02",
+        "projectLink": "https://kapturalumina.sznm.dev/",
+        "repoLink": "https://github.com/sozonome/kapturalumina",
+        "playStoreLink": "https://play.google.com/store/apps/details?id=dev.sznm.kapturalumina",
+        "icon": "/app_icons/icon_kapturalumina.png",
+        "thumbnail": "/app_preview/kapturalumina.png",
+        "thumbnailDark": "/app_preview/kapturalumina-dark.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/kapturalumina.md",
+        "_raw": {
+          "sourceFilePath": "projects/kapturalumina.md",
+          "sourceFileName": "kapturalumina.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/kapturalumina"
+        },
+        "type": "Project",
+        "id": "kapturalumina"
+      },
+      "documentHash": "1692683624387",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/linktester.md": {
+      "document": {
+        "title": "Link Tester",
+        "description": "Deep Link / App Link tester",
+        "stacks": [
+          "vite",
+          "react",
+          "chakra-ui\r"
+        ],
+        "date": "2023-01-06",
+        "projectLink": "https://linktester.sznm.dev",
+        "repoLink": "https://github.com/sozonome/linktester",
+        "icon": "/app_icons/link.svg",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/linktester.md",
+        "_raw": {
+          "sourceFilePath": "projects/linktester.md",
+          "sourceFileName": "linktester.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/linktester"
+        },
+        "type": "Project",
+        "id": "linktester"
+      },
+      "documentHash": "1692683624389",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/mixtarter-chakra.md": {
+      "document": {
+        "title": "mixtarter-chakra",
+        "description": "🔋⚡ starter template to initialize Remix app with Chakra UI & Typescript setup",
+        "stacks": [
+          "chakra-ui\r"
+        ],
+        "date": "2021-12-11",
+        "projectLink": "https://mixtarter-chakra.sznm.dev",
+        "repoLink": "https://github.com/sozonome/mixtarter-chakra",
+        "icon": "/app_icons/nextarter-chakra.svg",
+        "projectType": "templates",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/mixtarter-chakra.md",
+        "_raw": {
+          "sourceFilePath": "projects/mixtarter-chakra.md",
+          "sourceFileName": "mixtarter-chakra.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/mixtarter-chakra"
+        },
+        "type": "Project",
+        "id": "mixtarter-chakra"
+      },
+      "documentHash": "1692683624389",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/muvees.md": {
+      "document": {
+        "title": "muvees",
+        "description": "Just another movie DB app",
+        "featured": true,
+        "sznmApps": true,
+        "stacks": [
+          "nextjs",
+          "chakra-ui\r"
+        ],
+        "date": "2020-12-29",
+        "projectLink": "https://muvees.sznm.dev",
+        "icon": "/app_icons/popcorn.png",
+        "projectType": "sites",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/muvees.md",
+        "_raw": {
+          "sourceFilePath": "projects/muvees.md",
+          "sourceFileName": "muvees.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/muvees"
+        },
+        "type": "Project",
+        "id": "muvees"
+      },
+      "documentHash": "1692683624391",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/nextarter-chakra.md": {
+      "document": {
+        "title": "nextarter-chakra",
+        "description": "🔋⚡ battery packed template to initialize Next.js app with Chakra UI & Typescript setup",
+        "stacks": [
+          "nextjs",
+          "chakra-ui\r"
+        ],
+        "date": "2020-08-13",
+        "projectLink": "https://nextarter-chakra.sznm.dev",
+        "repoLink": "https://github.com/sozonome/nextarter-chakra",
+        "icon": "/app_icons/nextarter-chakra.svg",
+        "projectType": "templates",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/nextarter-chakra.md",
+        "_raw": {
+          "sourceFilePath": "projects/nextarter-chakra.md",
+          "sourceFileName": "nextarter-chakra.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/nextarter-chakra"
+        },
+        "type": "Project",
+        "id": "nextarter-chakra"
+      },
+      "documentHash": "1692683624393",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/nextarter-tailwind.md": {
+      "document": {
+        "title": "nextarter-tailwind",
+        "description": "🔋⚡ battery packed template to initialize Next.js app with TailwindCSS & Typescript setup",
+        "stacks": [
+          "nextjs",
+          "tailwindcss\r"
+        ],
+        "date": "2021-10-01",
+        "projectLink": "https://nextarter-tailwind.sznm.dev",
+        "repoLink": "https://github.com/sozonome/nextarter-tailwind",
+        "icon": "/app_icons/nextarter-chakra.svg",
+        "projectType": "templates",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/nextarter-tailwind.md",
+        "_raw": {
+          "sourceFilePath": "projects/nextarter-tailwind.md",
+          "sourceFileName": "nextarter-tailwind.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/nextarter-tailwind"
+        },
+        "type": "Project",
+        "id": "nextarter-tailwind"
+      },
+      "documentHash": "1692683624394",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/personal-site.md": {
+      "document": {
+        "title": "Personal Site",
+        "description": "My personal page. Built with SvelteKit.",
+        "stacks": [
+          "svelte\r"
+        ],
+        "date": "2021-10-08",
+        "projectLink": "https://agustinusnathaniel.com",
+        "icon": "/app_icons/coconate.png",
+        "projectType": "sites",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/personal-site.md",
+        "_raw": {
+          "sourceFilePath": "projects/personal-site.md",
+          "sourceFileName": "personal-site.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/personal-site"
+        },
+        "type": "Project",
+        "id": "personal-site"
+      },
+      "documentHash": "1692683624396",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/pub-apis.md": {
+      "document": {
+        "title": "Public APIs",
+        "description": "Find public APIs for your next projects.",
+        "featured": true,
+        "sznmApps": true,
+        "stacks": [
+          "nextjs",
+          "chakra-ui\r"
+        ],
+        "date": "2020-12-25",
+        "projectLink": "https://publicapis.sznm.dev",
+        "repoLink": "https://github.com/sozonome/pub-apis",
+        "icon": "/app_icons/pub-apis.svg",
+        "thumbnail": "/app_preview/public-apis.png",
+        "thumbnailDark": "/app_preview/public-apis-dark.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/pub-apis.md",
+        "_raw": {
+          "sourceFilePath": "projects/pub-apis.md",
+          "sourceFileName": "pub-apis.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/pub-apis"
+        },
+        "type": "Project",
+        "id": "pub-apis"
+      },
+      "documentHash": "1692683624397",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/spoker.md": {
+      "document": {
+        "title": "spoker",
+        "description": "My take on scrum poker.",
+        "highlight": true,
+        "featured": true,
+        "sznmApps": true,
+        "stacks": [
+          "nextjs",
+          "chakra-ui\r"
+        ],
+        "date": "2021-02-28",
+        "projectLink": "https://spoker.dev/intro",
+        "icon": "/app_icons/chip.svg",
+        "thumbnail": "/app_preview/spoker.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/spoker.md",
+        "_raw": {
+          "sourceFilePath": "projects/spoker.md",
+          "sourceFileName": "spoker.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/spoker"
+        },
+        "type": "Project",
+        "id": "spoker"
+      },
+      "documentHash": "1692683624397",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/sznm-dev.md": {
+      "document": {
+        "title": "sznm.dev",
+        "description": "The site you're currently watching. Built with NextJS. Composed with Chakra UI and Framer Motion.",
+        "stacks": [
+          "nextjs",
+          "chakra-ui",
+          "framer",
+          "vercel\r"
+        ],
+        "date": "2020-05-25",
+        "icon": "/avataaars.svg",
+        "projectType": "sites",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/sznm-dev.md",
+        "_raw": {
+          "sourceFilePath": "projects/sznm-dev.md",
+          "sourceFileName": "sznm-dev.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/sznm-dev"
+        },
+        "type": "Project",
+        "id": "sznm-dev"
+      },
+      "documentHash": "1692683624400",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/tungpajak.md": {
+      "document": {
+        "title": "tungpajak",
+        "description": "My personal tax calculator / simulator.",
+        "stacks": [
+          "nextjs",
+          "chakra-ui\r"
+        ],
+        "date": "2022-03-12",
+        "projectLink": "https://tungpajak.sznm.dev",
+        "icon": "/app_icons/book.svg",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/tungpajak.md",
+        "_raw": {
+          "sourceFilePath": "projects/tungpajak.md",
+          "sourceFileName": "tungpajak.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/tungpajak"
+        },
+        "type": "Project",
+        "id": "tungpajak"
+      },
+      "documentHash": "1692683624401",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/vite-react-chakra-starter.md": {
+      "document": {
+        "title": "vite-react-chakra-starter",
+        "description": "template to initialize vite react-ts app with Chakra UI setup",
+        "stacks": [
+          "vite",
+          "react",
+          "chakra-ui\r"
+        ],
+        "date": "2021-03-28",
+        "projectLink": "https://vite-react-chakra-starter.sznm.dev",
+        "repoLink": "https://github.com/sozonome/vite-react-chakra-starter",
+        "icon": "/app_icons/nextarter-chakra.svg",
+        "projectType": "templates",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/vite-react-chakra-starter.md",
+        "_raw": {
+          "sourceFilePath": "projects/vite-react-chakra-starter.md",
+          "sourceFileName": "vite-react-chakra-starter.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/vite-react-chakra-starter"
+        },
+        "type": "Project",
+        "id": "vite-react-chakra-starter"
+      },
+      "documentHash": "1692683624402",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/whatsapp-link-helper.md": {
+      "document": {
+        "title": "WhatsApp Link Helper",
+        "description": "WhatsApp link helper / generator",
+        "stacks": [
+          "nextjs",
+          "tailwindcss\r"
+        ],
+        "date": "2023-05-30",
+        "projectLink": "https://wa.sznm.dev",
+        "repoLink": "https://github.com/sozonome/wa-link-helper",
+        "icon": "/app_icons/link.svg",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/whatsapp-link-helper.md",
+        "_raw": {
+          "sourceFilePath": "projects/whatsapp-link-helper.md",
+          "sourceFileName": "whatsapp-link-helper.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/whatsapp-link-helper"
+        },
+        "type": "Project",
+        "id": "whatsapp-link-helper"
+      },
+      "documentHash": "1692683624404",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/wussh.md": {
+      "document": {
+        "title": "wussh",
+        "description": "(formerly olamonde) Create personalized link page.",
+        "highlight": true,
+        "featured": true,
+        "sznmApps": true,
+        "stacks": [
+          "nextjs",
+          "chakra-ui\r"
+        ],
+        "date": "2021-05-07",
+        "projectLink": "https://wus.sh",
+        "icon": "/app_icons/link.svg",
+        "thumbnail": "/app_preview/wussh.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/wussh.md",
+        "_raw": {
+          "sourceFilePath": "projects/wussh.md",
+          "sourceFileName": "wussh.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/wussh"
+        },
+        "type": "Project",
+        "id": "wussh"
+      },
+      "documentHash": "1692683624405",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/xtarter.md": {
+      "document": {
+        "title": "xtarter",
+        "description": "Home of my starter templates",
+        "featured": true,
+        "stacks": [
+          "nextjs",
+          "chakra-ui\r"
+        ],
+        "date": "2022-05-19",
+        "projectLink": "https://xtarter.sznm.dev",
+        "icon": "/app_icons/nextarter-chakra.svg",
+        "projectType": "sites",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/xtarter.md",
+        "_raw": {
+          "sourceFilePath": "projects/xtarter.md",
+          "sourceFileName": "xtarter.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/xtarter"
+        },
+        "type": "Project",
+        "id": "xtarter"
+      },
+      "documentHash": "1692683624408",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/ytget.md": {
+      "document": {
+        "title": "YTGet",
+        "description": "YouTube audio and video downloader.",
+        "published": false,
+        "featured": true,
+        "stacks": [
+          "nextjs",
+          "chakra-ui\r"
+        ],
+        "date": "2020-12-07",
+        "projectLink": "https://ytget.sznm.dev/",
+        "icon": "/app_icons/ytget.svg",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/ytget.md",
+        "_raw": {
+          "sourceFilePath": "projects/ytget.md",
+          "sourceFileName": "ytget.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/ytget"
+        },
+        "type": "Project",
+        "id": "ytget"
+      },
+      "documentHash": "1692683624409",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "testimonies/carissa-alanda.md": {
+      "document": {
+        "name": "Carissa Alanda",
+        "title": "Product Manager",
+        "year": "2022-2023",
+        "linkedin": "https://www.linkedin.com/in/carissa-alanda-463512a7/\r",
+        "body": {
+          "raw": "\r\nCollaborating with Nathan has been nothing but a blessing. Not only he delivers his tasks in timely manner, but he would ask many questions prior development to ensure that he could build something that can help us reach the goal. As PM, these traits help me tremendously as I could rely on Nathan for any technicalities so that we can come up with other that meets the business goals while maintaining the user needs.\r\n",
+          "html": "<p>Collaborating with Nathan has been nothing but a blessing. Not only he delivers his tasks in timely manner, but he would ask many questions prior development to ensure that he could build something that can help us reach the goal. As PM, these traits help me tremendously as I could rely on Nathan for any technicalities so that we can come up with other that meets the business goals while maintaining the user needs.</p>"
+        },
+        "_id": "testimonies/carissa-alanda.md",
+        "_raw": {
+          "sourceFilePath": "testimonies/carissa-alanda.md",
+          "sourceFileName": "carissa-alanda.md",
+          "sourceFileDir": "testimonies",
+          "contentType": "markdown",
+          "flattenedPath": "testimonies/carissa-alanda"
+        },
+        "type": "Testimony",
+        "id": "carissa-alanda"
+      },
+      "documentHash": "1692683624410",
+      "hasWarnings": false,
+      "documentTypeName": "Testimony"
+    },
+    "testimonies/denaya.md": {
+      "document": {
+        "name": "Denaya",
+        "title": "Software Engineer",
+        "year": "2022-2023",
+        "linkedin": "https://www.linkedin.com/in/denaya-rahadika/\r",
+        "body": {
+          "raw": "\r\nNathan is such an excellent teamplayer with great positive and humble personality. His passion is his secret weapon. It's what sets him apart from the rest and makes him shine. I've never seen anyone so in love with what they do, and it's inspiring as hell. Keep rocking it, Than!\r\n",
+          "html": "<p>Nathan is such an excellent teamplayer with great positive and humble personality. His passion is his secret weapon. It's what sets him apart from the rest and makes him shine. I've never seen anyone so in love with what they do, and it's inspiring as hell. Keep rocking it, Than!</p>"
+        },
+        "_id": "testimonies/denaya.md",
+        "_raw": {
+          "sourceFilePath": "testimonies/denaya.md",
+          "sourceFileName": "denaya.md",
+          "sourceFileDir": "testimonies",
+          "contentType": "markdown",
+          "flattenedPath": "testimonies/denaya"
+        },
+        "type": "Testimony",
+        "id": "denaya"
+      },
+      "documentHash": "1692683624411",
+      "hasWarnings": false,
+      "documentTypeName": "Testimony"
+    },
+    "testimonies/dennis-tan.md": {
+      "document": {
+        "name": "Dennis Tan",
+        "title": "Software Engineer",
+        "year": "2022-2023\r",
+        "body": {
+          "raw": "\r\nNathan is a very organized and intelligent engineer, always think more about optimization, and try to look from multiple point of views regarding a product. Over the course of his career in pinhome, he has standardized our workflow in Ares squad, made a lot of documentation to help other fellow engineers. He also discussed alot with the products to confirm and ensure there is no mistake when delivering a product. A good role model for any other engineers.\r\n",
+          "html": "<p>Nathan is a very organized and intelligent engineer, always think more about optimization, and try to look from multiple point of views regarding a product. Over the course of his career in pinhome, he has standardized our workflow in Ares squad, made a lot of documentation to help other fellow engineers. He also discussed alot with the products to confirm and ensure there is no mistake when delivering a product. A good role model for any other engineers.</p>"
+        },
+        "_id": "testimonies/dennis-tan.md",
+        "_raw": {
+          "sourceFilePath": "testimonies/dennis-tan.md",
+          "sourceFileName": "dennis-tan.md",
+          "sourceFileDir": "testimonies",
+          "contentType": "markdown",
+          "flattenedPath": "testimonies/dennis-tan"
+        },
+        "type": "Testimony",
+        "id": "dennis-tan"
+      },
+      "documentHash": "1692683624412",
+      "hasWarnings": false,
+      "documentTypeName": "Testimony"
+    },
+    "testimonies/hanif-agung.md": {
+      "document": {
+        "name": "Hanif Agung Prayoga",
+        "title": "Software Engineer",
+        "year": "2021-2023",
+        "linkedin": "https://www.linkedin.com/in/hanifagungp/\r",
+        "body": {
+          "raw": "\r\nNathan is a really outstanding engineer. Knowing him for about 2 years, I can say that he really is passionate about software engineering and building products in general. He's done his job well, actively giving out suggestions about development and can pinpoint a lot of issues. He was a huge help during our working years together and I'm really thankful for his presence and impact.\r\n",
+          "html": "<p>Nathan is a really outstanding engineer. Knowing him for about 2 years, I can say that he really is passionate about software engineering and building products in general. He's done his job well, actively giving out suggestions about development and can pinpoint a lot of issues. He was a huge help during our working years together and I'm really thankful for his presence and impact.</p>"
+        },
+        "_id": "testimonies/hanif-agung.md",
+        "_raw": {
+          "sourceFilePath": "testimonies/hanif-agung.md",
+          "sourceFileName": "hanif-agung.md",
+          "sourceFileDir": "testimonies",
+          "contentType": "markdown",
+          "flattenedPath": "testimonies/hanif-agung"
+        },
+        "type": "Testimony",
+        "id": "hanif-agung"
+      },
+      "documentHash": "1692683624415",
+      "hasWarnings": false,
+      "documentTypeName": "Testimony"
+    },
+    "testimonies/tsasqa-galih.md": {
+      "document": {
+        "name": "Tsasqa Galih",
+        "title": "Senior Product Manager",
+        "year": "2021-2023",
+        "linkedin": "https://www.linkedin.com/in/tsasqa/\r",
+        "body": {
+          "raw": "\r\nNathan will be an excellent addition to any companies, teams, or even as a partner. He's dependable as a Team Member, Inspiring as a co-worker, and a great friend outside of professional work. Excellent in Engineering knowledge and have that drive and thirst to keep on pursuing knowledge, both from his expertise and outside.\r\n",
+          "html": "<p>Nathan will be an excellent addition to any companies, teams, or even as a partner. He's dependable as a Team Member, Inspiring as a co-worker, and a great friend outside of professional work. Excellent in Engineering knowledge and have that drive and thirst to keep on pursuing knowledge, both from his expertise and outside.</p>"
+        },
+        "_id": "testimonies/tsasqa-galih.md",
+        "_raw": {
+          "sourceFilePath": "testimonies/tsasqa-galih.md",
+          "sourceFileName": "tsasqa-galih.md",
+          "sourceFileDir": "testimonies",
+          "contentType": "markdown",
+          "flattenedPath": "testimonies/tsasqa-galih"
+        },
+        "type": "Testimony",
+        "id": "tsasqa-galih"
+      },
+      "documentHash": "1692683624416",
+      "hasWarnings": false,
+      "documentTypeName": "Testimony"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "muvees",
+  "description": "Just another movie DB app",
+  "featured": true,
+  "sznmApps": true,
+  "stacks": [
+    "nextjs",
+    "chakra-ui\r"
+  ],
+  "date": "2020-12-29",
+  "projectLink": "https://muvees.sznm.dev",
+  "icon": "/app_icons/popcorn.png",
+  "projectType": "sites",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/muvees.md",
+  "_raw": {
+    "sourceFilePath": "projects/muvees.md",
+    "sourceFileName": "muvees.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/muvees"
+  },
+  "type": "Project",
+  "id": "muvees"
+}

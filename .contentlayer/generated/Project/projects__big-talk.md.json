@@ -1,0 +1,25 @@
+{
+  "title": "Big Talk",
+  "description": "Big Talk questions / deck.",
+  "stacks": [
+    "nextjs",
+    "chakra-ui\r"
+  ],
+  "date": "2021-09-19",
+  "projectLink": "https://bigtalk.sznm.dev",
+  "projectType": "apps",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/big-talk.md",
+  "_raw": {
+    "sourceFilePath": "projects/big-talk.md",
+    "sourceFileName": "big-talk.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/big-talk"
+  },
+  "type": "Project",
+  "id": "big-talk"
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Force Lodash Import Scope",
+  "description": "How to enforce lodash import scope",
+  "published": true,
+  "date": "2023-06-30",
+  "tags": [
+    "lodash",
+    "eslint\r"
+  ],
+  "body": {
+    "raw": "\r\n## Importing Lodash\r\n\r\nThere are multiple ways to import lodash utilities.\r\n\r\n```ts\r\n// whole import\r\nimport _ from 'lodash';\r\n// _.debounce();\r\n\r\n// curly bracket / named import\r\nimport { debounce } from 'lodash';\r\n\r\n// one-by-one / modules / single method import\r\nimport debounce from 'lodash/debounce';\r\n```\r\n\r\nOne of the recommended way to import it is `one-by-one` or modules or `single method` import as it will produces smallest bundle size.\r\n\r\n## Enforce Lodash Import Method\r\n\r\nHow about if our project is:\r\n\r\n1. maintained by multiple people, or\r\n2. we have various parts in our code which utilize lodash\r\n\r\nand we want to enforce specific way to import lodash methods?\r\n\r\nWe can use eslint and there's an eslint plugin for it: [`eslint-plugin-lodash`](https://www.npmjs.com/package/eslint-plugin-lodash). This plugin has a rule named `import-scope`. Here's how to configure it:\r\n\r\n```bash\r\npnpm i -D eslint eslint-plugin-lodash\r\n```\r\n\r\n```js\r\n// .eslintrc.js\r\n/** @type {import('eslint').Linter.Config} */\r\nmodule.exports = {\r\n  plugins: ['lodash'],\r\n  rules: {\r\n    'lodash/import-scope': [\r\n      'error',\r\n      'method' /** 'method' | 'member' | 'full' | 'method-package' */,\r\n    ],\r\n  },\r\n};\r\n```\r\n\r\nWith this configuration, eslint will warns us when we import lodash methods using other than the preferred import scope.\r\n\r\n### References:\r\n\r\n- https://www.blazemeter.com/blog/import-lodash-libraries\r\n- https://github.com/wix-incubator/eslint-plugin-lodash/blob/master/docs/rules/import-scope.md\r\n",
+    "html": "<h2>Importing Lodash</h2>\n<p>There are multiple ways to import lodash utilities.</p>\n<pre><code class=\"language-ts\">// whole import\r\nimport _ from 'lodash';\r\n// _.debounce();\r\n\r\n// curly bracket / named import\r\nimport { debounce } from 'lodash';\r\n\r\n// one-by-one / modules / single method import\r\nimport debounce from 'lodash/debounce';\n</code></pre>\n<p>One of the recommended way to import it is <code>one-by-one</code> or modules or <code>single method</code> import as it will produces smallest bundle size.</p>\n<h2>Enforce Lodash Import Method</h2>\n<p>How about if our project is:</p>\n<ol>\n<li>maintained by multiple people, or</li>\n<li>we have various parts in our code which utilize lodash</li>\n</ol>\n<p>and we want to enforce specific way to import lodash methods?</p>\n<p>We can use eslint and there's an eslint plugin for it: <a href=\"https://www.npmjs.com/package/eslint-plugin-lodash\"><code>eslint-plugin-lodash</code></a>. This plugin has a rule named <code>import-scope</code>. Here's how to configure it:</p>\n<pre><code class=\"language-bash\">pnpm i -D eslint eslint-plugin-lodash\n</code></pre>\n<pre><code class=\"language-js\">// .eslintrc.js\r\n/** @type {import('eslint').Linter.Config} */\r\nmodule.exports = {\r\n  plugins: ['lodash'],\r\n  rules: {\r\n    'lodash/import-scope': [\r\n      'error',\r\n      'method' /** 'method' | 'member' | 'full' | 'method-package' */,\r\n    ],\r\n  },\r\n};\n</code></pre>\n<p>With this configuration, eslint will warns us when we import lodash methods using other than the preferred import scope.</p>\n<h3>References:</h3>\n<ul>\n<li><a href=\"https://www.blazemeter.com/blog/import-lodash-libraries\">https://www.blazemeter.com/blog/import-lodash-libraries</a></li>\n<li><a href=\"https://github.com/wix-incubator/eslint-plugin-lodash/blob/master/docs/rules/import-scope.md\">https://github.com/wix-incubator/eslint-plugin-lodash/blob/master/docs/rules/import-scope.md</a></li>\n</ul>"
+  },
+  "_id": "notes/force-lodash-modules-import.md",
+  "_raw": {
+    "sourceFilePath": "notes/force-lodash-modules-import.md",
+    "sourceFileName": "force-lodash-modules-import.md",
+    "sourceFileDir": "notes",
+    "contentType": "markdown",
+    "flattenedPath": "notes/force-lodash-modules-import"
+  },
+  "type": "Note",
+  "id": "force-lodash-modules-import"
+}

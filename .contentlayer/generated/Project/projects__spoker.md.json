@@ -1,0 +1,30 @@
+{
+  "title": "spoker",
+  "description": "My take on scrum poker.",
+  "highlight": true,
+  "featured": true,
+  "sznmApps": true,
+  "stacks": [
+    "nextjs",
+    "chakra-ui\r"
+  ],
+  "date": "2021-02-28",
+  "projectLink": "https://spoker.dev/intro",
+  "icon": "/app_icons/chip.svg",
+  "thumbnail": "/app_preview/spoker.png",
+  "projectType": "apps",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/spoker.md",
+  "_raw": {
+    "sourceFilePath": "projects/spoker.md",
+    "sourceFileName": "spoker.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/spoker"
+  },
+  "type": "Project",
+  "id": "spoker"
+}

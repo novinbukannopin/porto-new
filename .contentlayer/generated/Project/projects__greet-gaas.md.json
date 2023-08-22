@@ -1,0 +1,30 @@
+{
+  "title": "Greetings as a Service (GaaS)",
+  "description": "Make personalized greetings message for your folks.",
+  "featured": true,
+  "sznmApps": true,
+  "stacks": [
+    "nextjs",
+    "chakra-ui\r"
+  ],
+  "date": "2021-01-01",
+  "projectLink": "https://gaas.sznm.dev/",
+  "icon": "/app_icons/greet-gaas.svg",
+  "thumbnail": "/app_preview/gaas.png",
+  "thumbnailDark": "/app_preview/gaas-dark.png",
+  "projectType": "apps",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/greet-gaas.md",
+  "_raw": {
+    "sourceFilePath": "projects/greet-gaas.md",
+    "sourceFileName": "greet-gaas.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/greet-gaas"
+  },
+  "type": "Project",
+  "id": "greet-gaas"
+}

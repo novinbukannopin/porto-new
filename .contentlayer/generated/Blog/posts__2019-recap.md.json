@@ -1,0 +1,31 @@
+{
+  "title": "2019 Recap",
+  "date": "2019-12-31",
+  "cover": "https://images.unsplash.com/photo-1549978907-5493b27b19c7?auto=format&q=80",
+  "thumbnail": "📘",
+  "legacyID": "2019-12-31-2019-recap",
+  "published": true,
+  "tags": [
+    "recap\r"
+  ],
+  "readTime": {
+    "text": "2 min read",
+    "minutes": 1.485,
+    "time": 89100,
+    "words": 297
+  },
+  "body": {
+    "raw": "\r\nI spent most of my time in 2019 at college, trying to finish all my university courses by the end of 7th semester so I can focus on Thesis / Final Project at the final semester (8th semester). Planning to graduate in 2020. So...not really much happened in this year, but I learned so much in terms of mobile application and web development. How to build an Android App and got my hands on React framework for the first-time in this year.\r\n\r\n## What I learned in 2019\r\n\r\n- Java and XML - How to build Native Android apps using Android Studio.\r\n- REST API - How to fetch data and display it with recycler view in Android app\r\n- PHP - how to program a website with PHP, MVC.\r\n- How to setup a website using database with PHP, laragon, and MySQL\r\n- CodeIgniter - how to use CodeIgniter to build website.\r\n- How to deploy PHP sites with its database to cPanel hosting.\r\n- How to setup arcanist in Linux Ubuntu.\r\n- How to use Git for managing personal and team projects.\r\n- TypeScript - how to use it, what is the importance of strong typing, and how to compile it into JS\r\n- React - how to build an app using React with CRA.\r\n- GraphQL - what is it and how is it used\r\n- Apollo - how to implement apollo as a client for GraphQL\r\n- GatsbyJS - how to build a site with Gatsby\r\n- Ionic - how to build hybrid apps and how does it different from native apps.\r\n- Angular2+ - forced to learn this framework because learning Ionic Angular and luckily I've learned TypeScript.\r\n- Zeit - found a Netlify alternative and how to deploy site with it.\r\n",
+    "html": "<p>I spent most of my time in 2019 at college, trying to finish all my university courses by the end of 7th semester so I can focus on Thesis / Final Project at the final semester (8th semester). Planning to graduate in 2020. So...not really much happened in this year, but I learned so much in terms of mobile application and web development. How to build an Android App and got my hands on React framework for the first-time in this year.</p>\n<h2>What I learned in 2019</h2>\n<ul>\n<li>Java and XML - How to build Native Android apps using Android Studio.</li>\n<li>REST API - How to fetch data and display it with recycler view in Android app</li>\n<li>PHP - how to program a website with PHP, MVC.</li>\n<li>How to setup a website using database with PHP, laragon, and MySQL</li>\n<li>CodeIgniter - how to use CodeIgniter to build website.</li>\n<li>How to deploy PHP sites with its database to cPanel hosting.</li>\n<li>How to setup arcanist in Linux Ubuntu.</li>\n<li>How to use Git for managing personal and team projects.</li>\n<li>TypeScript - how to use it, what is the importance of strong typing, and how to compile it into JS</li>\n<li>React - how to build an app using React with CRA.</li>\n<li>GraphQL - what is it and how is it used</li>\n<li>Apollo - how to implement apollo as a client for GraphQL</li>\n<li>GatsbyJS - how to build a site with Gatsby</li>\n<li>Ionic - how to build hybrid apps and how does it different from native apps.</li>\n<li>Angular2+ - forced to learn this framework because learning Ionic Angular and luckily I've learned TypeScript.</li>\n<li>Zeit - found a Netlify alternative and how to deploy site with it.</li>\n</ul>"
+  },
+  "_id": "posts/2019-recap.md",
+  "_raw": {
+    "sourceFilePath": "posts/2019-recap.md",
+    "sourceFileName": "2019-recap.md",
+    "sourceFileDir": "posts",
+    "contentType": "markdown",
+    "flattenedPath": "posts/2019-recap"
+  },
+  "type": "Blog",
+  "id": "2019-recap"
+}

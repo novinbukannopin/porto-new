@@ -1,0 +1,19 @@
+{
+  "name": "Jawahirul Fanani",
+  "title": "Product Manager",
+  "year": "2022-2023\r",
+  "body": {
+    "raw": "\r\nHaving collaborated with Novin on a backend project, I was impressed by their dedication to detail and their skillful implementation of data-driven solutions. Their passion for data analysis, engineering, and visualization is evident in the remarkable results they deliver.\r\n",
+    "html": "<p>Having collaborated with Novin on a backend project, I was impressed by their dedication to detail and their skillful implementation of data-driven solutions. Their passion for data analysis, engineering, and visualization is evident in the remarkable results they deliver.</p>"
+  },
+  "_id": "testimonies/jawahirul-fanani.md",
+  "_raw": {
+    "sourceFilePath": "testimonies/jawahirul-fanani.md",
+    "sourceFileName": "jawahirul-fanani.md",
+    "sourceFileDir": "testimonies",
+    "contentType": "markdown",
+    "flattenedPath": "testimonies/jawahirul-fanani"
+  },
+  "type": "Testimony",
+  "id": "jawahirul-fanani"
+}

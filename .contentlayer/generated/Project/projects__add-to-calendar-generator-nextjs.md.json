@@ -1,0 +1,30 @@
+{
+  "title": "Add to Calendar Generator",
+  "description": "Add to Calendar link / button generator.",
+  "sznmApps": true,
+  "stacks": [
+    "nextjs",
+    "chakra-ui\r"
+  ],
+  "date": "2020-10-24",
+  "projectLink": "https://addtocal.sznm.dev",
+  "repoLink": "https://github.com/sozonome/add-to-calendar-generator",
+  "icon": "/app_icons/add-to-calendar.svg",
+  "thumbnail": "/app_preview/add-to-calendar.png",
+  "thumbnailDark": "/app_preview/add-to-calendar-dark.png",
+  "projectType": "apps",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "projects/add-to-calendar-generator-nextjs.md",
+  "_raw": {
+    "sourceFilePath": "projects/add-to-calendar-generator-nextjs.md",
+    "sourceFileName": "add-to-calendar-generator-nextjs.md",
+    "sourceFileDir": "projects",
+    "contentType": "markdown",
+    "flattenedPath": "projects/add-to-calendar-generator-nextjs"
+  },
+  "type": "Project",
+  "id": "add-to-calendar-generator-nextjs"
+}
