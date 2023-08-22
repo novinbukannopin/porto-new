@@ -40,12 +40,12 @@ const Footer = () => {
       <Text fontSize={['xs', 'sm']}>
         &copy; 2020 - {new Date().getFullYear()}{' '}
         <Link
-          href="https://agustinusnathaniel.com"
+          href="https://novindev.site"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Agustinus Nathaniel's site: https://agustinusnathaniel.com"
+          aria-label="Novin Ardian Yulianto's site: https://novindev.site"
         >
-          Agustinus Nathaniel
+          Novin Ardian Y.
         </Link>
       </Text>
     </Stack>

@@ -24,20 +24,24 @@ const Content = () => {
       <Heading size="lg">👋 Hi, how are you?</Heading>
 
       <Text {...{ ...textProps, textColor }}>
-        I&apos;m Nathan, an experienced Digital Crafter with a strong passion
-        for crafting customer-centric tech solutions.
+        I&apos;m Novin, a versatile Tech Enthusiast driven by a fervor for
+        crafting data-driven solutions and engineering seamless backends.
       </Text>
 
       <Text {...{ ...textProps, textColor }}>
-        My expertise lies in working with various technologies, including React
-        (TypeScript, Next.js) and Flutter (Dart). Throughout my career, I have
-        honed skills in developing tech products that delight users and drive
-        business success.
+        With a solid foundation in technologies like Spring Java and Laravel, Im
+        poised to architect robust backend systems that power applications with
+        precision and performance. My curiosity extends to the world of data,
+        where I delve into analysis, engineering, and visualization to extract
+        meaningful insights.
       </Text>
 
       <Text {...{ ...textProps, textColor }}>
-        Sometimes I share fun and exciting projects through this site. I&apos;m
-        passionate about design and leading high-performing teams to success.
+        My journey reflects a passion for building innovative solutions that
+        resonate with users and elevate business outcomes. Here on this
+        platform, I occasionally showcase exciting projects that blend my love
+        for design and my leadership in driving high-performing teams towards
+        success.
       </Text>
     </MotionBox>
   );

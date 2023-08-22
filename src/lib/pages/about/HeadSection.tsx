@@ -4,7 +4,7 @@ const HeadSection = () => {
   return (
     <Box marginBottom={16}>
       <Heading size="2xl" fontWeight="medium">
-        sozonome
+        nov.in
       </Heading>
     </Box>
   );

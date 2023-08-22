@@ -10,10 +10,11 @@ const HeroSection = () => {
         alignSelf={['none', 'center']}
       >
         <Heading as="h1" size="xl" paddingBottom={11}>
-          Hello! I&apos;m Nathan.
+          Hello! I&apos;m Novin.
         </Heading>
         <Text fontSize={{ base: 'md', md: 'xl' }}>
-          Digital Crafter passionate in building user-centric solutions.
+          Crafting the Future with Code and Data: Journey of a Future Machine
+          Learning Engineer.
         </Text>
       </Box>
     </Box>

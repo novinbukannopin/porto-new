@@ -81,7 +81,7 @@ module.exports = withBundleAnalyzer(
       ];
     },
     eslint: {
-      dirs: ['src'],
+      // dirs: ['src'],
     },
     transpilePackages: ['lodash-es'],
     experimental: {
