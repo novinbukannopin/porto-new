@@ -1,15 +1,19 @@
 {
-  "title": "xtarter",
+  "title": "Management Files",
   "description": "Home of my starter templates",
+  "highlight": true,
   "featured": true,
+  "sznmApps": true,
   "stacks": [
-    "nextjs",
-    "chakra-ui\r"
+    "php",
+    "ci",
+    "mysql\r"
   ],
-  "date": "2022-05-19",
-  "projectLink": "https://xtarter.sznm.dev",
-  "icon": "/app_icons/nextarter-chakra.svg",
-  "projectType": "sites",
+  "date": "2023-02-12",
+  "projectLink": "https://novindev.site",
+  "icon": "/app_icons/management-files.png",
+  "thumbnail": "/app_preview/viles.png",
+  "projectType": "apps",
   "body": {
     "raw": "",
     "html": ""

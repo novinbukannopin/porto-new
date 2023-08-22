@@ -1,13 +1,17 @@
 ---
-title: xtarter
-projectLink: https://xtarter.sznm.dev
-# repoLink: https://github.com/sozonome/spoker
+title: Management Files
+projectLink: https://novindev.site
+# repoLink: https://github.com/novinbukannopin/uts-management-files
 description: Home of my starter templates
-date: "2022-05-19"
-icon: "/app_icons/nextarter-chakra.svg"
+date: '2023-02-12'
+icon: '/app_icons/management-files.png'
+thumbnail: '/app_preview/viles.png'
 featured: true
-projectType: 'sites'
-stacks: 
-  - nextjs
-  - chakra-ui
+highlight: true
+sznmApps: true
+projectType: 'apps'
+stacks:
+  - php
+  - ci
+  - mysql
 ---

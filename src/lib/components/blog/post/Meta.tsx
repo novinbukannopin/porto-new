@@ -13,12 +13,12 @@ const BlogPostMeta = ({ postData }: BlogPostMetaProps) => {
       useAppDir
       type="Blog"
       url={`${baseUrl}/blog/${postData.id}`}
-      title={`${postData.title} | sozonome`}
+      title={`${postData.title} | Novin`}
       images={[]}
       datePublished={new Date(postData.date).toISOString()}
       dateModified={new Date(postData.date).toISOString()}
-      authorName="Agustinus Nathaniel"
-      description={`A blog post by Agustinus Nathaniel explaining about ${postData.title}`}
+      authorName="Novin Ardian Y."
+      description={`A blog post by Novin Ardian Y. explaining about ${postData.title}`}
     />
   );
 };

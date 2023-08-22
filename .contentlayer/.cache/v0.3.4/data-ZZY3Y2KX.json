@@ -236,6 +236,234 @@
       "hasWarnings": false,
       "documentTypeName": "Note"
     },
+    "testimonies/carissa-alanda.md": {
+      "document": {
+        "name": "Carissa Alanda",
+        "title": "Product Manager",
+        "year": "2022-2023",
+        "linkedin": "https://www.linkedin.com/in/carissa-alanda-463512a7/\r",
+        "body": {
+          "raw": "\r\nCollaborating with Nathan has been nothing but a blessing. Not only he delivers his tasks in timely manner, but he would ask many questions prior development to ensure that he could build something that can help us reach the goal. As PM, these traits help me tremendously as I could rely on Nathan for any technicalities so that we can come up with other that meets the business goals while maintaining the user needs.\r\n",
+          "html": "<p>Collaborating with Nathan has been nothing but a blessing. Not only he delivers his tasks in timely manner, but he would ask many questions prior development to ensure that he could build something that can help us reach the goal. As PM, these traits help me tremendously as I could rely on Nathan for any technicalities so that we can come up with other that meets the business goals while maintaining the user needs.</p>"
+        },
+        "_id": "testimonies/carissa-alanda.md",
+        "_raw": {
+          "sourceFilePath": "testimonies/carissa-alanda.md",
+          "sourceFileName": "carissa-alanda.md",
+          "sourceFileDir": "testimonies",
+          "contentType": "markdown",
+          "flattenedPath": "testimonies/carissa-alanda"
+        },
+        "type": "Testimony",
+        "id": "carissa-alanda"
+      },
+      "documentHash": "1692683624410",
+      "hasWarnings": false,
+      "documentTypeName": "Testimony"
+    },
+    "testimonies/denaya.md": {
+      "document": {
+        "name": "Denaya",
+        "title": "Software Engineer",
+        "year": "2022-2023",
+        "linkedin": "https://www.linkedin.com/in/denaya-rahadika/\r",
+        "body": {
+          "raw": "\r\nNathan is such an excellent teamplayer with great positive and humble personality. His passion is his secret weapon. It's what sets him apart from the rest and makes him shine. I've never seen anyone so in love with what they do, and it's inspiring as hell. Keep rocking it, Than!\r\n",
+          "html": "<p>Nathan is such an excellent teamplayer with great positive and humble personality. His passion is his secret weapon. It's what sets him apart from the rest and makes him shine. I've never seen anyone so in love with what they do, and it's inspiring as hell. Keep rocking it, Than!</p>"
+        },
+        "_id": "testimonies/denaya.md",
+        "_raw": {
+          "sourceFilePath": "testimonies/denaya.md",
+          "sourceFileName": "denaya.md",
+          "sourceFileDir": "testimonies",
+          "contentType": "markdown",
+          "flattenedPath": "testimonies/denaya"
+        },
+        "type": "Testimony",
+        "id": "denaya"
+      },
+      "documentHash": "1692683624411",
+      "hasWarnings": false,
+      "documentTypeName": "Testimony"
+    },
+    "testimonies/dennis-tan.md": {
+      "document": {
+        "name": "Dennis Tan",
+        "title": "Software Engineer",
+        "year": "2022-2023\r",
+        "body": {
+          "raw": "\r\nNathan is a very organized and intelligent engineer, always think more about optimization, and try to look from multiple point of views regarding a product. Over the course of his career in pinhome, he has standardized our workflow in Ares squad, made a lot of documentation to help other fellow engineers. He also discussed alot with the products to confirm and ensure there is no mistake when delivering a product. A good role model for any other engineers.\r\n",
+          "html": "<p>Nathan is a very organized and intelligent engineer, always think more about optimization, and try to look from multiple point of views regarding a product. Over the course of his career in pinhome, he has standardized our workflow in Ares squad, made a lot of documentation to help other fellow engineers. He also discussed alot with the products to confirm and ensure there is no mistake when delivering a product. A good role model for any other engineers.</p>"
+        },
+        "_id": "testimonies/dennis-tan.md",
+        "_raw": {
+          "sourceFilePath": "testimonies/dennis-tan.md",
+          "sourceFileName": "dennis-tan.md",
+          "sourceFileDir": "testimonies",
+          "contentType": "markdown",
+          "flattenedPath": "testimonies/dennis-tan"
+        },
+        "type": "Testimony",
+        "id": "dennis-tan"
+      },
+      "documentHash": "1692683624412",
+      "hasWarnings": false,
+      "documentTypeName": "Testimony"
+    },
+    "testimonies/hanif-agung.md": {
+      "document": {
+        "name": "Hanif Agung Prayoga",
+        "title": "Software Engineer",
+        "year": "2021-2023",
+        "linkedin": "https://www.linkedin.com/in/hanifagungp/\r",
+        "body": {
+          "raw": "\r\nNathan is a really outstanding engineer. Knowing him for about 2 years, I can say that he really is passionate about software engineering and building products in general. He's done his job well, actively giving out suggestions about development and can pinpoint a lot of issues. He was a huge help during our working years together and I'm really thankful for his presence and impact.\r\n",
+          "html": "<p>Nathan is a really outstanding engineer. Knowing him for about 2 years, I can say that he really is passionate about software engineering and building products in general. He's done his job well, actively giving out suggestions about development and can pinpoint a lot of issues. He was a huge help during our working years together and I'm really thankful for his presence and impact.</p>"
+        },
+        "_id": "testimonies/hanif-agung.md",
+        "_raw": {
+          "sourceFilePath": "testimonies/hanif-agung.md",
+          "sourceFileName": "hanif-agung.md",
+          "sourceFileDir": "testimonies",
+          "contentType": "markdown",
+          "flattenedPath": "testimonies/hanif-agung"
+        },
+        "type": "Testimony",
+        "id": "hanif-agung"
+      },
+      "documentHash": "1692683624415",
+      "hasWarnings": false,
+      "documentTypeName": "Testimony"
+    },
+    "testimonies/tsasqa-galih.md": {
+      "document": {
+        "name": "Tsasqa Galih",
+        "title": "Senior Product Manager",
+        "year": "2021-2023",
+        "linkedin": "https://www.linkedin.com/in/tsasqa/\r",
+        "body": {
+          "raw": "\r\nNathan will be an excellent addition to any companies, teams, or even as a partner. He's dependable as a Team Member, Inspiring as a co-worker, and a great friend outside of professional work. Excellent in Engineering knowledge and have that drive and thirst to keep on pursuing knowledge, both from his expertise and outside.\r\n",
+          "html": "<p>Nathan will be an excellent addition to any companies, teams, or even as a partner. He's dependable as a Team Member, Inspiring as a co-worker, and a great friend outside of professional work. Excellent in Engineering knowledge and have that drive and thirst to keep on pursuing knowledge, both from his expertise and outside.</p>"
+        },
+        "_id": "testimonies/tsasqa-galih.md",
+        "_raw": {
+          "sourceFilePath": "testimonies/tsasqa-galih.md",
+          "sourceFileName": "tsasqa-galih.md",
+          "sourceFileDir": "testimonies",
+          "contentType": "markdown",
+          "flattenedPath": "testimonies/tsasqa-galih"
+        },
+        "type": "Testimony",
+        "id": "tsasqa-galih"
+      },
+      "documentHash": "1692683624416",
+      "hasWarnings": false,
+      "documentTypeName": "Testimony"
+    },
+    "projects/wussh.md": {
+      "document": {
+        "title": "Streamlit",
+        "description": "Build Data Visualization.",
+        "highlight": true,
+        "featured": true,
+        "sznmApps": true,
+        "stacks": [
+          "python",
+          "streamlit\r"
+        ],
+        "date": "2021-05-07",
+        "projectLink": "https://uas-visdat-laptop.streamlit.app/",
+        "icon": "/app_icons/icon-laptop.png",
+        "thumbnail": "/app_preview/streamlit.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/wussh.md",
+        "_raw": {
+          "sourceFilePath": "projects/wussh.md",
+          "sourceFileName": "wussh.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/wussh"
+        },
+        "type": "Project",
+        "id": "wussh"
+      },
+      "documentHash": "1692713347285",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/xtarter.md": {
+      "document": {
+        "title": "Management Files",
+        "description": "Home of my starter templates",
+        "highlight": true,
+        "featured": true,
+        "sznmApps": true,
+        "stacks": [
+          "php",
+          "ci",
+          "mysql\r"
+        ],
+        "date": "2023-02-12",
+        "projectLink": "https://novindev.site",
+        "icon": "/app_icons/management-files.png",
+        "thumbnail": "/app_preview/viles.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/xtarter.md",
+        "_raw": {
+          "sourceFilePath": "projects/xtarter.md",
+          "sourceFileName": "xtarter.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/xtarter"
+        },
+        "type": "Project",
+        "id": "xtarter"
+      },
+      "documentHash": "1692713361499",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/ytget.md": {
+      "document": {
+        "title": "YTGet",
+        "description": "YouTube audio and video downloader.",
+        "published": false,
+        "featured": true,
+        "stacks": [
+          "nextjs",
+          "chakra-ui\r"
+        ],
+        "date": "2020-12-07",
+        "projectLink": "https://ytget.sznm.dev/",
+        "icon": "/app_icons/ytget.svg",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/ytget.md",
+        "_raw": {
+          "sourceFilePath": "projects/ytget.md",
+          "sourceFileName": "ytget.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/ytget"
+        },
+        "type": "Project",
+        "id": "ytget"
+      },
+      "documentHash": "1692683624409",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
     "posts/2019-recap.md": {
       "document": {
         "title": "2019 Recap",
@@ -461,884 +689,6 @@
       "documentHash": "1692683624373",
       "hasWarnings": false,
       "documentTypeName": "Blog"
-    },
-    "projects/add-to-calendar-generator-nextjs.md": {
-      "document": {
-        "title": "Add to Calendar Generator",
-        "description": "Add to Calendar link / button generator.",
-        "sznmApps": true,
-        "stacks": [
-          "nextjs",
-          "chakra-ui\r"
-        ],
-        "date": "2020-10-24",
-        "projectLink": "https://addtocal.sznm.dev",
-        "repoLink": "https://github.com/sozonome/add-to-calendar-generator",
-        "icon": "/app_icons/add-to-calendar.svg",
-        "thumbnail": "/app_preview/add-to-calendar.png",
-        "thumbnailDark": "/app_preview/add-to-calendar-dark.png",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/add-to-calendar-generator-nextjs.md",
-        "_raw": {
-          "sourceFilePath": "projects/add-to-calendar-generator-nextjs.md",
-          "sourceFileName": "add-to-calendar-generator-nextjs.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/add-to-calendar-generator-nextjs"
-        },
-        "type": "Project",
-        "id": "add-to-calendar-generator-nextjs"
-      },
-      "documentHash": "1692683624374",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/advicegenerator-svelte.md": {
-      "document": {
-        "title": "Advice Generator",
-        "description": "Advice generator built using Svelte, powered by Advice Slip JSON API.",
-        "stacks": [
-          "svelte\r"
-        ],
-        "date": "2020-06-05",
-        "projectLink": "https://advicegen.sznm.dev",
-        "repoLink": "https://github.com/sozonome/advice-generator-svelte",
-        "icon": "/app_icons/icon_advicegen.png",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/advicegenerator-svelte.md",
-        "_raw": {
-          "sourceFilePath": "projects/advicegenerator-svelte.md",
-          "sourceFileName": "advicegenerator-svelte.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/advicegenerator-svelte"
-        },
-        "type": "Project",
-        "id": "advicegenerator-svelte"
-      },
-      "documentHash": "1692683624375",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/base.md": {
-      "document": {
-        "title": "Base",
-        "description": "My personal knowledge base.",
-        "stacks": [
-          "nextjs\r"
-        ],
-        "date": "2021-01-21",
-        "projectLink": "https://base.sznm.dev",
-        "icon": "/app_icons/book.svg",
-        "projectType": "docs",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/base.md",
-        "_raw": {
-          "sourceFilePath": "projects/base.md",
-          "sourceFileName": "base.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/base"
-        },
-        "type": "Project",
-        "id": "base"
-      },
-      "documentHash": "1692683624376",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/big-talk.md": {
-      "document": {
-        "title": "Big Talk",
-        "description": "Big Talk questions / deck.",
-        "stacks": [
-          "nextjs",
-          "chakra-ui\r"
-        ],
-        "date": "2021-09-19",
-        "projectLink": "https://bigtalk.sznm.dev",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/big-talk.md",
-        "_raw": {
-          "sourceFilePath": "projects/big-talk.md",
-          "sourceFileName": "big-talk.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/big-talk"
-        },
-        "type": "Project",
-        "id": "big-talk"
-      },
-      "documentHash": "1692683624377",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/covid19data.md": {
-      "document": {
-        "title": "COVID-19 Data",
-        "description": "Monitor covid-19 stats.",
-        "stacks": [
-          "nextjs",
-          "chakra-ui\r"
-        ],
-        "date": "2020-05-02",
-        "projectLink": "https://covid19.sznm.dev",
-        "repoLink": "https://github.com/sozonome/covid-19-data",
-        "icon": "/app_icons/covid-19-data.svg",
-        "thumbnail": "/app_preview/covid19.png",
-        "thumbnailDark": "/app_preview/covid19-dark.png",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/covid19data.md",
-        "_raw": {
-          "sourceFilePath": "projects/covid19data.md",
-          "sourceFileName": "covid19data.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/covid19data"
-        },
-        "type": "Project",
-        "id": "covid19data"
-      },
-      "documentHash": "1692683624379",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/greet-gaas.md": {
-      "document": {
-        "title": "Greetings as a Service (GaaS)",
-        "description": "Make personalized greetings message for your folks.",
-        "featured": true,
-        "sznmApps": true,
-        "stacks": [
-          "nextjs",
-          "chakra-ui\r"
-        ],
-        "date": "2021-01-01",
-        "projectLink": "https://gaas.sznm.dev/",
-        "icon": "/app_icons/greet-gaas.svg",
-        "thumbnail": "/app_preview/gaas.png",
-        "thumbnailDark": "/app_preview/gaas-dark.png",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/greet-gaas.md",
-        "_raw": {
-          "sourceFilePath": "projects/greet-gaas.md",
-          "sourceFileName": "greet-gaas.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/greet-gaas"
-        },
-        "type": "Project",
-        "id": "greet-gaas"
-      },
-      "documentHash": "1692683624384",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/instadld.md": {
-      "document": {
-        "title": "InstaDLD",
-        "description": "[Archived - no longer functional] Instagram Post media downloader. Support multipost download.",
-        "stacks": [
-          "nextjs",
-          "chakra-ui\r"
-        ],
-        "date": "2020-11-22",
-        "repoLink": "https://github.com/sozonome/instadl",
-        "icon": "/app_icons/instadld.svg",
-        "thumbnail": "/app_preview/instadld.png",
-        "thumbnailDark": "/app_preview/instadld-dark.png",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/instadld.md",
-        "_raw": {
-          "sourceFilePath": "projects/instadld.md",
-          "sourceFileName": "instadld.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/instadld"
-        },
-        "type": "Project",
-        "id": "instadld"
-      },
-      "documentHash": "1692683624385",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/kapturalumina.md": {
-      "document": {
-        "title": "KapturaLumina",
-        "description": "My Bachelor / Undergraduate Thesis Project. Basic Photography Learning Mobile App with Gamification. Built using Ionic, React, and Firebase.",
-        "stacks": [
-          "ionic",
-          "react",
-          "firebase\r"
-        ],
-        "date": "2020-06-02",
-        "projectLink": "https://kapturalumina.sznm.dev/",
-        "repoLink": "https://github.com/sozonome/kapturalumina",
-        "playStoreLink": "https://play.google.com/store/apps/details?id=dev.sznm.kapturalumina",
-        "icon": "/app_icons/icon_kapturalumina.png",
-        "thumbnail": "/app_preview/kapturalumina.png",
-        "thumbnailDark": "/app_preview/kapturalumina-dark.png",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/kapturalumina.md",
-        "_raw": {
-          "sourceFilePath": "projects/kapturalumina.md",
-          "sourceFileName": "kapturalumina.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/kapturalumina"
-        },
-        "type": "Project",
-        "id": "kapturalumina"
-      },
-      "documentHash": "1692683624387",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/linktester.md": {
-      "document": {
-        "title": "Link Tester",
-        "description": "Deep Link / App Link tester",
-        "stacks": [
-          "vite",
-          "react",
-          "chakra-ui\r"
-        ],
-        "date": "2023-01-06",
-        "projectLink": "https://linktester.sznm.dev",
-        "repoLink": "https://github.com/sozonome/linktester",
-        "icon": "/app_icons/link.svg",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/linktester.md",
-        "_raw": {
-          "sourceFilePath": "projects/linktester.md",
-          "sourceFileName": "linktester.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/linktester"
-        },
-        "type": "Project",
-        "id": "linktester"
-      },
-      "documentHash": "1692683624389",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/mixtarter-chakra.md": {
-      "document": {
-        "title": "mixtarter-chakra",
-        "description": "🔋⚡ starter template to initialize Remix app with Chakra UI & Typescript setup",
-        "stacks": [
-          "chakra-ui\r"
-        ],
-        "date": "2021-12-11",
-        "projectLink": "https://mixtarter-chakra.sznm.dev",
-        "repoLink": "https://github.com/sozonome/mixtarter-chakra",
-        "icon": "/app_icons/nextarter-chakra.svg",
-        "projectType": "templates",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/mixtarter-chakra.md",
-        "_raw": {
-          "sourceFilePath": "projects/mixtarter-chakra.md",
-          "sourceFileName": "mixtarter-chakra.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/mixtarter-chakra"
-        },
-        "type": "Project",
-        "id": "mixtarter-chakra"
-      },
-      "documentHash": "1692683624389",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/muvees.md": {
-      "document": {
-        "title": "muvees",
-        "description": "Just another movie DB app",
-        "featured": true,
-        "sznmApps": true,
-        "stacks": [
-          "nextjs",
-          "chakra-ui\r"
-        ],
-        "date": "2020-12-29",
-        "projectLink": "https://muvees.sznm.dev",
-        "icon": "/app_icons/popcorn.png",
-        "projectType": "sites",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/muvees.md",
-        "_raw": {
-          "sourceFilePath": "projects/muvees.md",
-          "sourceFileName": "muvees.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/muvees"
-        },
-        "type": "Project",
-        "id": "muvees"
-      },
-      "documentHash": "1692683624391",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/nextarter-chakra.md": {
-      "document": {
-        "title": "nextarter-chakra",
-        "description": "🔋⚡ battery packed template to initialize Next.js app with Chakra UI & Typescript setup",
-        "stacks": [
-          "nextjs",
-          "chakra-ui\r"
-        ],
-        "date": "2020-08-13",
-        "projectLink": "https://nextarter-chakra.sznm.dev",
-        "repoLink": "https://github.com/sozonome/nextarter-chakra",
-        "icon": "/app_icons/nextarter-chakra.svg",
-        "projectType": "templates",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/nextarter-chakra.md",
-        "_raw": {
-          "sourceFilePath": "projects/nextarter-chakra.md",
-          "sourceFileName": "nextarter-chakra.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/nextarter-chakra"
-        },
-        "type": "Project",
-        "id": "nextarter-chakra"
-      },
-      "documentHash": "1692683624393",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/nextarter-tailwind.md": {
-      "document": {
-        "title": "nextarter-tailwind",
-        "description": "🔋⚡ battery packed template to initialize Next.js app with TailwindCSS & Typescript setup",
-        "stacks": [
-          "nextjs",
-          "tailwindcss\r"
-        ],
-        "date": "2021-10-01",
-        "projectLink": "https://nextarter-tailwind.sznm.dev",
-        "repoLink": "https://github.com/sozonome/nextarter-tailwind",
-        "icon": "/app_icons/nextarter-chakra.svg",
-        "projectType": "templates",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/nextarter-tailwind.md",
-        "_raw": {
-          "sourceFilePath": "projects/nextarter-tailwind.md",
-          "sourceFileName": "nextarter-tailwind.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/nextarter-tailwind"
-        },
-        "type": "Project",
-        "id": "nextarter-tailwind"
-      },
-      "documentHash": "1692683624394",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/personal-site.md": {
-      "document": {
-        "title": "Personal Site",
-        "description": "My personal page. Built with SvelteKit.",
-        "stacks": [
-          "svelte\r"
-        ],
-        "date": "2021-10-08",
-        "projectLink": "https://agustinusnathaniel.com",
-        "icon": "/app_icons/coconate.png",
-        "projectType": "sites",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/personal-site.md",
-        "_raw": {
-          "sourceFilePath": "projects/personal-site.md",
-          "sourceFileName": "personal-site.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/personal-site"
-        },
-        "type": "Project",
-        "id": "personal-site"
-      },
-      "documentHash": "1692683624396",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/pub-apis.md": {
-      "document": {
-        "title": "Public APIs",
-        "description": "Find public APIs for your next projects.",
-        "featured": true,
-        "sznmApps": true,
-        "stacks": [
-          "nextjs",
-          "chakra-ui\r"
-        ],
-        "date": "2020-12-25",
-        "projectLink": "https://publicapis.sznm.dev",
-        "repoLink": "https://github.com/sozonome/pub-apis",
-        "icon": "/app_icons/pub-apis.svg",
-        "thumbnail": "/app_preview/public-apis.png",
-        "thumbnailDark": "/app_preview/public-apis-dark.png",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/pub-apis.md",
-        "_raw": {
-          "sourceFilePath": "projects/pub-apis.md",
-          "sourceFileName": "pub-apis.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/pub-apis"
-        },
-        "type": "Project",
-        "id": "pub-apis"
-      },
-      "documentHash": "1692683624397",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/spoker.md": {
-      "document": {
-        "title": "spoker",
-        "description": "My take on scrum poker.",
-        "highlight": true,
-        "featured": true,
-        "sznmApps": true,
-        "stacks": [
-          "nextjs",
-          "chakra-ui\r"
-        ],
-        "date": "2021-02-28",
-        "projectLink": "https://spoker.dev/intro",
-        "icon": "/app_icons/chip.svg",
-        "thumbnail": "/app_preview/spoker.png",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/spoker.md",
-        "_raw": {
-          "sourceFilePath": "projects/spoker.md",
-          "sourceFileName": "spoker.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/spoker"
-        },
-        "type": "Project",
-        "id": "spoker"
-      },
-      "documentHash": "1692683624397",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/sznm-dev.md": {
-      "document": {
-        "title": "sznm.dev",
-        "description": "The site you're currently watching. Built with NextJS. Composed with Chakra UI and Framer Motion.",
-        "stacks": [
-          "nextjs",
-          "chakra-ui",
-          "framer",
-          "vercel\r"
-        ],
-        "date": "2020-05-25",
-        "icon": "/avataaars.svg",
-        "projectType": "sites",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/sznm-dev.md",
-        "_raw": {
-          "sourceFilePath": "projects/sznm-dev.md",
-          "sourceFileName": "sznm-dev.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/sznm-dev"
-        },
-        "type": "Project",
-        "id": "sznm-dev"
-      },
-      "documentHash": "1692683624400",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/tungpajak.md": {
-      "document": {
-        "title": "tungpajak",
-        "description": "My personal tax calculator / simulator.",
-        "stacks": [
-          "nextjs",
-          "chakra-ui\r"
-        ],
-        "date": "2022-03-12",
-        "projectLink": "https://tungpajak.sznm.dev",
-        "icon": "/app_icons/book.svg",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/tungpajak.md",
-        "_raw": {
-          "sourceFilePath": "projects/tungpajak.md",
-          "sourceFileName": "tungpajak.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/tungpajak"
-        },
-        "type": "Project",
-        "id": "tungpajak"
-      },
-      "documentHash": "1692683624401",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/vite-react-chakra-starter.md": {
-      "document": {
-        "title": "vite-react-chakra-starter",
-        "description": "template to initialize vite react-ts app with Chakra UI setup",
-        "stacks": [
-          "vite",
-          "react",
-          "chakra-ui\r"
-        ],
-        "date": "2021-03-28",
-        "projectLink": "https://vite-react-chakra-starter.sznm.dev",
-        "repoLink": "https://github.com/sozonome/vite-react-chakra-starter",
-        "icon": "/app_icons/nextarter-chakra.svg",
-        "projectType": "templates",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/vite-react-chakra-starter.md",
-        "_raw": {
-          "sourceFilePath": "projects/vite-react-chakra-starter.md",
-          "sourceFileName": "vite-react-chakra-starter.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/vite-react-chakra-starter"
-        },
-        "type": "Project",
-        "id": "vite-react-chakra-starter"
-      },
-      "documentHash": "1692683624402",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/whatsapp-link-helper.md": {
-      "document": {
-        "title": "WhatsApp Link Helper",
-        "description": "WhatsApp link helper / generator",
-        "stacks": [
-          "nextjs",
-          "tailwindcss\r"
-        ],
-        "date": "2023-05-30",
-        "projectLink": "https://wa.sznm.dev",
-        "repoLink": "https://github.com/sozonome/wa-link-helper",
-        "icon": "/app_icons/link.svg",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/whatsapp-link-helper.md",
-        "_raw": {
-          "sourceFilePath": "projects/whatsapp-link-helper.md",
-          "sourceFileName": "whatsapp-link-helper.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/whatsapp-link-helper"
-        },
-        "type": "Project",
-        "id": "whatsapp-link-helper"
-      },
-      "documentHash": "1692683624404",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/wussh.md": {
-      "document": {
-        "title": "Streamlit",
-        "description": "(formerly olamonde) Build Data Visualization.",
-        "highlight": true,
-        "featured": true,
-        "sznmApps": true,
-        "stacks": [
-          "nextjs",
-          "chakra-ui\r"
-        ],
-        "date": "2021-05-07",
-        "projectLink": "https://wus.sh",
-        "icon": "/app_icons/link.svg",
-        "thumbnail": "/app_preview/wussh.png",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/wussh.md",
-        "_raw": {
-          "sourceFilePath": "projects/wussh.md",
-          "sourceFileName": "wussh.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/wussh"
-        },
-        "type": "Project",
-        "id": "wussh"
-      },
-      "documentHash": "1692708273543",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/xtarter.md": {
-      "document": {
-        "title": "xtarter",
-        "description": "Home of my starter templates",
-        "featured": true,
-        "stacks": [
-          "nextjs",
-          "chakra-ui\r"
-        ],
-        "date": "2022-05-19",
-        "projectLink": "https://xtarter.sznm.dev",
-        "icon": "/app_icons/nextarter-chakra.svg",
-        "projectType": "sites",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/xtarter.md",
-        "_raw": {
-          "sourceFilePath": "projects/xtarter.md",
-          "sourceFileName": "xtarter.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/xtarter"
-        },
-        "type": "Project",
-        "id": "xtarter"
-      },
-      "documentHash": "1692683624408",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/ytget.md": {
-      "document": {
-        "title": "YTGet",
-        "description": "YouTube audio and video downloader.",
-        "published": false,
-        "featured": true,
-        "stacks": [
-          "nextjs",
-          "chakra-ui\r"
-        ],
-        "date": "2020-12-07",
-        "projectLink": "https://ytget.sznm.dev/",
-        "icon": "/app_icons/ytget.svg",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/ytget.md",
-        "_raw": {
-          "sourceFilePath": "projects/ytget.md",
-          "sourceFileName": "ytget.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/ytget"
-        },
-        "type": "Project",
-        "id": "ytget"
-      },
-      "documentHash": "1692683624409",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "testimonies/carissa-alanda.md": {
-      "document": {
-        "name": "Carissa Alanda",
-        "title": "Product Manager",
-        "year": "2022-2023",
-        "linkedin": "https://www.linkedin.com/in/carissa-alanda-463512a7/\r",
-        "body": {
-          "raw": "\r\nCollaborating with Nathan has been nothing but a blessing. Not only he delivers his tasks in timely manner, but he would ask many questions prior development to ensure that he could build something that can help us reach the goal. As PM, these traits help me tremendously as I could rely on Nathan for any technicalities so that we can come up with other that meets the business goals while maintaining the user needs.\r\n",
-          "html": "<p>Collaborating with Nathan has been nothing but a blessing. Not only he delivers his tasks in timely manner, but he would ask many questions prior development to ensure that he could build something that can help us reach the goal. As PM, these traits help me tremendously as I could rely on Nathan for any technicalities so that we can come up with other that meets the business goals while maintaining the user needs.</p>"
-        },
-        "_id": "testimonies/carissa-alanda.md",
-        "_raw": {
-          "sourceFilePath": "testimonies/carissa-alanda.md",
-          "sourceFileName": "carissa-alanda.md",
-          "sourceFileDir": "testimonies",
-          "contentType": "markdown",
-          "flattenedPath": "testimonies/carissa-alanda"
-        },
-        "type": "Testimony",
-        "id": "carissa-alanda"
-      },
-      "documentHash": "1692683624410",
-      "hasWarnings": false,
-      "documentTypeName": "Testimony"
-    },
-    "testimonies/denaya.md": {
-      "document": {
-        "name": "Denaya",
-        "title": "Software Engineer",
-        "year": "2022-2023",
-        "linkedin": "https://www.linkedin.com/in/denaya-rahadika/\r",
-        "body": {
-          "raw": "\r\nNathan is such an excellent teamplayer with great positive and humble personality. His passion is his secret weapon. It's what sets him apart from the rest and makes him shine. I've never seen anyone so in love with what they do, and it's inspiring as hell. Keep rocking it, Than!\r\n",
-          "html": "<p>Nathan is such an excellent teamplayer with great positive and humble personality. His passion is his secret weapon. It's what sets him apart from the rest and makes him shine. I've never seen anyone so in love with what they do, and it's inspiring as hell. Keep rocking it, Than!</p>"
-        },
-        "_id": "testimonies/denaya.md",
-        "_raw": {
-          "sourceFilePath": "testimonies/denaya.md",
-          "sourceFileName": "denaya.md",
-          "sourceFileDir": "testimonies",
-          "contentType": "markdown",
-          "flattenedPath": "testimonies/denaya"
-        },
-        "type": "Testimony",
-        "id": "denaya"
-      },
-      "documentHash": "1692683624411",
-      "hasWarnings": false,
-      "documentTypeName": "Testimony"
-    },
-    "testimonies/dennis-tan.md": {
-      "document": {
-        "name": "Dennis Tan",
-        "title": "Software Engineer",
-        "year": "2022-2023\r",
-        "body": {
-          "raw": "\r\nNathan is a very organized and intelligent engineer, always think more about optimization, and try to look from multiple point of views regarding a product. Over the course of his career in pinhome, he has standardized our workflow in Ares squad, made a lot of documentation to help other fellow engineers. He also discussed alot with the products to confirm and ensure there is no mistake when delivering a product. A good role model for any other engineers.\r\n",
-          "html": "<p>Nathan is a very organized and intelligent engineer, always think more about optimization, and try to look from multiple point of views regarding a product. Over the course of his career in pinhome, he has standardized our workflow in Ares squad, made a lot of documentation to help other fellow engineers. He also discussed alot with the products to confirm and ensure there is no mistake when delivering a product. A good role model for any other engineers.</p>"
-        },
-        "_id": "testimonies/dennis-tan.md",
-        "_raw": {
-          "sourceFilePath": "testimonies/dennis-tan.md",
-          "sourceFileName": "dennis-tan.md",
-          "sourceFileDir": "testimonies",
-          "contentType": "markdown",
-          "flattenedPath": "testimonies/dennis-tan"
-        },
-        "type": "Testimony",
-        "id": "dennis-tan"
-      },
-      "documentHash": "1692683624412",
-      "hasWarnings": false,
-      "documentTypeName": "Testimony"
-    },
-    "testimonies/hanif-agung.md": {
-      "document": {
-        "name": "Hanif Agung Prayoga",
-        "title": "Software Engineer",
-        "year": "2021-2023",
-        "linkedin": "https://www.linkedin.com/in/hanifagungp/\r",
-        "body": {
-          "raw": "\r\nNathan is a really outstanding engineer. Knowing him for about 2 years, I can say that he really is passionate about software engineering and building products in general. He's done his job well, actively giving out suggestions about development and can pinpoint a lot of issues. He was a huge help during our working years together and I'm really thankful for his presence and impact.\r\n",
-          "html": "<p>Nathan is a really outstanding engineer. Knowing him for about 2 years, I can say that he really is passionate about software engineering and building products in general. He's done his job well, actively giving out suggestions about development and can pinpoint a lot of issues. He was a huge help during our working years together and I'm really thankful for his presence and impact.</p>"
-        },
-        "_id": "testimonies/hanif-agung.md",
-        "_raw": {
-          "sourceFilePath": "testimonies/hanif-agung.md",
-          "sourceFileName": "hanif-agung.md",
-          "sourceFileDir": "testimonies",
-          "contentType": "markdown",
-          "flattenedPath": "testimonies/hanif-agung"
-        },
-        "type": "Testimony",
-        "id": "hanif-agung"
-      },
-      "documentHash": "1692683624415",
-      "hasWarnings": false,
-      "documentTypeName": "Testimony"
-    },
-    "testimonies/tsasqa-galih.md": {
-      "document": {
-        "name": "Tsasqa Galih",
-        "title": "Senior Product Manager",
-        "year": "2021-2023",
-        "linkedin": "https://www.linkedin.com/in/tsasqa/\r",
-        "body": {
-          "raw": "\r\nNathan will be an excellent addition to any companies, teams, or even as a partner. He's dependable as a Team Member, Inspiring as a co-worker, and a great friend outside of professional work. Excellent in Engineering knowledge and have that drive and thirst to keep on pursuing knowledge, both from his expertise and outside.\r\n",
-          "html": "<p>Nathan will be an excellent addition to any companies, teams, or even as a partner. He's dependable as a Team Member, Inspiring as a co-worker, and a great friend outside of professional work. Excellent in Engineering knowledge and have that drive and thirst to keep on pursuing knowledge, both from his expertise and outside.</p>"
-        },
-        "_id": "testimonies/tsasqa-galih.md",
-        "_raw": {
-          "sourceFilePath": "testimonies/tsasqa-galih.md",
-          "sourceFileName": "tsasqa-galih.md",
-          "sourceFileDir": "testimonies",
-          "contentType": "markdown",
-          "flattenedPath": "testimonies/tsasqa-galih"
-        },
-        "type": "Testimony",
-        "id": "tsasqa-galih"
-      },
-      "documentHash": "1692683624416",
-      "hasWarnings": false,
-      "documentTypeName": "Testimony"
     }
   }
 }

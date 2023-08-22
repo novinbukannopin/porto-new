@@ -1,17 +1,17 @@
 {
   "title": "Streamlit",
-  "description": "(formerly olamonde) Build Data Visualization.",
+  "description": "Build Data Visualization.",
   "highlight": true,
   "featured": true,
   "sznmApps": true,
   "stacks": [
-    "nextjs",
-    "chakra-ui\r"
+    "python",
+    "streamlit\r"
   ],
   "date": "2021-05-07",
-  "projectLink": "https://wus.sh",
-  "icon": "/app_icons/link.svg",
-  "thumbnail": "/app_preview/wussh.png",
+  "projectLink": "https://uas-visdat-laptop.streamlit.app/",
+  "icon": "/app_icons/icon-laptop.png",
+  "thumbnail": "/app_preview/streamlit.png",
   "projectType": "apps",
   "body": {
     "raw": "",

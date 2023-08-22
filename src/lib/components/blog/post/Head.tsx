@@ -17,7 +17,7 @@ const BlogPostHead = ({ postData }: BlogPostHeadProps) => {
           <Balancer>{postData.title}</Balancer>
         </Heading>
         <Link href="/about" isExternal>
-          <Text fontSize="sm">Agustinus Nathaniel</Text>
+          <Text fontSize="sm">Novin Ardian Y.</Text>
         </Link>
 
         <Text fontSize="xs">
