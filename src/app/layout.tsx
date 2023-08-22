@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   referrer: 'origin-when-cross-origin',
   colorScheme: 'dark light',
   icons: {
-    icon: '/avataaars.svg',
+    icon: '/cmd-terminal-icon.svg',
   },
   appleWebApp: {
     title: 'sznm.dev',
@@ -42,14 +42,14 @@ export const metadata: Metadata = {
   },
   manifest: '/manifest.json',
   title: {
-    default: 'Agustinus Nathaniel - Digital Crafter | sozonome',
-    template: '%s | sozonome',
+    default: 'Digital Crafter | Novin',
+    template: '%s | Novin',
   },
-  description: "Agustinus Nathaniel's Dev Site | sozonome",
+  description: "Novin Ardian Yulianto's Dev Site | Novin",
   openGraph: {
-    url: 'https://sznm.dev',
-    title: 'sozonome | Digital Crafter',
-    description: "Agustinus Nathaniel's Dev Site",
+    // url: 'https://sznm.dev',
+    title: 'Novin | Digital Crafter',
+    description: "Novin Ardian Yulianto's Dev Site",
     images: [
       {
         url: 'https://og.sznm.dev/api/generate?heading=sozonome&text=https://sznm.dev',
