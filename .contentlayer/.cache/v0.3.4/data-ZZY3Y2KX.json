@@ -1118,8 +1118,8 @@
     },
     "projects/wussh.md": {
       "document": {
-        "title": "wussh",
-        "description": "(formerly olamonde) Create personalized link page.",
+        "title": "Streamlit",
+        "description": "(formerly olamonde) Build Data Visualization.",
         "highlight": true,
         "featured": true,
         "sznmApps": true,
@@ -1147,7 +1147,7 @@
         "type": "Project",
         "id": "wussh"
       },
-      "documentHash": "1692683624405",
+      "documentHash": "1692708273543",
       "hasWarnings": false,
       "documentTypeName": "Project"
     },
