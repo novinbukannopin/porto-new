@@ -6,7 +6,7 @@ date: 2022-10-22
 tags:
   - app
   - foldering
-  - structure
+  - novin
 ---
 
 ## Folder Structure

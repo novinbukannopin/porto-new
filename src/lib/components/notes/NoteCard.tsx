@@ -62,7 +62,7 @@ const NoteCard = ({ data }: NoteCardProps) => {
               color: 'teal.400',
             }}
             fontSize="xs"
-            color="teal"
+            color="indigo"
             key={tag}
           >
             {tag}
