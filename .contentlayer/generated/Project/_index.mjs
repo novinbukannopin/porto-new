@@ -2,6 +2,9 @@
 
 import projects__wusshMd from './projects__wussh.md.json' assert { type: 'json' }
 import projects__xtarterMd from './projects__xtarter.md.json' assert { type: 'json' }
-import projects__ytgetMd from './projects__ytget.md.json' assert { type: 'json' }
+import projects__portfolio_1Md from './projects__portfolio-1.md.json' assert { type: 'json' }
+import projects__portfolio_2Md from './projects__portfolio-2.md.json' assert { type: 'json' }
+import projects__suxzMd from './projects__suxz.md.json' assert { type: 'json' }
+import projects__linkvinMd from './projects__linkvin.md.json' assert { type: 'json' }
 
-export const allProjects = [projects__wusshMd, projects__xtarterMd, projects__ytgetMd]
+export const allProjects = [projects__wusshMd, projects__xtarterMd, projects__portfolio_1Md, projects__portfolio_2Md, projects__suxzMd, projects__linkvinMd]

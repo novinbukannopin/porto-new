@@ -7,7 +7,7 @@ date: '2023-02-12'
 icon: '/app_icons/management-files.png'
 thumbnail: '/app_preview/viles.png'
 featured: true
-highlight: true
+# highlight: true
 sznmApps: true
 projectType: 'apps'
 stacks:

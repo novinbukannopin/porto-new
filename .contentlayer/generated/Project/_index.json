@@ -32,7 +32,6 @@
   {
     "title": "Management Files",
     "description": "Home of my starter templates",
-    "highlight": true,
     "featured": true,
     "sznmApps": true,
     "stacks": [
@@ -61,31 +60,120 @@
     "id": "xtarter"
   },
   {
-    "title": "YTGet",
-    "description": "YouTube audio and video downloader.",
-    "published": false,
+    "title": "Portfolio V1",
+    "description": "Simple Portfolio.",
+    "published": true,
     "featured": true,
     "stacks": [
       "nextjs",
-      "chakra-ui\r"
+      "react",
+      "tailwind-css\r"
     ],
-    "date": "2020-12-07",
-    "projectLink": "https://ytget.sznm.dev/",
-    "icon": "/app_icons/ytget.svg",
+    "date": "2022-12-07",
+    "projectLink": "https://v1.novindev.site/",
+    "icon": "/app_icons/portfolio.png",
     "projectType": "apps",
     "body": {
       "raw": "",
       "html": ""
     },
-    "_id": "projects/ytget.md",
+    "_id": "projects/portfolio-1.md",
     "_raw": {
-      "sourceFilePath": "projects/ytget.md",
-      "sourceFileName": "ytget.md",
+      "sourceFilePath": "projects/portfolio-1.md",
+      "sourceFileName": "portfolio-1.md",
       "sourceFileDir": "projects",
       "contentType": "markdown",
-      "flattenedPath": "projects/ytget"
+      "flattenedPath": "projects/portfolio-1"
     },
     "type": "Project",
-    "id": "ytget"
+    "id": "portfolio-1"
+  },
+  {
+    "title": "Portfolio V2",
+    "description": "Simple Portfolio.",
+    "published": true,
+    "featured": true,
+    "stacks": [
+      "nextjs",
+      "react",
+      "tailwind-css\r"
+    ],
+    "date": "2022-12-08",
+    "projectLink": "https://v2.novindev.site/",
+    "icon": "/app_icons/portfolio.png",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/portfolio-2.md",
+    "_raw": {
+      "sourceFilePath": "projects/portfolio-2.md",
+      "sourceFileName": "portfolio-2.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/portfolio-2"
+    },
+    "type": "Project",
+    "id": "portfolio-2"
+  },
+  {
+    "title": "Suxz",
+    "description": "Build Simple Landing Page.",
+    "highlight": true,
+    "featured": true,
+    "stacks": [
+      "html-5",
+      "css-3",
+      "bootstrap\r"
+    ],
+    "date": "2021-05-07",
+    "projectLink": "https://suxz.novindev.site/",
+    "icon": "/app_icons/suxz.png",
+    "thumbnail": "/app_preview/ss-suxz.png",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/suxz.md",
+    "_raw": {
+      "sourceFilePath": "projects/suxz.md",
+      "sourceFileName": "suxz.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/suxz"
+    },
+    "type": "Project",
+    "id": "suxz"
+  },
+  {
+    "title": "Linkvin",
+    "description": "Simple Linkin for my social media.",
+    "published": true,
+    "featured": true,
+    "stacks": [
+      "nextjs",
+      "react",
+      "tailwind-css\r"
+    ],
+    "date": "2022-10-08",
+    "projectLink": "https://link.novindev.site/",
+    "icon": "/app_icons/linkvin.svg",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/linkvin.md",
+    "_raw": {
+      "sourceFilePath": "projects/linkvin.md",
+      "sourceFileName": "linkvin.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/linkvin"
+    },
+    "type": "Project",
+    "id": "linkvin"
   }
 ]

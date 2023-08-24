@@ -62,68 +62,38 @@
     "id": "2020-recap"
   },
   {
-    "title": "Quantum Computing's Journey to Practicality",
-    "date": "2021-05-13",
-    "cover": "https://images.unsplash.com/photo-1568209865332-a15790aed756?auto=format&q=80",
-    "thumbnail": "🔒",
-    "legacyID": "2021-05-13-quantum-computings-journey-to-practicality",
+    "title": "5G - A Catalyst for Innovation",
+    "date": "2020-05-02",
+    "cover": "https://images.unsplash.com/photo-1610034463992-aea5e8f62d89?auto=format&q=80",
+    "thumbnail": "🏆",
+    "legacyID": "2020-05-02-5g-a-catalyst-for-innovation",
     "published": true,
     "tags": [
-      "security",
-      "firebase\r"
+      "Gatsby",
+      "Vercel",
+      "Evergreen",
+      "TailwindCSS\r"
     ],
     "readTime": {
       "text": "1 min read",
-      "minutes": 0.835,
-      "time": 50100,
-      "words": 167
+      "minutes": 0.37,
+      "time": 22200,
+      "words": 74
     },
     "body": {
-      "raw": "\r\n<!-- > disclaimer: This is not by any means to be the best practice guide of using firebase in every project. Every project has its own needs and specifications. This guide may not be suitable with your needs. -->\r\n\r\nIn the rapidly advancing landscape of technology, quantum computing has emerged as a frontrunner in 2023. What was once considered theoretical is now transitioning into practical applications, marking a pivotal year for this groundbreaking technology. Quantum computers, with their ability to process complex calculations at unprecedented speeds, are poised to revolutionize industries ranging from cryptography to drug discovery.\r\n\r\nCompanies like IBM, Google, and startups are competing to develop quantum hardware and algorithms, inching closer to achieving quantum supremacy—the point at which quantum computers outperform classical computers. As this technology matures, it has the potential to solve complex problems that were previously deemed unsolvable, paving the way for new discoveries and innovations.\r\n\r\n### References\r\n\r\n<!-- - Defining Firebase security rules\r\n  - [https://www.npmjs.com/package/@jahed/firebase-rules](https://www.npmjs.com/package/@jahed/firebase-rules)\r\n- Restrict API key\r\n  - [https://medium.com/@devesu/how-to-secure-your-firebase-project-even-when-your-api-key-is-publicly-available-a462a2a58843](https://medium.com/@devesu/how-to-secure-your-firebase-project-even-when-your-api-key-is-publicly-available-a462a2a58843) -->\r\n",
-      "html": "<p>In the rapidly advancing landscape of technology, quantum computing has emerged as a frontrunner in 2023. What was once considered theoretical is now transitioning into practical applications, marking a pivotal year for this groundbreaking technology. Quantum computers, with their ability to process complex calculations at unprecedented speeds, are poised to revolutionize industries ranging from cryptography to drug discovery.</p>\n<p>Companies like IBM, Google, and startups are competing to develop quantum hardware and algorithms, inching closer to achieving quantum supremacy—the point at which quantum computers outperform classical computers. As this technology matures, it has the potential to solve complex problems that were previously deemed unsolvable, paving the way for new discoveries and innovations.</p>\n<h3>References</h3>"
+      "raw": "\r\nThe widespread adoption of 5G technology continues to reshape industries in 2023. With its remarkable speed, minimal latency, and capacity to connect multiple devices simultaneously, 5G is fueling innovations such as the Internet of Things (IoT), smart cities, and autonomous vehicles.\r\n\r\nAs 5G networks expand, real-time communication and seamless connectivity are becoming standard expectations. This technology's impact reaches beyond faster downloads, revolutionizing how we interact with technology and opening doors to previously unattainable possibilities.\r\n",
+      "html": "<p>The widespread adoption of 5G technology continues to reshape industries in 2023. With its remarkable speed, minimal latency, and capacity to connect multiple devices simultaneously, 5G is fueling innovations such as the Internet of Things (IoT), smart cities, and autonomous vehicles.</p>\n<p>As 5G networks expand, real-time communication and seamless connectivity are becoming standard expectations. This technology's impact reaches beyond faster downloads, revolutionizing how we interact with technology and opening doors to previously unattainable possibilities.</p>"
     },
-    "_id": "posts/quantum-computings-journey-to-practicality.md",
+    "_id": "posts/5g-a-catalyst-for-innovation.md",
     "_raw": {
-      "sourceFilePath": "posts/quantum-computings-journey-to-practicality.md",
-      "sourceFileName": "quantum-computings-journey-to-practicality.md",
+      "sourceFilePath": "posts/5g-a-catalyst-for-innovation.md",
+      "sourceFileName": "5g-a-catalyst-for-innovation.md",
       "sourceFileDir": "posts",
       "contentType": "markdown",
-      "flattenedPath": "posts/quantum-computings-journey-to-practicality"
+      "flattenedPath": "posts/5g-a-catalyst-for-innovation"
     },
     "type": "Blog",
-    "id": "quantum-computings-journey-to-practicality"
-  },
-  {
-    "title": "Extended Reality - Redefining Interaction",
-    "date": "2020-11-07",
-    "cover": "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?auto=format&q=80",
-    "thumbnail": "🏎️",
-    "legacyID": "2020-11-07-extended-reality-redefining-interaction",
-    "published": true,
-    "tags": [
-      "performance",
-      "monitoring\r"
-    ],
-    "readTime": {
-      "text": "1 min read",
-      "minutes": 0.44,
-      "time": 26400,
-      "words": 88
-    },
-    "body": {
-      "raw": "\r\nExtended Reality (XR), encompassing Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR), is breaking free from its entertainment origins and finding diverse applications in 2023. Healthcare professionals are leveraging AR for surgical precision, educators are using VR for immersive learning experiences, and businesses are incorporating MR for virtual collaboration.\r\n\r\nXR blurs the lines between the digital and physical worlds, creating novel ways to interact with information and environments. This year showcases the transformative potential of XR beyond gaming, making it a technology to watch across industries.\r\n",
-      "html": "<p>Extended Reality (XR), encompassing Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR), is breaking free from its entertainment origins and finding diverse applications in 2023. Healthcare professionals are leveraging AR for surgical precision, educators are using VR for immersive learning experiences, and businesses are incorporating MR for virtual collaboration.</p>\n<p>XR blurs the lines between the digital and physical worlds, creating novel ways to interact with information and environments. This year showcases the transformative potential of XR beyond gaming, making it a technology to watch across industries.</p>"
-    },
-    "_id": "posts/extended-reality-redefining-interaction.md",
-    "_raw": {
-      "sourceFilePath": "posts/extended-reality-redefining-interaction.md",
-      "sourceFileName": "extended-reality-redefining-interaction.md",
-      "sourceFileDir": "posts",
-      "contentType": "markdown",
-      "flattenedPath": "posts/extended-reality-redefining-interaction"
-    },
-    "type": "Blog",
-    "id": "extended-reality-redefining-interaction"
+    "id": "5g-a-catalyst-for-innovation"
   },
   {
     "title": "Ethical AI - The New Age of Automation",
@@ -161,37 +131,67 @@
     "id": "ethical-ai-the-new-age-of-automation"
   },
   {
-    "title": "5G - A Catalyst for Innovation",
-    "date": "2020-05-02",
-    "cover": "https://images.unsplash.com/photo-1610034463992-aea5e8f62d89?auto=format&q=80",
-    "thumbnail": "🏆",
-    "legacyID": "2020-05-02-5g-a-catalyst-for-innovation",
+    "title": "Extended Reality - Redefining Interaction",
+    "date": "2020-11-07",
+    "cover": "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?auto=format&q=80",
+    "thumbnail": "🏎️",
+    "legacyID": "2020-11-07-extended-reality-redefining-interaction",
     "published": true,
     "tags": [
-      "Gatsby",
-      "Vercel",
-      "Evergreen",
-      "TailwindCSS\r"
+      "performance",
+      "monitoring\r"
     ],
     "readTime": {
       "text": "1 min read",
-      "minutes": 0.37,
-      "time": 22200,
-      "words": 74
+      "minutes": 0.44,
+      "time": 26400,
+      "words": 88
     },
     "body": {
-      "raw": "\r\nThe widespread adoption of 5G technology continues to reshape industries in 2023. With its remarkable speed, minimal latency, and capacity to connect multiple devices simultaneously, 5G is fueling innovations such as the Internet of Things (IoT), smart cities, and autonomous vehicles.\r\n\r\nAs 5G networks expand, real-time communication and seamless connectivity are becoming standard expectations. This technology's impact reaches beyond faster downloads, revolutionizing how we interact with technology and opening doors to previously unattainable possibilities.\r\n",
-      "html": "<p>The widespread adoption of 5G technology continues to reshape industries in 2023. With its remarkable speed, minimal latency, and capacity to connect multiple devices simultaneously, 5G is fueling innovations such as the Internet of Things (IoT), smart cities, and autonomous vehicles.</p>\n<p>As 5G networks expand, real-time communication and seamless connectivity are becoming standard expectations. This technology's impact reaches beyond faster downloads, revolutionizing how we interact with technology and opening doors to previously unattainable possibilities.</p>"
+      "raw": "\r\nExtended Reality (XR), encompassing Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR), is breaking free from its entertainment origins and finding diverse applications in 2023. Healthcare professionals are leveraging AR for surgical precision, educators are using VR for immersive learning experiences, and businesses are incorporating MR for virtual collaboration.\r\n\r\nXR blurs the lines between the digital and physical worlds, creating novel ways to interact with information and environments. This year showcases the transformative potential of XR beyond gaming, making it a technology to watch across industries.\r\n",
+      "html": "<p>Extended Reality (XR), encompassing Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR), is breaking free from its entertainment origins and finding diverse applications in 2023. Healthcare professionals are leveraging AR for surgical precision, educators are using VR for immersive learning experiences, and businesses are incorporating MR for virtual collaboration.</p>\n<p>XR blurs the lines between the digital and physical worlds, creating novel ways to interact with information and environments. This year showcases the transformative potential of XR beyond gaming, making it a technology to watch across industries.</p>"
     },
-    "_id": "posts/5g-a-catalyst-for-innovation.md",
+    "_id": "posts/extended-reality-redefining-interaction.md",
     "_raw": {
-      "sourceFilePath": "posts/5g-a-catalyst-for-innovation.md",
-      "sourceFileName": "5g-a-catalyst-for-innovation.md",
+      "sourceFilePath": "posts/extended-reality-redefining-interaction.md",
+      "sourceFileName": "extended-reality-redefining-interaction.md",
       "sourceFileDir": "posts",
       "contentType": "markdown",
-      "flattenedPath": "posts/5g-a-catalyst-for-innovation"
+      "flattenedPath": "posts/extended-reality-redefining-interaction"
     },
     "type": "Blog",
-    "id": "5g-a-catalyst-for-innovation"
+    "id": "extended-reality-redefining-interaction"
+  },
+  {
+    "title": "Quantum Computing's Journey to Practicality",
+    "date": "2021-05-13",
+    "cover": "https://images.unsplash.com/photo-1568209865332-a15790aed756?auto=format&q=80",
+    "thumbnail": "🔒",
+    "legacyID": "2021-05-13-quantum-computings-journey-to-practicality",
+    "published": true,
+    "tags": [
+      "security",
+      "firebase\r"
+    ],
+    "readTime": {
+      "text": "1 min read",
+      "minutes": 0.835,
+      "time": 50100,
+      "words": 167
+    },
+    "body": {
+      "raw": "\r\n<!-- > disclaimer: This is not by any means to be the best practice guide of using firebase in every project. Every project has its own needs and specifications. This guide may not be suitable with your needs. -->\r\n\r\nIn the rapidly advancing landscape of technology, quantum computing has emerged as a frontrunner in 2023. What was once considered theoretical is now transitioning into practical applications, marking a pivotal year for this groundbreaking technology. Quantum computers, with their ability to process complex calculations at unprecedented speeds, are poised to revolutionize industries ranging from cryptography to drug discovery.\r\n\r\nCompanies like IBM, Google, and startups are competing to develop quantum hardware and algorithms, inching closer to achieving quantum supremacy—the point at which quantum computers outperform classical computers. As this technology matures, it has the potential to solve complex problems that were previously deemed unsolvable, paving the way for new discoveries and innovations.\r\n\r\n### References\r\n\r\n<!-- - Defining Firebase security rules\r\n  - [https://www.npmjs.com/package/@jahed/firebase-rules](https://www.npmjs.com/package/@jahed/firebase-rules)\r\n- Restrict API key\r\n  - [https://medium.com/@devesu/how-to-secure-your-firebase-project-even-when-your-api-key-is-publicly-available-a462a2a58843](https://medium.com/@devesu/how-to-secure-your-firebase-project-even-when-your-api-key-is-publicly-available-a462a2a58843) -->\r\n",
+      "html": "<p>In the rapidly advancing landscape of technology, quantum computing has emerged as a frontrunner in 2023. What was once considered theoretical is now transitioning into practical applications, marking a pivotal year for this groundbreaking technology. Quantum computers, with their ability to process complex calculations at unprecedented speeds, are poised to revolutionize industries ranging from cryptography to drug discovery.</p>\n<p>Companies like IBM, Google, and startups are competing to develop quantum hardware and algorithms, inching closer to achieving quantum supremacy—the point at which quantum computers outperform classical computers. As this technology matures, it has the potential to solve complex problems that were previously deemed unsolvable, paving the way for new discoveries and innovations.</p>\n<h3>References</h3>"
+    },
+    "_id": "posts/quantum-computings-journey-to-practicality.md",
+    "_raw": {
+      "sourceFilePath": "posts/quantum-computings-journey-to-practicality.md",
+      "sourceFileName": "quantum-computings-journey-to-practicality.md",
+      "sourceFileDir": "posts",
+      "contentType": "markdown",
+      "flattenedPath": "posts/quantum-computings-journey-to-practicality"
+    },
+    "type": "Blog",
+    "id": "quantum-computings-journey-to-practicality"
   }
 ]

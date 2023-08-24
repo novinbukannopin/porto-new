@@ -236,6 +236,76 @@
       "hasWarnings": false,
       "documentTypeName": "Note"
     },
+    "projects/wussh.md": {
+      "document": {
+        "title": "Streamlit",
+        "description": "Build Data Visualization.",
+        "highlight": true,
+        "featured": true,
+        "sznmApps": true,
+        "stacks": [
+          "python",
+          "streamlit\r"
+        ],
+        "date": "2021-05-07",
+        "projectLink": "https://uas-visdat-laptop.streamlit.app/",
+        "icon": "/app_icons/icon-laptop.png",
+        "thumbnail": "/app_preview/streamlit.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/wussh.md",
+        "_raw": {
+          "sourceFilePath": "projects/wussh.md",
+          "sourceFileName": "wussh.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/wussh"
+        },
+        "type": "Project",
+        "id": "wussh"
+      },
+      "documentHash": "1692713347285",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/xtarter.md": {
+      "document": {
+        "title": "Management Files",
+        "description": "Home of my starter templates",
+        "featured": true,
+        "sznmApps": true,
+        "stacks": [
+          "php",
+          "ci",
+          "mysql\r"
+        ],
+        "date": "2023-02-12",
+        "projectLink": "https://novindev.site",
+        "icon": "/app_icons/management-files.png",
+        "thumbnail": "/app_preview/viles.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/xtarter.md",
+        "_raw": {
+          "sourceFilePath": "projects/xtarter.md",
+          "sourceFileName": "xtarter.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/xtarter"
+        },
+        "type": "Project",
+        "id": "xtarter"
+      },
+      "documentHash": "1692879001303",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
     "posts/2019-recap.md": {
       "document": {
         "title": "2019 Recap",
@@ -308,157 +378,158 @@
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
-    "projects/wussh.md": {
+    "posts/5g-a-catalyst-for-innovation.md": {
       "document": {
-        "title": "Streamlit",
-        "description": "Build Data Visualization.",
-        "highlight": true,
-        "featured": true,
-        "sznmApps": true,
-        "stacks": [
-          "python",
-          "streamlit\r"
+        "title": "5G - A Catalyst for Innovation",
+        "date": "2020-05-02",
+        "cover": "https://images.unsplash.com/photo-1610034463992-aea5e8f62d89?auto=format&q=80",
+        "thumbnail": "🏆",
+        "legacyID": "2020-05-02-5g-a-catalyst-for-innovation",
+        "published": true,
+        "tags": [
+          "Gatsby",
+          "Vercel",
+          "Evergreen",
+          "TailwindCSS\r"
         ],
-        "date": "2021-05-07",
-        "projectLink": "https://uas-visdat-laptop.streamlit.app/",
-        "icon": "/app_icons/icon-laptop.png",
-        "thumbnail": "/app_preview/streamlit.png",
-        "projectType": "apps",
+        "readTime": {
+          "text": "1 min read",
+          "minutes": 0.37,
+          "time": 22200,
+          "words": 74
+        },
         "body": {
-          "raw": "",
-          "html": ""
+          "raw": "\r\nThe widespread adoption of 5G technology continues to reshape industries in 2023. With its remarkable speed, minimal latency, and capacity to connect multiple devices simultaneously, 5G is fueling innovations such as the Internet of Things (IoT), smart cities, and autonomous vehicles.\r\n\r\nAs 5G networks expand, real-time communication and seamless connectivity are becoming standard expectations. This technology's impact reaches beyond faster downloads, revolutionizing how we interact with technology and opening doors to previously unattainable possibilities.\r\n",
+          "html": "<p>The widespread adoption of 5G technology continues to reshape industries in 2023. With its remarkable speed, minimal latency, and capacity to connect multiple devices simultaneously, 5G is fueling innovations such as the Internet of Things (IoT), smart cities, and autonomous vehicles.</p>\n<p>As 5G networks expand, real-time communication and seamless connectivity are becoming standard expectations. This technology's impact reaches beyond faster downloads, revolutionizing how we interact with technology and opening doors to previously unattainable possibilities.</p>"
         },
-        "_id": "projects/wussh.md",
+        "_id": "posts/5g-a-catalyst-for-innovation.md",
         "_raw": {
-          "sourceFilePath": "projects/wussh.md",
-          "sourceFileName": "wussh.md",
-          "sourceFileDir": "projects",
+          "sourceFilePath": "posts/5g-a-catalyst-for-innovation.md",
+          "sourceFileName": "5g-a-catalyst-for-innovation.md",
+          "sourceFileDir": "posts",
           "contentType": "markdown",
-          "flattenedPath": "projects/wussh"
+          "flattenedPath": "posts/5g-a-catalyst-for-innovation"
         },
-        "type": "Project",
-        "id": "wussh"
+        "type": "Blog",
+        "id": "5g-a-catalyst-for-innovation"
       },
-      "documentHash": "1692713347285",
+      "documentHash": "1692754671657",
       "hasWarnings": false,
-      "documentTypeName": "Project"
+      "documentTypeName": "Blog"
     },
-    "projects/xtarter.md": {
+    "posts/ethical-ai-the-new-age-of-automation.md": {
       "document": {
-        "title": "Management Files",
-        "description": "Home of my starter templates",
-        "highlight": true,
-        "featured": true,
-        "sznmApps": true,
-        "stacks": [
-          "php",
-          "ci",
-          "mysql\r"
+        "title": "Ethical AI - The New Age of Automation",
+        "date": "2020-03-22",
+        "cover": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&q=80",
+        "thumbnail": "🌐",
+        "legacyID": "2020-03-22-ethical-ai-the-new-age-of-automation",
+        "published": true,
+        "tags": [
+          "Stackbit",
+          "Netlify",
+          "Github",
+          "Sanity"
         ],
-        "date": "2023-02-12",
-        "projectLink": "https://novindev.site",
-        "icon": "/app_icons/management-files.png",
-        "thumbnail": "/app_preview/viles.png",
-        "projectType": "apps",
+        "readTime": {
+          "text": "1 min read",
+          "minutes": 0.46,
+          "time": 27600,
+          "words": 92
+        },
+        "cover_image": "https://dev-to-uploads.s3.amazonaws.com/i/h0by35x00oeg8t9v7k90.png\r",
         "body": {
-          "raw": "",
-          "html": ""
+          "raw": "\r\n<!-- _by the time I wrote this post, Stackbit is still at Beta._ -->\r\n\r\nArtificial Intelligence (AI) is undergoing a significant ethical transformation in 2023. The focus has shifted from just building intelligent algorithms to creating responsible and transparent AI systems. Ethical considerations are being integrated into AI development to ensure fairness, accountability, and transparency.\r\n\r\nResearchers are developing explainable AI, enabling algorithms to provide understandable justifications for their decisions. This advancement not only mitigates biases but also fosters trust in AI's decision-making process, making it an essential component of the tech landscape.\r\n",
+          "html": "<p>Artificial Intelligence (AI) is undergoing a significant ethical transformation in 2023. The focus has shifted from just building intelligent algorithms to creating responsible and transparent AI systems. Ethical considerations are being integrated into AI development to ensure fairness, accountability, and transparency.</p>\n<p>Researchers are developing explainable AI, enabling algorithms to provide understandable justifications for their decisions. This advancement not only mitigates biases but also fosters trust in AI's decision-making process, making it an essential component of the tech landscape.</p>"
         },
-        "_id": "projects/xtarter.md",
+        "_id": "posts/ethical-ai-the-new-age-of-automation.md",
         "_raw": {
-          "sourceFilePath": "projects/xtarter.md",
-          "sourceFileName": "xtarter.md",
-          "sourceFileDir": "projects",
+          "sourceFilePath": "posts/ethical-ai-the-new-age-of-automation.md",
+          "sourceFileName": "ethical-ai-the-new-age-of-automation.md",
+          "sourceFileDir": "posts",
           "contentType": "markdown",
-          "flattenedPath": "projects/xtarter"
+          "flattenedPath": "posts/ethical-ai-the-new-age-of-automation"
         },
-        "type": "Project",
-        "id": "xtarter"
+        "type": "Blog",
+        "id": "ethical-ai-the-new-age-of-automation"
       },
-      "documentHash": "1692713361499",
+      "documentHash": "1692754855907",
       "hasWarnings": false,
-      "documentTypeName": "Project"
+      "documentTypeName": "Blog"
     },
-    "projects/ytget.md": {
+    "posts/extended-reality-redefining-interaction.md": {
       "document": {
-        "title": "YTGet",
-        "description": "YouTube audio and video downloader.",
-        "published": false,
-        "featured": true,
-        "stacks": [
-          "nextjs",
-          "chakra-ui\r"
+        "title": "Extended Reality - Redefining Interaction",
+        "date": "2020-11-07",
+        "cover": "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?auto=format&q=80",
+        "thumbnail": "🏎️",
+        "legacyID": "2020-11-07-extended-reality-redefining-interaction",
+        "published": true,
+        "tags": [
+          "performance",
+          "monitoring\r"
         ],
-        "date": "2020-12-07",
-        "projectLink": "https://ytget.sznm.dev/",
-        "icon": "/app_icons/ytget.svg",
-        "projectType": "apps",
+        "readTime": {
+          "text": "1 min read",
+          "minutes": 0.44,
+          "time": 26400,
+          "words": 88
+        },
         "body": {
-          "raw": "",
-          "html": ""
+          "raw": "\r\nExtended Reality (XR), encompassing Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR), is breaking free from its entertainment origins and finding diverse applications in 2023. Healthcare professionals are leveraging AR for surgical precision, educators are using VR for immersive learning experiences, and businesses are incorporating MR for virtual collaboration.\r\n\r\nXR blurs the lines between the digital and physical worlds, creating novel ways to interact with information and environments. This year showcases the transformative potential of XR beyond gaming, making it a technology to watch across industries.\r\n",
+          "html": "<p>Extended Reality (XR), encompassing Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR), is breaking free from its entertainment origins and finding diverse applications in 2023. Healthcare professionals are leveraging AR for surgical precision, educators are using VR for immersive learning experiences, and businesses are incorporating MR for virtual collaboration.</p>\n<p>XR blurs the lines between the digital and physical worlds, creating novel ways to interact with information and environments. This year showcases the transformative potential of XR beyond gaming, making it a technology to watch across industries.</p>"
         },
-        "_id": "projects/ytget.md",
+        "_id": "posts/extended-reality-redefining-interaction.md",
         "_raw": {
-          "sourceFilePath": "projects/ytget.md",
-          "sourceFileName": "ytget.md",
-          "sourceFileDir": "projects",
+          "sourceFilePath": "posts/extended-reality-redefining-interaction.md",
+          "sourceFileName": "extended-reality-redefining-interaction.md",
+          "sourceFileDir": "posts",
           "contentType": "markdown",
-          "flattenedPath": "projects/ytget"
+          "flattenedPath": "posts/extended-reality-redefining-interaction"
         },
-        "type": "Project",
-        "id": "ytget"
+        "type": "Blog",
+        "id": "extended-reality-redefining-interaction"
       },
-      "documentHash": "1692683624409",
+      "documentHash": "1692754806727",
       "hasWarnings": false,
-      "documentTypeName": "Project"
+      "documentTypeName": "Blog"
     },
-    "testimonies/jawahirul-fanani.md": {
+    "posts/quantum-computings-journey-to-practicality.md": {
       "document": {
-        "name": "M. Jawahirul Fanani",
-        "title": "Future Product Manager",
-        "year": "2022-2023",
+        "title": "Quantum Computing's Journey to Practicality",
+        "date": "2021-05-13",
+        "cover": "https://images.unsplash.com/photo-1568209865332-a15790aed756?auto=format&q=80",
+        "thumbnail": "🔒",
+        "legacyID": "2021-05-13-quantum-computings-journey-to-practicality",
+        "published": true,
+        "tags": [
+          "security",
+          "firebase\r"
+        ],
+        "readTime": {
+          "text": "1 min read",
+          "minutes": 0.835,
+          "time": 50100,
+          "words": 167
+        },
         "body": {
-          "raw": "\r\nI've had the pleasure of collaborating with Novin on various projects and their dedication to backend engineering using PHP and Spring is truly commendable. Their recent shift towards data-related domains showcases their versatility and thirst for knowledge, making them a valuable asset in any technological endeavor.\r\n",
-          "html": "<p>I've had the pleasure of collaborating with Novin on various projects and their dedication to backend engineering using PHP and Spring is truly commendable. Their recent shift towards data-related domains showcases their versatility and thirst for knowledge, making them a valuable asset in any technological endeavor.</p>"
+          "raw": "\r\n<!-- > disclaimer: This is not by any means to be the best practice guide of using firebase in every project. Every project has its own needs and specifications. This guide may not be suitable with your needs. -->\r\n\r\nIn the rapidly advancing landscape of technology, quantum computing has emerged as a frontrunner in 2023. What was once considered theoretical is now transitioning into practical applications, marking a pivotal year for this groundbreaking technology. Quantum computers, with their ability to process complex calculations at unprecedented speeds, are poised to revolutionize industries ranging from cryptography to drug discovery.\r\n\r\nCompanies like IBM, Google, and startups are competing to develop quantum hardware and algorithms, inching closer to achieving quantum supremacy—the point at which quantum computers outperform classical computers. As this technology matures, it has the potential to solve complex problems that were previously deemed unsolvable, paving the way for new discoveries and innovations.\r\n\r\n### References\r\n\r\n<!-- - Defining Firebase security rules\r\n  - [https://www.npmjs.com/package/@jahed/firebase-rules](https://www.npmjs.com/package/@jahed/firebase-rules)\r\n- Restrict API key\r\n  - [https://medium.com/@devesu/how-to-secure-your-firebase-project-even-when-your-api-key-is-publicly-available-a462a2a58843](https://medium.com/@devesu/how-to-secure-your-firebase-project-even-when-your-api-key-is-publicly-available-a462a2a58843) -->\r\n",
+          "html": "<p>In the rapidly advancing landscape of technology, quantum computing has emerged as a frontrunner in 2023. What was once considered theoretical is now transitioning into practical applications, marking a pivotal year for this groundbreaking technology. Quantum computers, with their ability to process complex calculations at unprecedented speeds, are poised to revolutionize industries ranging from cryptography to drug discovery.</p>\n<p>Companies like IBM, Google, and startups are competing to develop quantum hardware and algorithms, inching closer to achieving quantum supremacy—the point at which quantum computers outperform classical computers. As this technology matures, it has the potential to solve complex problems that were previously deemed unsolvable, paving the way for new discoveries and innovations.</p>\n<h3>References</h3>"
         },
-        "_id": "testimonies/jawahirul-fanani.md",
+        "_id": "posts/quantum-computings-journey-to-practicality.md",
         "_raw": {
-          "sourceFilePath": "testimonies/jawahirul-fanani.md",
-          "sourceFileName": "jawahirul-fanani.md",
-          "sourceFileDir": "testimonies",
+          "sourceFilePath": "posts/quantum-computings-journey-to-practicality.md",
+          "sourceFileName": "quantum-computings-journey-to-practicality.md",
+          "sourceFileDir": "posts",
           "contentType": "markdown",
-          "flattenedPath": "testimonies/jawahirul-fanani"
+          "flattenedPath": "posts/quantum-computings-journey-to-practicality"
         },
-        "type": "Testimony",
-        "id": "jawahirul-fanani"
+        "type": "Blog",
+        "id": "quantum-computings-journey-to-practicality"
       },
-      "documentHash": "1692753724704",
+      "documentHash": "1692754744297",
       "hasWarnings": false,
-      "documentTypeName": "Testimony"
-    },
-    "testimonies/kemal-izzi.md": {
-      "document": {
-        "name": "A. Kemal Al Izzi",
-        "title": "Future Senior Product Manager",
-        "year": "2021-2023",
-        "body": {
-          "raw": "\r\nWatching Novins's progression as an Information Systems student has been a privilege. Their proficiency in backend engineering is evident, but what truly stands out is their drive to explore the data landscape. From diving into data engineering to embracing machine learning, their journey is an inspiration for all aspiring technologists.",
-          "html": "<p>Watching Novins's progression as an Information Systems student has been a privilege. Their proficiency in backend engineering is evident, but what truly stands out is their drive to explore the data landscape. From diving into data engineering to embracing machine learning, their journey is an inspiration for all aspiring technologists.</p>"
-        },
-        "_id": "testimonies/kemal-izzi.md",
-        "_raw": {
-          "sourceFilePath": "testimonies/kemal-izzi.md",
-          "sourceFileName": "kemal-izzi.md",
-          "sourceFileDir": "testimonies",
-          "contentType": "markdown",
-          "flattenedPath": "testimonies/kemal-izzi"
-        },
-        "type": "Testimony",
-        "id": "kemal-izzi"
-      },
-      "documentHash": "1692753751431",
-      "hasWarnings": false,
-      "documentTypeName": "Testimony"
+      "documentTypeName": "Blog"
     },
     "testimonies/althaf-jauhar.md": {
       "document": {
@@ -508,6 +579,54 @@
       "hasWarnings": false,
       "documentTypeName": "Testimony"
     },
+    "testimonies/jawahirul-fanani.md": {
+      "document": {
+        "name": "M. Jawahirul Fanani",
+        "title": "Future Product Manager",
+        "year": "2022-2023",
+        "body": {
+          "raw": "\r\nI've had the pleasure of collaborating with Novin on various projects and their dedication to backend engineering using PHP and Spring is truly commendable. Their recent shift towards data-related domains showcases their versatility and thirst for knowledge, making them a valuable asset in any technological endeavor.\r\n",
+          "html": "<p>I've had the pleasure of collaborating with Novin on various projects and their dedication to backend engineering using PHP and Spring is truly commendable. Their recent shift towards data-related domains showcases their versatility and thirst for knowledge, making them a valuable asset in any technological endeavor.</p>"
+        },
+        "_id": "testimonies/jawahirul-fanani.md",
+        "_raw": {
+          "sourceFilePath": "testimonies/jawahirul-fanani.md",
+          "sourceFileName": "jawahirul-fanani.md",
+          "sourceFileDir": "testimonies",
+          "contentType": "markdown",
+          "flattenedPath": "testimonies/jawahirul-fanani"
+        },
+        "type": "Testimony",
+        "id": "jawahirul-fanani"
+      },
+      "documentHash": "1692753724704",
+      "hasWarnings": false,
+      "documentTypeName": "Testimony"
+    },
+    "testimonies/kemal-izzi.md": {
+      "document": {
+        "name": "A. Kemal Al Izzi",
+        "title": "Future Senior Product Manager",
+        "year": "2021-2023",
+        "body": {
+          "raw": "\r\nWatching Novins's progression as an Information Systems student has been a privilege. Their proficiency in backend engineering is evident, but what truly stands out is their drive to explore the data landscape. From diving into data engineering to embracing machine learning, their journey is an inspiration for all aspiring technologists.",
+          "html": "<p>Watching Novins's progression as an Information Systems student has been a privilege. Their proficiency in backend engineering is evident, but what truly stands out is their drive to explore the data landscape. From diving into data engineering to embracing machine learning, their journey is an inspiration for all aspiring technologists.</p>"
+        },
+        "_id": "testimonies/kemal-izzi.md",
+        "_raw": {
+          "sourceFilePath": "testimonies/kemal-izzi.md",
+          "sourceFileName": "kemal-izzi.md",
+          "sourceFileDir": "testimonies",
+          "contentType": "markdown",
+          "flattenedPath": "testimonies/kemal-izzi"
+        },
+        "type": "Testimony",
+        "id": "kemal-izzi"
+      },
+      "documentHash": "1692753751431",
+      "hasWarnings": false,
+      "documentTypeName": "Testimony"
+    },
     "testimonies/syaifu.md": {
       "document": {
         "name": "Syaifu N.",
@@ -532,158 +651,142 @@
       "hasWarnings": false,
       "documentTypeName": "Testimony"
     },
-    "posts/quantum-computings-journey-to-practicality.md": {
+    "projects/portfolio-1.md": {
       "document": {
-        "title": "Quantum Computing's Journey to Practicality",
-        "date": "2021-05-13",
-        "cover": "https://images.unsplash.com/photo-1568209865332-a15790aed756?auto=format&q=80",
-        "thumbnail": "🔒",
-        "legacyID": "2021-05-13-quantum-computings-journey-to-practicality",
+        "title": "Portfolio V1",
+        "description": "Simple Portfolio.",
         "published": true,
-        "tags": [
-          "security",
-          "firebase\r"
+        "featured": true,
+        "stacks": [
+          "nextjs",
+          "react",
+          "tailwind-css\r"
         ],
-        "readTime": {
-          "text": "1 min read",
-          "minutes": 0.835,
-          "time": 50100,
-          "words": 167
-        },
+        "date": "2022-12-07",
+        "projectLink": "https://v1.novindev.site/",
+        "icon": "/app_icons/portfolio.png",
+        "projectType": "apps",
         "body": {
-          "raw": "\r\n<!-- > disclaimer: This is not by any means to be the best practice guide of using firebase in every project. Every project has its own needs and specifications. This guide may not be suitable with your needs. -->\r\n\r\nIn the rapidly advancing landscape of technology, quantum computing has emerged as a frontrunner in 2023. What was once considered theoretical is now transitioning into practical applications, marking a pivotal year for this groundbreaking technology. Quantum computers, with their ability to process complex calculations at unprecedented speeds, are poised to revolutionize industries ranging from cryptography to drug discovery.\r\n\r\nCompanies like IBM, Google, and startups are competing to develop quantum hardware and algorithms, inching closer to achieving quantum supremacy—the point at which quantum computers outperform classical computers. As this technology matures, it has the potential to solve complex problems that were previously deemed unsolvable, paving the way for new discoveries and innovations.\r\n\r\n### References\r\n\r\n<!-- - Defining Firebase security rules\r\n  - [https://www.npmjs.com/package/@jahed/firebase-rules](https://www.npmjs.com/package/@jahed/firebase-rules)\r\n- Restrict API key\r\n  - [https://medium.com/@devesu/how-to-secure-your-firebase-project-even-when-your-api-key-is-publicly-available-a462a2a58843](https://medium.com/@devesu/how-to-secure-your-firebase-project-even-when-your-api-key-is-publicly-available-a462a2a58843) -->\r\n",
-          "html": "<p>In the rapidly advancing landscape of technology, quantum computing has emerged as a frontrunner in 2023. What was once considered theoretical is now transitioning into practical applications, marking a pivotal year for this groundbreaking technology. Quantum computers, with their ability to process complex calculations at unprecedented speeds, are poised to revolutionize industries ranging from cryptography to drug discovery.</p>\n<p>Companies like IBM, Google, and startups are competing to develop quantum hardware and algorithms, inching closer to achieving quantum supremacy—the point at which quantum computers outperform classical computers. As this technology matures, it has the potential to solve complex problems that were previously deemed unsolvable, paving the way for new discoveries and innovations.</p>\n<h3>References</h3>"
+          "raw": "",
+          "html": ""
         },
-        "_id": "posts/quantum-computings-journey-to-practicality.md",
+        "_id": "projects/portfolio-1.md",
         "_raw": {
-          "sourceFilePath": "posts/quantum-computings-journey-to-practicality.md",
-          "sourceFileName": "quantum-computings-journey-to-practicality.md",
-          "sourceFileDir": "posts",
+          "sourceFilePath": "projects/portfolio-1.md",
+          "sourceFileName": "portfolio-1.md",
+          "sourceFileDir": "projects",
           "contentType": "markdown",
-          "flattenedPath": "posts/quantum-computings-journey-to-practicality"
+          "flattenedPath": "projects/portfolio-1"
         },
-        "type": "Blog",
-        "id": "quantum-computings-journey-to-practicality"
+        "type": "Project",
+        "id": "portfolio-1"
       },
-      "documentHash": "1692754744297",
+      "documentHash": "1692878788470",
       "hasWarnings": false,
-      "documentTypeName": "Blog"
+      "documentTypeName": "Project"
     },
-    "posts/extended-reality-redefining-interaction.md": {
+    "projects/portfolio-2.md": {
       "document": {
-        "title": "Extended Reality - Redefining Interaction",
-        "date": "2020-11-07",
-        "cover": "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?auto=format&q=80",
-        "thumbnail": "🏎️",
-        "legacyID": "2020-11-07-extended-reality-redefining-interaction",
+        "title": "Portfolio V2",
+        "description": "Simple Portfolio.",
         "published": true,
-        "tags": [
-          "performance",
-          "monitoring\r"
+        "featured": true,
+        "stacks": [
+          "nextjs",
+          "react",
+          "tailwind-css\r"
         ],
-        "readTime": {
-          "text": "1 min read",
-          "minutes": 0.44,
-          "time": 26400,
-          "words": 88
-        },
+        "date": "2022-12-08",
+        "projectLink": "https://v2.novindev.site/",
+        "icon": "/app_icons/portfolio.png",
+        "projectType": "apps",
         "body": {
-          "raw": "\r\nExtended Reality (XR), encompassing Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR), is breaking free from its entertainment origins and finding diverse applications in 2023. Healthcare professionals are leveraging AR for surgical precision, educators are using VR for immersive learning experiences, and businesses are incorporating MR for virtual collaboration.\r\n\r\nXR blurs the lines between the digital and physical worlds, creating novel ways to interact with information and environments. This year showcases the transformative potential of XR beyond gaming, making it a technology to watch across industries.\r\n",
-          "html": "<p>Extended Reality (XR), encompassing Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR), is breaking free from its entertainment origins and finding diverse applications in 2023. Healthcare professionals are leveraging AR for surgical precision, educators are using VR for immersive learning experiences, and businesses are incorporating MR for virtual collaboration.</p>\n<p>XR blurs the lines between the digital and physical worlds, creating novel ways to interact with information and environments. This year showcases the transformative potential of XR beyond gaming, making it a technology to watch across industries.</p>"
+          "raw": "",
+          "html": ""
         },
-        "_id": "posts/extended-reality-redefining-interaction.md",
+        "_id": "projects/portfolio-2.md",
         "_raw": {
-          "sourceFilePath": "posts/extended-reality-redefining-interaction.md",
-          "sourceFileName": "extended-reality-redefining-interaction.md",
-          "sourceFileDir": "posts",
+          "sourceFilePath": "projects/portfolio-2.md",
+          "sourceFileName": "portfolio-2.md",
+          "sourceFileDir": "projects",
           "contentType": "markdown",
-          "flattenedPath": "posts/extended-reality-redefining-interaction"
+          "flattenedPath": "projects/portfolio-2"
         },
-        "type": "Blog",
-        "id": "extended-reality-redefining-interaction"
+        "type": "Project",
+        "id": "portfolio-2"
       },
-      "documentHash": "1692754806727",
+      "documentHash": "1692878830731",
       "hasWarnings": false,
-      "documentTypeName": "Blog"
+      "documentTypeName": "Project"
     },
-    "posts/ethical-ai-the-new-age-of-automation.md": {
+    "projects/suxz.md": {
       "document": {
-        "title": "Ethical AI - The New Age of Automation",
-        "date": "2020-03-22",
-        "cover": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&q=80",
-        "thumbnail": "🌐",
-        "legacyID": "2020-03-22-ethical-ai-the-new-age-of-automation",
-        "published": true,
-        "tags": [
-          "Stackbit",
-          "Netlify",
-          "Github",
-          "Sanity"
+        "title": "Suxz",
+        "description": "Build Simple Landing Page.",
+        "highlight": true,
+        "featured": true,
+        "stacks": [
+          "html-5",
+          "css-3",
+          "bootstrap\r"
         ],
-        "readTime": {
-          "text": "1 min read",
-          "minutes": 0.46,
-          "time": 27600,
-          "words": 92
-        },
-        "cover_image": "https://dev-to-uploads.s3.amazonaws.com/i/h0by35x00oeg8t9v7k90.png\r",
+        "date": "2021-05-07",
+        "projectLink": "https://suxz.novindev.site/",
+        "icon": "/app_icons/suxz.png",
+        "thumbnail": "/app_preview/ss-suxz.png",
+        "projectType": "apps",
         "body": {
-          "raw": "\r\n<!-- _by the time I wrote this post, Stackbit is still at Beta._ -->\r\n\r\nArtificial Intelligence (AI) is undergoing a significant ethical transformation in 2023. The focus has shifted from just building intelligent algorithms to creating responsible and transparent AI systems. Ethical considerations are being integrated into AI development to ensure fairness, accountability, and transparency.\r\n\r\nResearchers are developing explainable AI, enabling algorithms to provide understandable justifications for their decisions. This advancement not only mitigates biases but also fosters trust in AI's decision-making process, making it an essential component of the tech landscape.\r\n",
-          "html": "<p>Artificial Intelligence (AI) is undergoing a significant ethical transformation in 2023. The focus has shifted from just building intelligent algorithms to creating responsible and transparent AI systems. Ethical considerations are being integrated into AI development to ensure fairness, accountability, and transparency.</p>\n<p>Researchers are developing explainable AI, enabling algorithms to provide understandable justifications for their decisions. This advancement not only mitigates biases but also fosters trust in AI's decision-making process, making it an essential component of the tech landscape.</p>"
+          "raw": "",
+          "html": ""
         },
-        "_id": "posts/ethical-ai-the-new-age-of-automation.md",
+        "_id": "projects/suxz.md",
         "_raw": {
-          "sourceFilePath": "posts/ethical-ai-the-new-age-of-automation.md",
-          "sourceFileName": "ethical-ai-the-new-age-of-automation.md",
-          "sourceFileDir": "posts",
+          "sourceFilePath": "projects/suxz.md",
+          "sourceFileName": "suxz.md",
+          "sourceFileDir": "projects",
           "contentType": "markdown",
-          "flattenedPath": "posts/ethical-ai-the-new-age-of-automation"
+          "flattenedPath": "projects/suxz"
         },
-        "type": "Blog",
-        "id": "ethical-ai-the-new-age-of-automation"
+        "type": "Project",
+        "id": "suxz"
       },
-      "documentHash": "1692754855907",
+      "documentHash": "1692879134705",
       "hasWarnings": false,
-      "documentTypeName": "Blog"
+      "documentTypeName": "Project"
     },
-    "posts/5g-a-catalyst-for-innovation.md": {
+    "projects/linkvin.md": {
       "document": {
-        "title": "5G - A Catalyst for Innovation",
-        "date": "2020-05-02",
-        "cover": "https://images.unsplash.com/photo-1610034463992-aea5e8f62d89?auto=format&q=80",
-        "thumbnail": "🏆",
-        "legacyID": "2020-05-02-5g-a-catalyst-for-innovation",
+        "title": "Linkvin",
+        "description": "Simple Linkin for my social media.",
         "published": true,
-        "tags": [
-          "Gatsby",
-          "Vercel",
-          "Evergreen",
-          "TailwindCSS\r"
+        "featured": true,
+        "stacks": [
+          "nextjs",
+          "react",
+          "tailwind-css\r"
         ],
-        "readTime": {
-          "text": "1 min read",
-          "minutes": 0.37,
-          "time": 22200,
-          "words": 74
-        },
+        "date": "2022-10-08",
+        "projectLink": "https://link.novindev.site/",
+        "icon": "/app_icons/linkvin.svg",
+        "projectType": "apps",
         "body": {
-          "raw": "\r\nThe widespread adoption of 5G technology continues to reshape industries in 2023. With its remarkable speed, minimal latency, and capacity to connect multiple devices simultaneously, 5G is fueling innovations such as the Internet of Things (IoT), smart cities, and autonomous vehicles.\r\n\r\nAs 5G networks expand, real-time communication and seamless connectivity are becoming standard expectations. This technology's impact reaches beyond faster downloads, revolutionizing how we interact with technology and opening doors to previously unattainable possibilities.\r\n",
-          "html": "<p>The widespread adoption of 5G technology continues to reshape industries in 2023. With its remarkable speed, minimal latency, and capacity to connect multiple devices simultaneously, 5G is fueling innovations such as the Internet of Things (IoT), smart cities, and autonomous vehicles.</p>\n<p>As 5G networks expand, real-time communication and seamless connectivity are becoming standard expectations. This technology's impact reaches beyond faster downloads, revolutionizing how we interact with technology and opening doors to previously unattainable possibilities.</p>"
+          "raw": "",
+          "html": ""
         },
-        "_id": "posts/5g-a-catalyst-for-innovation.md",
+        "_id": "projects/linkvin.md",
         "_raw": {
-          "sourceFilePath": "posts/5g-a-catalyst-for-innovation.md",
-          "sourceFileName": "5g-a-catalyst-for-innovation.md",
-          "sourceFileDir": "posts",
+          "sourceFilePath": "projects/linkvin.md",
+          "sourceFileName": "linkvin.md",
+          "sourceFileDir": "projects",
           "contentType": "markdown",
-          "flattenedPath": "posts/5g-a-catalyst-for-innovation"
+          "flattenedPath": "projects/linkvin"
         },
-        "type": "Blog",
-        "id": "5g-a-catalyst-for-innovation"
+        "type": "Project",
+        "id": "linkvin"
       },
-      "documentHash": "1692754671657",
+      "documentHash": "1692879453657",
       "hasWarnings": false,
-      "documentTypeName": "Blog"
+      "documentTypeName": "Project"
     }
   }
 }

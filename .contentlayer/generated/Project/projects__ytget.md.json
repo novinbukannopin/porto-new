@@ -1,15 +1,16 @@
 {
-  "title": "YTGet",
-  "description": "YouTube audio and video downloader.",
-  "published": false,
+  "title": "Portfolio V1",
+  "description": "Simple Portfolio.",
+  "published": true,
   "featured": true,
   "stacks": [
     "nextjs",
-    "chakra-ui\r"
+    "react",
+    "tailwind-css\r"
   ],
-  "date": "2020-12-07",
-  "projectLink": "https://ytget.sznm.dev/",
-  "icon": "/app_icons/ytget.svg",
+  "date": "2022-12-07",
+  "projectLink": "https://v1.novindev.site/",
+  "icon": "/app_icons/portfolio.png",
   "projectType": "apps",
   "body": {
     "raw": "",
