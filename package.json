@@ -1,9 +1,9 @@
 {
-  "name": "sznm.dev",
+  "name": "novin",
   "private": true,
-  "description": "Agustinus Nathaniel's dev site",
+  "description": "novin dev site",
   "version": "1.23.0",
-  "author": "sozonome",
+  "author": "novin",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "next dev",
@@ -83,13 +83,6 @@
     "standard-version": "^9.5.0",
     "typescript": "^5.1.6",
     "vitest": "^0.33.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sozonome/sznm.dev"
-  },
-  "bugs": {
-    "url": "https://github.com/sozonome/sznm.dev/issues"
   },
   "engines": {
     "node": ">=16.8.x",
