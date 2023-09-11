@@ -1,63 +1,32 @@
 [
   {
-    "title": "Streamlit",
-    "description": "Build Data Visualization.",
-    "highlight": true,
+    "title": "Linkvin",
+    "description": "Simple Linkin for my social media.",
+    "published": true,
     "featured": true,
-    "sznmApps": true,
     "stacks": [
-      "python",
-      "streamlit\r"
+      "nextjs",
+      "react",
+      "tailwind-css\r"
     ],
-    "date": "2021-05-07",
-    "projectLink": "https://uas-visdat-laptop.streamlit.app/",
-    "icon": "/app_icons/icon-laptop.png",
-    "thumbnail": "/app_preview/streamlit.png",
+    "date": "2022-10-08",
+    "projectLink": "https://link.novindev.site/",
+    "icon": "/app_icons/linkvin.svg",
     "projectType": "apps",
     "body": {
       "raw": "",
       "html": ""
     },
-    "_id": "projects/wussh.md",
+    "_id": "projects/linkvin.md",
     "_raw": {
-      "sourceFilePath": "projects/wussh.md",
-      "sourceFileName": "wussh.md",
+      "sourceFilePath": "projects/linkvin.md",
+      "sourceFileName": "linkvin.md",
       "sourceFileDir": "projects",
       "contentType": "markdown",
-      "flattenedPath": "projects/wussh"
+      "flattenedPath": "projects/linkvin"
     },
     "type": "Project",
-    "id": "wussh"
-  },
-  {
-    "title": "Management Files",
-    "description": "Home of my starter templates",
-    "featured": true,
-    "sznmApps": true,
-    "stacks": [
-      "php",
-      "ci",
-      "mysql\r"
-    ],
-    "date": "2023-02-12",
-    "projectLink": "https://novindev.site",
-    "icon": "/app_icons/management-files.png",
-    "thumbnail": "/app_preview/viles.png",
-    "projectType": "apps",
-    "body": {
-      "raw": "",
-      "html": ""
-    },
-    "_id": "projects/xtarter.md",
-    "_raw": {
-      "sourceFilePath": "projects/xtarter.md",
-      "sourceFileName": "xtarter.md",
-      "sourceFileDir": "projects",
-      "contentType": "markdown",
-      "flattenedPath": "projects/xtarter"
-    },
-    "type": "Project",
-    "id": "xtarter"
+    "id": "linkvin"
   },
   {
     "title": "Portfolio V1",
@@ -148,32 +117,63 @@
     "id": "suxz"
   },
   {
-    "title": "Linkvin",
-    "description": "Simple Linkin for my social media.",
-    "published": true,
+    "title": "Streamlit",
+    "description": "Build Data Visualization.",
+    "highlight": true,
     "featured": true,
+    "sznmApps": true,
     "stacks": [
-      "nextjs",
-      "react",
-      "tailwind-css\r"
+      "python",
+      "streamlit\r"
     ],
-    "date": "2022-10-08",
-    "projectLink": "https://link.novindev.site/",
-    "icon": "/app_icons/linkvin.svg",
+    "date": "2021-05-07",
+    "projectLink": "https://uas-visdat-laptop.streamlit.app/",
+    "icon": "/app_icons/icon-laptop.png",
+    "thumbnail": "/app_preview/streamlit.png",
     "projectType": "apps",
     "body": {
       "raw": "",
       "html": ""
     },
-    "_id": "projects/linkvin.md",
+    "_id": "projects/wussh.md",
     "_raw": {
-      "sourceFilePath": "projects/linkvin.md",
-      "sourceFileName": "linkvin.md",
+      "sourceFilePath": "projects/wussh.md",
+      "sourceFileName": "wussh.md",
       "sourceFileDir": "projects",
       "contentType": "markdown",
-      "flattenedPath": "projects/linkvin"
+      "flattenedPath": "projects/wussh"
     },
     "type": "Project",
-    "id": "linkvin"
+    "id": "wussh"
+  },
+  {
+    "title": "Management Files",
+    "description": "Home of my starter templates",
+    "featured": true,
+    "sznmApps": true,
+    "stacks": [
+      "php",
+      "ci",
+      "mysql\r"
+    ],
+    "date": "2023-02-12",
+    "projectLink": "https://novindev.site",
+    "icon": "/app_icons/management-files.png",
+    "thumbnail": "/app_preview/viles.png",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/xtarter.md",
+    "_raw": {
+      "sourceFilePath": "projects/xtarter.md",
+      "sourceFileName": "xtarter.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/xtarter"
+    },
+    "type": "Project",
+    "id": "xtarter"
   }
 ]

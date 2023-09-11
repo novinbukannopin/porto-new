@@ -236,76 +236,6 @@
       "hasWarnings": false,
       "documentTypeName": "Note"
     },
-    "projects/wussh.md": {
-      "document": {
-        "title": "Streamlit",
-        "description": "Build Data Visualization.",
-        "highlight": true,
-        "featured": true,
-        "sznmApps": true,
-        "stacks": [
-          "python",
-          "streamlit\r"
-        ],
-        "date": "2021-05-07",
-        "projectLink": "https://uas-visdat-laptop.streamlit.app/",
-        "icon": "/app_icons/icon-laptop.png",
-        "thumbnail": "/app_preview/streamlit.png",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/wussh.md",
-        "_raw": {
-          "sourceFilePath": "projects/wussh.md",
-          "sourceFileName": "wussh.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/wussh"
-        },
-        "type": "Project",
-        "id": "wussh"
-      },
-      "documentHash": "1692713347285",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/xtarter.md": {
-      "document": {
-        "title": "Management Files",
-        "description": "Home of my starter templates",
-        "featured": true,
-        "sznmApps": true,
-        "stacks": [
-          "php",
-          "ci",
-          "mysql\r"
-        ],
-        "date": "2023-02-12",
-        "projectLink": "https://novindev.site",
-        "icon": "/app_icons/management-files.png",
-        "thumbnail": "/app_preview/viles.png",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/xtarter.md",
-        "_raw": {
-          "sourceFilePath": "projects/xtarter.md",
-          "sourceFileName": "xtarter.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/xtarter"
-        },
-        "type": "Project",
-        "id": "xtarter"
-      },
-      "documentHash": "1692879001303",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
     "posts/2019-recap.md": {
       "document": {
         "title": "2019 Recap",
@@ -531,6 +461,213 @@
       "hasWarnings": false,
       "documentTypeName": "Blog"
     },
+    "projects/linkvin.md": {
+      "document": {
+        "title": "Linkvin",
+        "description": "Simple Linkin for my social media.",
+        "published": true,
+        "featured": true,
+        "stacks": [
+          "nextjs",
+          "react",
+          "tailwind-css\r"
+        ],
+        "date": "2022-10-08",
+        "projectLink": "https://link.novindev.site/",
+        "icon": "/app_icons/linkvin.svg",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/linkvin.md",
+        "_raw": {
+          "sourceFilePath": "projects/linkvin.md",
+          "sourceFileName": "linkvin.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/linkvin"
+        },
+        "type": "Project",
+        "id": "linkvin"
+      },
+      "documentHash": "1692879453657",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/portfolio-1.md": {
+      "document": {
+        "title": "Portfolio V1",
+        "description": "Simple Portfolio.",
+        "published": true,
+        "featured": true,
+        "stacks": [
+          "nextjs",
+          "react",
+          "tailwind-css\r"
+        ],
+        "date": "2022-12-07",
+        "projectLink": "https://v1.novindev.site/",
+        "icon": "/app_icons/portfolio.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/portfolio-1.md",
+        "_raw": {
+          "sourceFilePath": "projects/portfolio-1.md",
+          "sourceFileName": "portfolio-1.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/portfolio-1"
+        },
+        "type": "Project",
+        "id": "portfolio-1"
+      },
+      "documentHash": "1692878788470",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/portfolio-2.md": {
+      "document": {
+        "title": "Portfolio V2",
+        "description": "Simple Portfolio.",
+        "published": true,
+        "featured": true,
+        "stacks": [
+          "nextjs",
+          "react",
+          "tailwind-css\r"
+        ],
+        "date": "2022-12-08",
+        "projectLink": "https://v2.novindev.site/",
+        "icon": "/app_icons/portfolio.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/portfolio-2.md",
+        "_raw": {
+          "sourceFilePath": "projects/portfolio-2.md",
+          "sourceFileName": "portfolio-2.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/portfolio-2"
+        },
+        "type": "Project",
+        "id": "portfolio-2"
+      },
+      "documentHash": "1692878830731",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/suxz.md": {
+      "document": {
+        "title": "Suxz",
+        "description": "Build Simple Landing Page.",
+        "highlight": true,
+        "featured": true,
+        "stacks": [
+          "html-5",
+          "css-3",
+          "bootstrap\r"
+        ],
+        "date": "2021-05-07",
+        "projectLink": "https://suxz.novindev.site/",
+        "icon": "/app_icons/suxz.png",
+        "thumbnail": "/app_preview/ss-suxz.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/suxz.md",
+        "_raw": {
+          "sourceFilePath": "projects/suxz.md",
+          "sourceFileName": "suxz.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/suxz"
+        },
+        "type": "Project",
+        "id": "suxz"
+      },
+      "documentHash": "1692879134705",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/wussh.md": {
+      "document": {
+        "title": "Streamlit",
+        "description": "Build Data Visualization.",
+        "highlight": true,
+        "featured": true,
+        "sznmApps": true,
+        "stacks": [
+          "python",
+          "streamlit\r"
+        ],
+        "date": "2021-05-07",
+        "projectLink": "https://uas-visdat-laptop.streamlit.app/",
+        "icon": "/app_icons/icon-laptop.png",
+        "thumbnail": "/app_preview/streamlit.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/wussh.md",
+        "_raw": {
+          "sourceFilePath": "projects/wussh.md",
+          "sourceFileName": "wussh.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/wussh"
+        },
+        "type": "Project",
+        "id": "wussh"
+      },
+      "documentHash": "1692713347285",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/xtarter.md": {
+      "document": {
+        "title": "Management Files",
+        "description": "Home of my starter templates",
+        "featured": true,
+        "sznmApps": true,
+        "stacks": [
+          "php",
+          "ci",
+          "mysql\r"
+        ],
+        "date": "2023-02-12",
+        "projectLink": "https://novindev.site",
+        "icon": "/app_icons/management-files.png",
+        "thumbnail": "/app_preview/viles.png",
+        "projectType": "apps",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "projects/xtarter.md",
+        "_raw": {
+          "sourceFilePath": "projects/xtarter.md",
+          "sourceFileName": "xtarter.md",
+          "sourceFileDir": "projects",
+          "contentType": "markdown",
+          "flattenedPath": "projects/xtarter"
+        },
+        "type": "Project",
+        "id": "xtarter"
+      },
+      "documentHash": "1692879001303",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
     "testimonies/althaf-jauhar.md": {
       "document": {
         "name": "M. Althaf Jauhar",
@@ -651,142 +788,41 @@
       "hasWarnings": false,
       "documentTypeName": "Testimony"
     },
-    "projects/portfolio-1.md": {
+    "posts/nlp-1.md": {
       "document": {
-        "title": "Portfolio V1",
-        "description": "Simple Portfolio.",
+        "title": "Menerobos Batasan Komunikasi Antar Manusia dan Mesin",
+        "date": "2023-09-11",
+        "cover": "https://images.unsplash.com/photo-1620969427101-7a2bb6d83273?auto=format&q=80",
+        "thumbnail": "📘",
+        "legacyID": "2023-09-11-2020-recap",
         "published": true,
-        "featured": true,
-        "stacks": [
-          "nextjs",
-          "react",
-          "tailwind-css\r"
+        "tags": [
+          "recap\r"
         ],
-        "date": "2022-12-07",
-        "projectLink": "https://v1.novindev.site/",
-        "icon": "/app_icons/portfolio.png",
-        "projectType": "apps",
+        "readTime": {
+          "text": "3 min read",
+          "minutes": 2.25,
+          "time": 135000,
+          "words": 450
+        },
         "body": {
-          "raw": "",
-          "html": ""
+          "raw": "\r\nDalam era digital saat ini, teknologi semakin memainkan peran penting dalam pemrosesan dan analisis bahasa manusia. Salah satu bidang yang berkembang pesat adalah Natural Language Processing (NLP) atau Pemrosesan Bahasa Alami. NLP memungkinkan komputer untuk memahami, memproses, dan menghasilkan bahasa manusia dengan cara yang serupa dengan manusia. Dalam konteks bahasa Indonesia, NLP telah membawa perubahan signifikan dalam cara manusia berinteraksi dengan mesin dan membuka pintu untuk berbagai aplikasi yang inovatif. Mari kita jelajahi lebih lanjut tentang NLP dan dampaknya dalam konteks bahasa Indonesia.\r\n\r\n## Definisi NLP\r\n\r\nNatural Language Processing (NLP) adalah cabang ilmu komputer yang berfokus pada interaksi antara manusia dan mesin berdasarkan pemahaman dan pengolahan bahasa manusia. Tujuan utama NLP adalah untuk memungkinkan mesin memahami, menerjemahkan, dan merespons bahasa manusia dengan cara yang alami. NLP melibatkan penggunaan teknik seperti pemodelan bahasa, analisis sintaksis, analisis semantik, pemrosesan bahasa alami, dan pembelajaran mesin untuk mencapai pemahaman dan pengolahan bahasa manusia.\r\n\r\n### Aplikasi NLP dalam Bahasa Indonesia\r\n\r\n1. Penerjemahan Mesin: NLP telah mengubah cara kita menerjemahkan bahasa. Dalam konteks bahasa Indonesia, penerjemahan mesin menggunakan NLP telah menjadi lebih canggih. Mesin dapat menerjemahkan teks atau dokumen dari bahasa Indonesia ke bahasa lain atau sebaliknya dengan tingkat akurasi yang semakin baik.\r\n\r\n2. Pencarian Informasi: NLP memainkan peran penting dalam meningkatkan pengalaman pencarian online dalam bahasa Indonesia. Teknologi seperti pemahaman konteks, pemrosesan entitas, dan analisis sentimen digunakan untuk memahami maksud pengguna dan menyajikan hasil pencarian yang lebih relevan.\r\n\r\n3. Chatbot dan Asisten Virtual: NLP telah memungkinkan pengembangan chatbot dan asisten virtual yang dapat berkomunikasi dengan pengguna dalam bahasa Indonesia secara alami. Mereka dapat menjawab pertanyaan, memberikan bantuan, dan mengeksekusi tugas berdasarkan perintah pengguna.\r\n\r\n4. Analisis Sentimen: NLP memungkinkan analisis sentimen dalam bahasa Indonesia, yang dapat membantu perusahaan memahami pendapat dan perasaan pengguna tentang merek, produk, atau layanan mereka. Analisis sentimen ini dapat digunakan untuk menginformasikan keputusan bisnis dan meningkatkan pengalaman pengguna.\r\n\r\n5. Pengenalan Suara: NLP juga digunakan dalam pengenalan suara dalam bahasa Indonesia. Sistem pengenalan suara menggunakan teknik NLP untuk memahami dan menerjemahkan ucapan manusia menjadi teks yang dapat diproses lebih lanjut.\r\n\r\n### Tantangan NLP dalam Bahasa Indonesia\r\n\r\nMeskipun kemajuan yang signifikan telah dicapai dalam NLP Bahasa Indonesia, masih ada beberapa tantangan yang perlu diatasi. Beberapa tantangan tersebut meliputi keberagaman dialek dan variasi bahasa dalam bahasa Indonesia, pemahaman konteks yang kompleks, dan keterbatasan sumber daya yang tersedia untuk pelatihan model bahasa.\r\n\r\nNatural Language Processing (NLP) telah membuka berbagai peluang dalam pemrosesan dan analisis bahasa manusia dalam konteks bahasa Indonesia. Dengan kemampuan NLP, mesin dapat memahami dan merespons bahasa manusia dengan lebih baik, membuka pintu untuk aplikasi yang inovatif dan meningkatkan pengalaman pengguna. Meskipun masih ada tantangan yang harus diatasi, perkembangan NLP dalam bahasa Indonesia menjanjikan masa depan yang cerah dalam komunikasi antara manusia dan mesin.\r\n",
+          "html": "<p>Dalam era digital saat ini, teknologi semakin memainkan peran penting dalam pemrosesan dan analisis bahasa manusia. Salah satu bidang yang berkembang pesat adalah Natural Language Processing (NLP) atau Pemrosesan Bahasa Alami. NLP memungkinkan komputer untuk memahami, memproses, dan menghasilkan bahasa manusia dengan cara yang serupa dengan manusia. Dalam konteks bahasa Indonesia, NLP telah membawa perubahan signifikan dalam cara manusia berinteraksi dengan mesin dan membuka pintu untuk berbagai aplikasi yang inovatif. Mari kita jelajahi lebih lanjut tentang NLP dan dampaknya dalam konteks bahasa Indonesia.</p>\n<h2>Definisi NLP</h2>\n<p>Natural Language Processing (NLP) adalah cabang ilmu komputer yang berfokus pada interaksi antara manusia dan mesin berdasarkan pemahaman dan pengolahan bahasa manusia. Tujuan utama NLP adalah untuk memungkinkan mesin memahami, menerjemahkan, dan merespons bahasa manusia dengan cara yang alami. NLP melibatkan penggunaan teknik seperti pemodelan bahasa, analisis sintaksis, analisis semantik, pemrosesan bahasa alami, dan pembelajaran mesin untuk mencapai pemahaman dan pengolahan bahasa manusia.</p>\n<h3>Aplikasi NLP dalam Bahasa Indonesia</h3>\n<ol>\n<li>\n<p>Penerjemahan Mesin: NLP telah mengubah cara kita menerjemahkan bahasa. Dalam konteks bahasa Indonesia, penerjemahan mesin menggunakan NLP telah menjadi lebih canggih. Mesin dapat menerjemahkan teks atau dokumen dari bahasa Indonesia ke bahasa lain atau sebaliknya dengan tingkat akurasi yang semakin baik.</p>\n</li>\n<li>\n<p>Pencarian Informasi: NLP memainkan peran penting dalam meningkatkan pengalaman pencarian online dalam bahasa Indonesia. Teknologi seperti pemahaman konteks, pemrosesan entitas, dan analisis sentimen digunakan untuk memahami maksud pengguna dan menyajikan hasil pencarian yang lebih relevan.</p>\n</li>\n<li>\n<p>Chatbot dan Asisten Virtual: NLP telah memungkinkan pengembangan chatbot dan asisten virtual yang dapat berkomunikasi dengan pengguna dalam bahasa Indonesia secara alami. Mereka dapat menjawab pertanyaan, memberikan bantuan, dan mengeksekusi tugas berdasarkan perintah pengguna.</p>\n</li>\n<li>\n<p>Analisis Sentimen: NLP memungkinkan analisis sentimen dalam bahasa Indonesia, yang dapat membantu perusahaan memahami pendapat dan perasaan pengguna tentang merek, produk, atau layanan mereka. Analisis sentimen ini dapat digunakan untuk menginformasikan keputusan bisnis dan meningkatkan pengalaman pengguna.</p>\n</li>\n<li>\n<p>Pengenalan Suara: NLP juga digunakan dalam pengenalan suara dalam bahasa Indonesia. Sistem pengenalan suara menggunakan teknik NLP untuk memahami dan menerjemahkan ucapan manusia menjadi teks yang dapat diproses lebih lanjut.</p>\n</li>\n</ol>\n<h3>Tantangan NLP dalam Bahasa Indonesia</h3>\n<p>Meskipun kemajuan yang signifikan telah dicapai dalam NLP Bahasa Indonesia, masih ada beberapa tantangan yang perlu diatasi. Beberapa tantangan tersebut meliputi keberagaman dialek dan variasi bahasa dalam bahasa Indonesia, pemahaman konteks yang kompleks, dan keterbatasan sumber daya yang tersedia untuk pelatihan model bahasa.</p>\n<p>Natural Language Processing (NLP) telah membuka berbagai peluang dalam pemrosesan dan analisis bahasa manusia dalam konteks bahasa Indonesia. Dengan kemampuan NLP, mesin dapat memahami dan merespons bahasa manusia dengan lebih baik, membuka pintu untuk aplikasi yang inovatif dan meningkatkan pengalaman pengguna. Meskipun masih ada tantangan yang harus diatasi, perkembangan NLP dalam bahasa Indonesia menjanjikan masa depan yang cerah dalam komunikasi antara manusia dan mesin.</p>"
         },
-        "_id": "projects/portfolio-1.md",
+        "_id": "posts/nlp-1.md",
         "_raw": {
-          "sourceFilePath": "projects/portfolio-1.md",
-          "sourceFileName": "portfolio-1.md",
-          "sourceFileDir": "projects",
+          "sourceFilePath": "posts/nlp-1.md",
+          "sourceFileName": "nlp-1.md",
+          "sourceFileDir": "posts",
           "contentType": "markdown",
-          "flattenedPath": "projects/portfolio-1"
+          "flattenedPath": "posts/nlp-1"
         },
-        "type": "Project",
-        "id": "portfolio-1"
+        "type": "Blog",
+        "id": "nlp-1"
       },
-      "documentHash": "1692878788470",
+      "documentHash": "1694442190238",
       "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/portfolio-2.md": {
-      "document": {
-        "title": "Portfolio V2",
-        "description": "Simple Portfolio.",
-        "published": true,
-        "featured": true,
-        "stacks": [
-          "nextjs",
-          "react",
-          "tailwind-css\r"
-        ],
-        "date": "2022-12-08",
-        "projectLink": "https://v2.novindev.site/",
-        "icon": "/app_icons/portfolio.png",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/portfolio-2.md",
-        "_raw": {
-          "sourceFilePath": "projects/portfolio-2.md",
-          "sourceFileName": "portfolio-2.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/portfolio-2"
-        },
-        "type": "Project",
-        "id": "portfolio-2"
-      },
-      "documentHash": "1692878830731",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/suxz.md": {
-      "document": {
-        "title": "Suxz",
-        "description": "Build Simple Landing Page.",
-        "highlight": true,
-        "featured": true,
-        "stacks": [
-          "html-5",
-          "css-3",
-          "bootstrap\r"
-        ],
-        "date": "2021-05-07",
-        "projectLink": "https://suxz.novindev.site/",
-        "icon": "/app_icons/suxz.png",
-        "thumbnail": "/app_preview/ss-suxz.png",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/suxz.md",
-        "_raw": {
-          "sourceFilePath": "projects/suxz.md",
-          "sourceFileName": "suxz.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/suxz"
-        },
-        "type": "Project",
-        "id": "suxz"
-      },
-      "documentHash": "1692879134705",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
-    },
-    "projects/linkvin.md": {
-      "document": {
-        "title": "Linkvin",
-        "description": "Simple Linkin for my social media.",
-        "published": true,
-        "featured": true,
-        "stacks": [
-          "nextjs",
-          "react",
-          "tailwind-css\r"
-        ],
-        "date": "2022-10-08",
-        "projectLink": "https://link.novindev.site/",
-        "icon": "/app_icons/linkvin.svg",
-        "projectType": "apps",
-        "body": {
-          "raw": "",
-          "html": ""
-        },
-        "_id": "projects/linkvin.md",
-        "_raw": {
-          "sourceFilePath": "projects/linkvin.md",
-          "sourceFileName": "linkvin.md",
-          "sourceFileDir": "projects",
-          "contentType": "markdown",
-          "flattenedPath": "projects/linkvin"
-        },
-        "type": "Project",
-        "id": "linkvin"
-      },
-      "documentHash": "1692879453657",
-      "hasWarnings": false,
-      "documentTypeName": "Project"
+      "documentTypeName": "Blog"
     }
   }
 }

@@ -6,5 +6,6 @@ import posts__5gACatalystForInnovationMd from './posts__5g-a-catalyst-for-innova
 import posts__ethicalAiTheNewAgeOfAutomationMd from './posts__ethical-ai-the-new-age-of-automation.md.json' assert { type: 'json' }
 import posts__extendedRealityRedefiningInteractionMd from './posts__extended-reality-redefining-interaction.md.json' assert { type: 'json' }
 import posts__quantumComputingsJourneyToPracticalityMd from './posts__quantum-computings-journey-to-practicality.md.json' assert { type: 'json' }
+import posts__nlp_1Md from './posts__nlp-1.md.json' assert { type: 'json' }
 
-export const allBlogs = [posts__2019RecapMd, posts__2020RecapMd, posts__5gACatalystForInnovationMd, posts__ethicalAiTheNewAgeOfAutomationMd, posts__extendedRealityRedefiningInteractionMd, posts__quantumComputingsJourneyToPracticalityMd]
+export const allBlogs = [posts__2019RecapMd, posts__2020RecapMd, posts__5gACatalystForInnovationMd, posts__ethicalAiTheNewAgeOfAutomationMd, posts__extendedRealityRedefiningInteractionMd, posts__quantumComputingsJourneyToPracticalityMd, posts__nlp_1Md]
