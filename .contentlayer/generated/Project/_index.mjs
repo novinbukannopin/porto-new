@@ -6,5 +6,8 @@ import projects__portfolio_2Md from './projects__portfolio-2.md.json' assert { t
 import projects__suxzMd from './projects__suxz.md.json' assert { type: 'json' }
 import projects__wusshMd from './projects__wussh.md.json' assert { type: 'json' }
 import projects__xtarterMd from './projects__xtarter.md.json' assert { type: 'json' }
+import projects__realEstateMd from './projects__real-estate.md.json' assert { type: 'json' }
+import projects__loohginMd from './projects__loohgin.md.json' assert { type: 'json' }
+import projects__pokemindMd from './projects__pokemind.md.json' assert { type: 'json' }
 
-export const allProjects = [projects__linkvinMd, projects__portfolio_1Md, projects__portfolio_2Md, projects__suxzMd, projects__wusshMd, projects__xtarterMd]
+export const allProjects = [projects__linkvinMd, projects__portfolio_1Md, projects__portfolio_2Md, projects__suxzMd, projects__wusshMd, projects__xtarterMd, projects__realEstateMd, projects__loohginMd, projects__pokemindMd]

@@ -10,7 +10,6 @@
       "tailwind-css\r"
     ],
     "date": "2022-10-08",
-    "projectLink": "https://link.novindev.site/",
     "icon": "/app_icons/linkvin.svg",
     "projectType": "apps",
     "body": {
@@ -175,5 +174,90 @@
     },
     "type": "Project",
     "id": "xtarter"
+  },
+  {
+    "title": "Real Estate",
+    "description": "Real Estate Front End.",
+    "highlight": true,
+    "featured": true,
+    "stacks": [
+      "html-5",
+      "css-3\r"
+    ],
+    "date": "2021-05-07",
+    "projectLink": "https://suxz.novindev.site/",
+    "icon": "/app_icons/house.png",
+    "thumbnail": "/app_preview/ss-suxz.png",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/real-estate.md",
+    "_raw": {
+      "sourceFilePath": "projects/real-estate.md",
+      "sourceFileName": "real-estate.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/real-estate"
+    },
+    "type": "Project",
+    "id": "real-estate"
+  },
+  {
+    "title": "Loohgin",
+    "description": "Simple Login Page.",
+    "published": true,
+    "featured": true,
+    "stacks": [
+      "html-5",
+      "css-3\r"
+    ],
+    "date": "2023-10-08",
+    "projectLink": "https://link.novindev.site/",
+    "icon": "/app_icons/key.png",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/loohgin.md",
+    "_raw": {
+      "sourceFilePath": "projects/loohgin.md",
+      "sourceFileName": "loohgin.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/loohgin"
+    },
+    "type": "Project",
+    "id": "loohgin"
+  },
+  {
+    "title": "PokeMind",
+    "description": "Find Pokemon.",
+    "published": true,
+    "featured": true,
+    "stacks": [
+      "html-5",
+      "css-3",
+      "react\r"
+    ],
+    "date": "2023-11-08",
+    "icon": "/app_icons/pikachu.png",
+    "projectType": "apps",
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "projects/pokemind.md",
+    "_raw": {
+      "sourceFilePath": "projects/pokemind.md",
+      "sourceFileName": "pokemind.md",
+      "sourceFileDir": "projects",
+      "contentType": "markdown",
+      "flattenedPath": "projects/pokemind"
+    },
+    "type": "Project",
+    "id": "pokemind"
   }
 ]
